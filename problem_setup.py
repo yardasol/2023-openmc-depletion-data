@@ -34,11 +34,12 @@ settings = openmc.Settings()
 settings.particles = 1000
 settings.inactive = 10
 settings.batches = 50
+settings.verbosity = 1
 
 model = openmc.Model(geometry, materials, settings)
 model.export_to_xml()
 
-os.system('wget -q -O chain_endbf71_pwr.xml https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml')
+#os.system('wget -q -O chain_endbf71_pwr.xml https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml')
 
 #chain_file = 'chain_endbf71_pwr.xml'
 chain_file = '../openmc/tests/chain_simple.xml'

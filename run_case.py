@@ -1,27 +1,41 @@
 from copy import deepcopy
 from pathlib import Path
-from os import rename
+from os import rename, remove
+#
+import numpy as np
 
 from openmc.deplete import CoupledOperator, IndependentOperator
 from openmc.deplete import PredictorIntegrator, CECMIntegrator
-from openmc.deplete import Results
+from openmc.deplete import Results, StepResult
 from openmc.deplete.microxs import MicroXS
 import openmc
 
-_case = 'case3'
-timedata = [(6 * [3], 'd', 'days'),
+_case = 'case2'
+timedata = [(6 * [360], 's', 'minutes'),
             (6 * [4], 'h', 'hours'),
+            (6 * [3], 'd', 'days'),
             (6 * [30], 'd', 'months')]
-integrators = [(PredictorIntegrator, 'predictor'),
-               (CECMIntegrator, 'cecm')]
+
+#timedata = [(1 * [360], 's', 'minutes')]
+#timedata = [(20 * [4], 'h', 'hours')]
+#timedata = [(1 * [5], 'd', 'days')]
+#timedata = [(1 * [100], 'd', 'months')]
+
+
+
+#integrators = [(PredictorIntegrator, 'predictor')]
+              # (CECMIntegrator, 'cecm')]
+integrators = [(CECMIntegrator, 'cecm')]
 
 depletion_cases = [('simple', '../openmc/tests/chain_simple.xml'),
                    ('full', 'chain_endbf71_pwr.xml')]
-
 depletion_case = depletion_cases[0]
 
 model = openmc.Model.from_xml()
 original_materials = deepcopy(model.materials)
+#operator_kwargs = {'normalization_mode': 'source-rate'}
+#integrator_kwargs = {'source_rates': 1164719970082145.0}
+
 operator_kwargs = {'normalization_mode': 'fission-q'}
 integrator_kwargs = {'power': 174} # W/cm
 depcase, chain_file = depletion_case
@@ -40,11 +54,11 @@ elif _case == 'case2':
 
 cwd = Path(__file__).parents[0]
 
-if _case == 'case3':
+if _case == 'case3' or _case == 'alt_case3':
     for Integrator, integratorcase in integrators:
         for timesteps, units, timecase in timedata:
             materials = original_materials
-            micro_xs = MicroXS.from_csv('micro_xs_simple.csv')
+            micro_xs = MicroXS.from_csv(f'micro_xs_simple.csv')
             prev_results = None
             integrator_kwargs['timestep_units'] = units
             for i, timestep in enumerate(timesteps):
@@ -61,12 +75,23 @@ if _case == 'case3':
                 integrator.integrate()
                 results = Results(f'depletion_results.h5')
                 materials = results.export_to_materials(-1)
-                prev_results = results
+                if _case == 'case3':
+                    prev_results = results
+                else:
+                    rename(cwd / 'depletion_results.h5', cwd/ _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
+
                 model.materials = materials
-                micro_xs = MicroXS.from_model(model,model.materials[0], chain_file)
+                micro_xs = MicroXS.from_model(model,
+                                              model.materials[0],
+                                              chain_file)
+                #micro_xs.to_csv(f'micro_xs_simple_{i}.csv')
+                #micro_xs = MicroXS.from_csv(f'micro_xs_simple_{i}.csv')
                 ## TODO: Add machinery to update flux
             # move file based on metadata
-            rename(cwd / 'depletion_results.h5', cwd/ _case / integratorcase / f'{depcase}_depletion_results_{timecase}.h5' )
+            if _case == 'case3':
+                rename(cwd / 'depletion_results.h5', cwd/ _case / integratorcase / f'{depcase}_depletion_results_{timecase}.h5' )
+
+
 
 else:
     for Integrator, integratorcase in integrators:

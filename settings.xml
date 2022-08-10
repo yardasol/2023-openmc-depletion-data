@@ -4,4 +4,5 @@
   <particles>1000</particles>
   <batches>50</batches>
   <inactive>10</inactive>
+  <verbosity>1</verbosity>
 </settings>
