@@ -80,13 +80,13 @@ if _case == 'case3':
                 #model.materials = materials
                 print(f"Step: {i}")
                 #print(model.materials[0])
-                micro_xs = MicroXS.from_model(model,
-                                              model.materials[0],
-                                              chain_file)
+                #micro_xs = MicroXS.from_model(model,
+                #                              model.materials[0],
+                #                              chain_file)
                 #micro_xs.to_csv(f'micro_xs_simple_{i}.csv')
                 print(f"U235 fission cross sections: {micro_xs['fission'].loc['U235']}")
                 print(f"Xe135 absorption cross sections: {micro_xs['(n,gamma)'].loc['Xe135']}")
-                #micro_xs = MicroXS.from_csv(f'micro_xs_simple_{i}.csv')
+                micro_xs = MicroXS.from_csv(f'micro_xs_simple_{i}.csv')
                 #micro_xs = MicroXS.from_csv(f'micro_xs_simple.csv')
                 ## TODO: Add machinery to update flux
             # move file based on metadata
