@@ -1,5 +1,6 @@
 import openmc
 from openmc.deplete.microxs import MicroXS
+from openmc.mgxs import FissionXS, ArbitraryXS, EnergyGroups
 from openmc.deplete import Chain
 import os
 import numpy as np
@@ -35,15 +36,38 @@ settings.particles = 1000
 settings.inactive = 10
 settings.batches = 50
 settings.verbosity = 1
+settings.photon_transport = True
 
-model = openmc.Model(geometry, materials, settings)
+tally = openmc.Tally()
+fuel_filter = openmc.UniverseFilter(geometry.root_universe)
+tally.filters.append(fuel_filter)
+tally.scores = ['flux', 'heating']
+tallies = openmc.Tallies([tally])
+
+
+#chain_file = 'chain_endbf71_pwr.xml'
+chain_file = '../openmc/tests/chain_simple.xml'
+chain = Chain.from_xml(chain_file)
+reactions = chain.reactions
+
+groups = EnergyGroups((0,20e6))
+reaction_domain=fuel
+xs = {}
+for rx in reactions:
+     if rx == 'fission':
+         xs[rx] = FissionXS(domain=reaction_domain,
+                            energy_groups=groups, by_nuclide=True)
+     else:
+         xs[rx] = ArbitraryXS(rx, domain=reaction_domain,
+                              energy_groups=groups, by_nuclide=True)
+     tallies += xs[rx].tallies.values()
+
+model = openmc.Model(geometry, materials, settings, tallies)
 model.export_to_xml()
 
 #os.system('wget -q -O chain_endbf71_pwr.xml https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml')
 
-#chain_file = 'chain_endbf71_pwr.xml'
-chain_file = '../openmc/tests/chain_simple.xml'
-micro_xs = MicroXS.from_model(model,fuel, chain_file)
+micro_xs = MicroXS.from_model(model, fuel, chain_file)
 #micro_xs.to_csv('micro_xs_full.csv')
 micro_xs.to_csv('micro_xs_simple.csv')
 
