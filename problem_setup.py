@@ -36,13 +36,13 @@ settings.particles = 1000
 settings.inactive = 10
 settings.batches = 50
 settings.verbosity = 1
-settings.photon_transport = True
+#settings.photon_transport = True
 
-tally = openmc.Tally()
-fuel_filter = openmc.UniverseFilter(geometry.root_universe)
-tally.filters.append(fuel_filter)
-tally.scores = ['flux', 'heating']
-tallies = openmc.Tallies([tally])
+#tally = openmc.Tally()
+#fuel_filter = openmc.UniverseFilter(geometry.root_universe)
+#tally.filters.append(fuel_filter)
+#tally.scores = ['flux', 'heating']
+#tallies = openmc.Tallies([tally])
 
 
 #chain_file = 'chain_endbf71_pwr.xml'
@@ -51,7 +51,8 @@ chain = Chain.from_xml(chain_file)
 reactions = chain.reactions
 
 groups = EnergyGroups((0,20e6))
-reaction_domain=fuel
+reaction_domain=materials[0]
+tallies = openmc.Tallies()
 xs = {}
 for rx in reactions:
      if rx == 'fission':
@@ -67,7 +68,7 @@ model.export_to_xml()
 
 #os.system('wget -q -O chain_endbf71_pwr.xml https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml')
 
-micro_xs = MicroXS.from_model(model, fuel, chain_file)
+micro_xs = MicroXS.from_model(model, materials[0], chain_file)
 #micro_xs.to_csv('micro_xs_full.csv')
 micro_xs.to_csv('micro_xs_simple.csv')
 
