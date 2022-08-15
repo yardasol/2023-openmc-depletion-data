@@ -4,7 +4,7 @@
 #SBATCH --time=01:00:00
 #SBATCH --partition=bdwall
 #SBATCH --account=openmcvalidation
-#SBATCH --job-name=independent-depletion-test
+#SBATCH --job-name=independent-depletion-setup
 #SBATCH --mail-user=oyardas@anl.gov
 #SBATCH --mail-type=BEGIN,END,FAIL
 
@@ -24,4 +24,4 @@ NUM_RANKS=$((SLURM_JOB_NUM_NODES * 2))
 srun -N $SLURM_JOB_NUM_NODES \
      -n $NUM_RANKS\
       --cpu-bind=socket \
-      python -u run_case.py
+      python -u problem_setup.py
