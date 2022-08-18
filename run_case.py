@@ -8,18 +8,19 @@ from openmc.deplete import CoupledOperator, IndependentOperator
 from openmc.deplete import PredictorIntegrator, CECMIntegrator
 from openmc.deplete import Results, StepResult
 from openmc.deplete.microxs import MicroXS
+from openmc.mpi import comm
 import openmc
 
-_case = 'case3'
-timedata = [(6 * [360], 's', 'minutes'),
-            (6 * [4], 'h', 'hours'),
-            (6 * [3], 'd', 'days'),
-            (6 * [30], 'd', 'months')]
+_case = 'case1'
+timedata = [(10 * [360], 's', 'minutes'),
+            (10 * [4], 'h', 'hours'),
+            (10 * [3], 'd', 'days'),
+            (10 * [30], 'd', 'months')]
 
-#timedata = [(1 * [360], 's', 'minutes')]
-#timedata = [(1 * [4], 'h', 'hours')]
-#timedata = [(1 * [5], 'd', 'days')]
-#timedata = [(1 * [100], 'd', 'months')]
+timedata = [(10 * [360], 's', 'minutes')]
+#timedata = [(10 * [4], 'h', 'hours')]
+#timedata = [(10 * [3], 'd', 'days')]
+#timedata = [(10 * [30], 'd', 'months')]
 
 
 
@@ -28,7 +29,7 @@ integrators = [(PredictorIntegrator, 'predictor'),
 
 depletion_cases = [('simple', '../openmc/tests/chain_simple.xml'),
                    ('full', 'chain_endbf71_pwr.xml')]
-depletion_case = depletion_cases[0]
+depletion_case = depletion_cases[1]
 
 model = openmc.Model.from_xml()
 original_materials = deepcopy(model.materials)
@@ -45,9 +46,9 @@ if _case == 'case1':
     operator_kwargs['chain_file'] = chain_file
     Operator = CoupledOperator
     operator_args = (model,)
-elif _case == 'case2':
+elif _case == 'case2' or _case == 'case3':
     materials = original_materials
-    micro_xs = MicroXS.from_csv('micro_xs_simple.csv')
+    micro_xs = MicroXS.from_csv(f'micro_xs_{depcase}.csv')
     Operator = IndependentOperator
     operator_args = (materials, micro_xs, chain_file)
 
@@ -57,11 +58,9 @@ if _case == 'case3':
     for Integrator, integratorcase in integrators:
         for timesteps, units, timecase in timedata:
             materials = original_materials
-            micro_xs = MicroXS.from_csv(f'micro_xs_simple.csv')
-            prev_results = None
+            micro_xs = MicroXS.from_csv(f'micro_xs_{depcase}.csv')
             integrator_kwargs['timestep_units'] = units
             for i, timestep in enumerate(timesteps):
-                operator_kwargs['prev_results'] = prev_results
                 operator = IndependentOperator(materials,
                                                micro_xs,
                                                chain_file,
@@ -73,15 +72,16 @@ if _case == 'case3':
 
                 integrator.integrate()
                 results = Results(f'depletion_results.h5')
-                materials = results.export_to_materials(-1)
-                rename(cwd / 'depletion_results.h5', cwd/ _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
+                if comm.rank == 0:
+                    materials = results.export_to_materials(-1)
+                    rename(cwd / 'depletion_results.h5', cwd/ _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
+                comm.barrier()
 
                 model.materials = materials
                 micro_xs = MicroXS.from_model(model,
                                               model.materials[0],
                                               chain_file)
-                micro_xs.to_csv(f'micro_xs_simple_{i}.csv')
-            # move file based on metadata
+                #micro_xs.to_csv(f'micro_xs_{depcase}_{i}.csv')
 else:
     for Integrator, integratorcase in integrators:
         for timesteps, units, timecase in timedata:
@@ -90,8 +90,10 @@ else:
             integrator = Integrator(operator, timesteps, **integrator_kwargs)
             integrator.integrate()
             # move file based on metadata
-            cwd = Path(__file__).parents[0]
-            rename(cwd / 'depletion_results.h5', cwd / _case / integratorcase / f'{depcase}_depletion_results_{timecase}.h5' )
+            if comm.rank == 0:
+                cwd = Path(__file__).parents[0]
+                rename(cwd / 'depletion_results.h5', cwd / _case / integratorcase / f'{depcase}_depletion_results_{timecase}.h5' )
+            comm.barrier()
             #if _case == 'case1':
             #    for i, t in enumerate(timesteps):
             #        rename(cwd / f'openmc_simulation_n{i}.h5', cwd / _case / integrator_case / f'({depcase}_simulation_n{i}_{timecase}.h5')

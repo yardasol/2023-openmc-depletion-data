@@ -2,6 +2,7 @@ import openmc
 from openmc.deplete.microxs import MicroXS
 from openmc.mgxs import FissionXS, ArbitraryXS, EnergyGroups
 from openmc.deplete import Chain
+from mpi4py import MPI
 import os
 import numpy as np
 
@@ -32,14 +33,15 @@ root_cell = openmc.Cell(fill=pin_univ, region=bound_box)
 geometry = openmc.Geometry([root_cell])
 
 settings = openmc.Settings()
-#settings.particles = 1000
-#settings.inactive = 10
-#settings.batches = 50
+settings.particles = 1000
+settings.inactive = 10
+settings.batches = 50
 
-settings.particles = 100000
-settings.inactive = 25
-settings.batches = 100
-settings.verbosity = 1
+#settings.particles = 100000
+#settings.inactive = 25
+#settings.batches = 100
+#settings.verbosity = 1
+settings.output = {'tallies': False}
 #settings.photon_transport = True
 
 #tally = openmc.Tally()
@@ -69,10 +71,16 @@ reaction_domain=materials[0]
 #     tallies += xs[rx].tallies.values()
 
 model = openmc.Model(geometry, materials, settings)
-model.export_to_xml()
+#model.export_to_xml()
 
 
-micro_xs = MicroXS.from_model(model, materials[0], chain_file)
+#threads = 18 # half of a Xeon E5-2695v4
+#run_kwargs = {'mpi_args': ['mpiexec', '-n', '4']}
+run_kwargs = {}
+#intracomm = MPI.COMM_WORLD
+#lib_kwargs = {'intracomm': intracomm}
+lib_kwargs = {}
+micro_xs = MicroXS.from_model(model, materials[0], chain_file, init_lib=True,lib_kwargs=lib_kwargs,run_kwargs = run_kwargs)
 #micro_xs.to_csv('micro_xs_full.csv')
 micro_xs.to_csv('micro_xs_simple.csv')
 

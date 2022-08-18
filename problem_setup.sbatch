@@ -13,9 +13,12 @@
 source $HOME/.bashrc 
 module unload intel
 conda activate openmc-env
+#conda activate openmc-parallel
 
 # Go to working dir and set cross sections
 export OPENMC_CROSS_SECTIONS=$(pwd)/../cross-section-libraries/endfb71_hdf5/cross_sections.xml
+export OMP_NUM_THREADS=18
+#export HDF5_USE_FILE_LOCKING=FALSE
 
 # Determine number of MPI ranks
 NUM_RANKS=$((SLURM_JOB_NUM_NODES * 2))
@@ -23,5 +26,5 @@ NUM_RANKS=$((SLURM_JOB_NUM_NODES * 2))
 # Run job
 srun -N $SLURM_JOB_NUM_NODES \
      -n $NUM_RANKS\
-      --cpu-bind=socket \
-      python -u problem_setup.py
+     --cpu-bind=socket \
+     python -u problem_setup.py

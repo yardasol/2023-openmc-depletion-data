@@ -20,6 +20,7 @@ export OPENMC_CROSS_SECTIONS=$(pwd)/../cross-section-libraries/endfb71_hdf5/cros
 # Determine number of MPI ranks
 NUM_RANKS=$((SLURM_JOB_NUM_NODES * 2))
 
+
 # Run job
 srun -N $SLURM_JOB_NUM_NODES \
      -n $NUM_RANKS\
