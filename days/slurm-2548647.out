@@ -1,0 +1,3208 @@
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-08-19 15:15:23
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/O17.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U235.h5
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U236.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U238.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr94.h5
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/c_H_in_H2O.h5
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+ Reading H3 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/H3.h5
+ Reading He3 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/He3.h5
+ Reading He4 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/He4.h5
+ Reading Li6 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Li6.h5
+ Reading Li7 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Li7.h5
+ Reading Be9 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Be9.h5
+ Reading B10 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/B10.h5
+ Reading B11 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/B11.h5
+ Reading N14 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/N14.h5
+ Reading N15 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/N15.h5
+ Reading F19 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/F19.h5
+ Reading Na22 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Na22.h5
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 1200K
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 2500K
+ Reading Na23 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Na23.h5
+ Reading Mg24 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mg24.h5
+ Reading Mg25 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mg25.h5
+ Reading Mg26 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mg26.h5
+ Reading Al27 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Al27.h5
+ Reading Si28 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Si28.h5
+ Reading Si29 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Si29.h5
+ Reading Si30 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Si30.h5
+ Reading P31 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/P31.h5
+ Reading S32 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/S32.h5
+ Reading S33 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/S33.h5
+ Reading S34 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/S34.h5
+ Reading S36 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/S36.h5
+ Reading Cl35 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cl35.h5
+ Reading Cl37 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cl37.h5
+ Reading Ar36 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ar36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 2500K
+ Reading Ar38 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ar38.h5
+ Reading Ar40 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ar40.h5
+ Reading K39 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/K39.h5
+ Reading K40 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/K40.h5
+ Reading K41 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/K41.h5
+ Reading Ca40 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ca40.h5
+ Reading Ca42 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ca42.h5
+ Reading Ca43 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ca43.h5
+ Reading Ca44 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ca44.h5
+ Reading Ca46 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ca46.h5
+ Reading Ca48 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ca48.h5
+ Reading Sc45 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sc45.h5
+ Reading Ti46 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ti46.h5
+ Reading Ti47 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ti47.h5
+ Reading Ti48 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ti48.h5
+ Reading Ti49 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ti49.h5
+ Reading Ti50 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ti50.h5
+ Reading V50 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/V50.h5
+ Reading V51 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/V51.h5
+ Reading Cr50 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cr50.h5
+ Reading Cr52 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cr52.h5
+ Reading Cr53 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cr53.h5
+ Reading Cr54 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cr54.h5
+ Reading Mn55 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mn55.h5
+ Reading Fe54 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Fe54.h5
+ Reading Fe56 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Fe56.h5
+ Reading Fe57 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Fe57.h5
+ Reading Fe58 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Fe58.h5
+ Reading Co58 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Co58.h5
+ Reading Co58_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Co58_m1.h5
+ Reading Co59 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Co59.h5
+ Reading Ni58 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ni58.h5
+ Reading Ni59 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ni59.h5
+ Reading Ni60 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ni60.h5
+ Reading Ni61 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ni61.h5
+ Reading Ni62 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ni62.h5
+ Reading Ni64 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ni64.h5
+ Reading Cu63 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cu63.h5
+ Reading Cu65 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cu65.h5
+ Reading Zn64 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zn64.h5
+ Reading Zn65 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zn65.h5
+ Reading Zn66 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zn66.h5
+ Reading Zn67 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zn67.h5
+ Reading Zn68 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zn68.h5
+ Reading Zn70 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zn70.h5
+ Reading Ga69 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ga69.h5
+ Reading Ga71 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ga71.h5
+ Reading Ge70 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ge70.h5
+ Reading Ge72 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ge72.h5
+ Reading Ge73 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ge73.h5
+ Reading Ge74 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ge74.h5
+ Reading Ge76 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ge76.h5
+ Reading As74 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/As74.h5
+ Reading As75 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/As75.h5
+ Reading Se74 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se74.h5
+ Reading Se76 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se76.h5
+ Reading Se77 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se77.h5
+ Reading Se78 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se78.h5
+ Reading Se79 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se79.h5
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 1200K
+ Reading Se80 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se80.h5
+ Reading Se82 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Se82.h5
+ Reading Br79 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Br79.h5
+ Reading Br81 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Br81.h5
+ Reading Kr78 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr78.h5
+ Reading Kr80 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr80.h5
+ Reading Kr82 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr82.h5
+ Reading Kr83 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr83.h5
+ Reading Kr84 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr84.h5
+ Reading Kr85 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr85.h5
+ Reading Kr86 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Kr86.h5
+ Reading Rb85 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Rb85.h5
+ Reading Rb86 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Rb86.h5
+ Reading Rb87 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Rb87.h5
+ Reading Sr84 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sr84.h5
+ Reading Sr86 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sr86.h5
+ Reading Sr87 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sr87.h5
+ Reading Sr88 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sr88.h5
+ Reading Sr89 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sr89.h5
+ Reading Sr90 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sr90.h5
+ Reading Y89 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Y89.h5
+ Reading Y90 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Y90.h5
+ Reading Y91 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Y91.h5
+ Reading Zr93 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr93.h5
+ Reading Zr95 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Zr95.h5
+ Reading Nb93 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nb93.h5
+ Reading Nb94 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nb94.h5
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 1200K
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 2500K
+ Reading Nb95 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nb95.h5
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 1200K
+ Reading Mo92 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo92.h5
+ Reading Mo94 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo94.h5
+ Reading Mo95 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo95.h5
+ Reading Mo96 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo96.h5
+ Reading Mo97 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo97.h5
+ Reading Mo98 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo98.h5
+ Reading Mo99 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo99.h5
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 1200K
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 2500K
+ Reading Mo100 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Mo100.h5
+ Reading Tc99 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tc99.h5
+ Reading Ru96 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru96.h5
+ Reading Ru98 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru98.h5
+ Reading Ru99 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru99.h5
+ Reading Ru100 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru100.h5
+ Reading Ru101 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru101.h5
+ Reading Ru102 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru102.h5
+ Reading Ru103 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru103.h5
+ Reading Ru104 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru104.h5
+ Reading Ru105 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru105.h5
+ Reading Ru106 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ru106.h5
+ Reading Rh103 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Rh103.h5
+ Reading Rh105 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Rh105.h5
+ Reading Pd102 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd102.h5
+ Reading Pd104 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd104.h5
+ Reading Pd105 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd105.h5
+ Reading Pd106 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd106.h5
+ Reading Pd107 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd107.h5
+ Reading Pd108 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd108.h5
+ Reading Pd110 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pd110.h5
+ Reading Ag107 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ag107.h5
+ Reading Ag109 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ag109.h5
+ Reading Ag110_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ag110_m1.h5
+ Reading Ag111 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ag111.h5
+ Reading Cd106 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd106.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at
+          1200K
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at
+          2500K
+ Reading Cd108 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd108.h5
+ Reading Cd110 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd110.h5
+ Reading Cd111 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd111.h5
+ Reading Cd112 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd112.h5
+ Reading Cd113 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd113.h5
+ Reading Cd114 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd114.h5
+ Reading Cd115_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd115_m1.h5
+ Reading Cd116 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cd116.h5
+ Reading In113 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/In113.h5
+ Reading In115 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/In115.h5
+ Reading Sn112 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn112.h5
+ Reading Sn113 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn113.h5
+ Reading Sn114 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn114.h5
+ Reading Sn115 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn115.h5
+ Reading Sn116 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn116.h5
+ Reading Sn117 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn117.h5
+ Reading Sn118 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn118.h5
+ Reading Sn119 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn119.h5
+ Reading Sn120 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn120.h5
+ Reading Sn122 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn122.h5
+ Reading Sn123 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn123.h5
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at
+          1200K
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at
+          2500K
+ Reading Sn124 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn124.h5
+ Reading Sn125 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn125.h5
+ Reading Sn126 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sn126.h5
+ Reading Sb121 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sb121.h5
+ Reading Sb123 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sb123.h5
+ Reading Sb124 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sb124.h5
+ Reading Sb125 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sb125.h5
+ Reading Sb126 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sb126.h5
+ Reading Te120 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te120.h5
+ WARNING: Negative value(s) found on probability table for nuclide Te120 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Te120 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Te120 at
+          1200K
+ WARNING: Negative value(s) found on probability table for nuclide Te120 at
+          2500K
+ Reading Te122 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te122.h5
+ Reading Te123 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te123.h5
+ Reading Te124 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te124.h5
+ Reading Te125 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te125.h5
+ Reading Te126 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te126.h5
+ Reading Te127_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te127_m1.h5
+ Reading Te128 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te128.h5
+ Reading Te129_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te129_m1.h5
+ Reading Te130 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te130.h5
+ Reading Te132 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Te132.h5
+ Reading I127 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/I127.h5
+ Reading I129 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/I129.h5
+ Reading I130 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/I130.h5
+ Reading I131 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/I131.h5
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 1200K
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 2500K
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/I135.h5
+ Reading Xe123 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe123.h5
+ Reading Xe124 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe124.h5
+ Reading Xe126 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe126.h5
+ Reading Xe128 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe128.h5
+ Reading Xe129 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe129.h5
+ Reading Xe130 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe130.h5
+ Reading Xe131 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe131.h5
+ Reading Xe132 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe132.h5
+ Reading Xe133 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe133.h5
+ WARNING: Negative value(s) found on probability table for nuclide Xe133 at
+          2500K
+ Reading Xe134 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe134.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Xe136.h5
+ Reading Cs133 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cs133.h5
+ Reading Cs134 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cs134.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cs135.h5
+ Reading Cs136 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cs136.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at
+          1200K
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at
+          2500K
+ Reading Cs137 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cs137.h5
+ Reading Ba130 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba130.h5
+ Reading Ba132 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba132.h5
+ Reading Ba133 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba133.h5
+ Reading Ba134 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba134.h5
+ Reading Ba135 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba135.h5
+ Reading Ba136 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba136.h5
+ Reading Ba137 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba137.h5
+ Reading Ba138 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba138.h5
+ Reading Ba140 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ba140.h5
+ Reading La138 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/La138.h5
+ Reading La139 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/La139.h5
+ Reading La140 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/La140.h5
+ Reading Ce136 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce136.h5
+ Reading Ce138 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce138.h5
+ Reading Ce139 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce139.h5
+ Reading Ce140 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce140.h5
+ Reading Ce141 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce141.h5
+ Reading Ce142 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce142.h5
+ Reading Ce143 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce143.h5
+ Reading Ce144 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ce144.h5
+ Reading Pr141 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pr141.h5
+ Reading Pr142 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pr142.h5
+ Reading Pr143 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pr143.h5
+ Reading Nd142 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd142.h5
+ Reading Nd143 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd143.h5
+ Reading Nd144 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd144.h5
+ Reading Nd145 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd145.h5
+ Reading Nd146 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd146.h5
+ Reading Nd147 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd147.h5
+ Reading Nd148 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd148.h5
+ Reading Nd150 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Nd150.h5
+ Reading Pm147 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pm147.h5
+ Reading Pm148 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pm148.h5
+ Reading Pm148_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pm148_m1.h5
+ Reading Pm149 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pm149.h5
+ Reading Pm151 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pm151.h5
+ Reading Sm144 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm144.h5
+ Reading Sm147 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm147.h5
+ Reading Sm148 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm148.h5
+ Reading Sm149 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm149.h5
+ Reading Sm150 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm150.h5
+ Reading Sm151 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm151.h5
+ Reading Sm152 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm152.h5
+ Reading Sm153 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm153.h5
+ Reading Sm154 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Sm154.h5
+ Reading Eu151 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu151.h5
+ Reading Eu152 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu152.h5
+ Reading Eu153 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu153.h5
+ Reading Eu154 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu154.h5
+ Reading Eu155 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu155.h5
+ Reading Eu156 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu156.h5
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at
+          1200K
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at
+          2500K
+ Reading Eu157 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Eu157.h5
+ Reading Gd152 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd152.h5
+ Reading Gd153 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd153.h5
+ Reading Gd154 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd154.h5
+ Reading Gd155 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd155.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd157.h5
+ Reading Gd158 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd158.h5
+ Reading Gd160 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Gd160.h5
+ Reading Tb159 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tb159.h5
+ Reading Tb160 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tb160.h5
+ Reading Dy156 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy156.h5
+ Reading Dy158 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy158.h5
+ Reading Dy160 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy160.h5
+ Reading Dy161 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy161.h5
+ Reading Dy162 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy162.h5
+ Reading Dy163 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy163.h5
+ Reading Dy164 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Dy164.h5
+ Reading Ho165 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ho165.h5
+ Reading Ho166_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ho166_m1.h5
+ Reading Er162 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Er162.h5
+ Reading Er164 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Er164.h5
+ Reading Er166 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Er166.h5
+ Reading Er167 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Er167.h5
+ Reading Er168 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Er168.h5
+ Reading Er170 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Er170.h5
+ Reading Tm168 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tm168.h5
+ Reading Tm169 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tm169.h5
+ Reading Tm170 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tm170.h5
+ Reading Lu175 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Lu175.h5
+ Reading Lu176 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Lu176.h5
+ Reading Hf174 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hf174.h5
+ Reading Hf176 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hf176.h5
+ Reading Hf177 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hf177.h5
+ Reading Hf178 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hf178.h5
+ Reading Hf179 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hf179.h5
+ Reading Hf180 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hf180.h5
+ Reading Ta180 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ta180.h5
+ Reading Ta181 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ta181.h5
+ Reading Ta182 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ta182.h5
+ Reading W180 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/W180.h5
+ Reading W182 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/W182.h5
+ Reading W183 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/W183.h5
+ Reading W184 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/W184.h5
+ Reading W186 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/W186.h5
+ Reading Re185 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Re185.h5
+ Reading Re187 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Re187.h5
+ Reading Ir191 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ir191.h5
+ Reading Ir193 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ir193.h5
+ Reading Au197 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Au197.h5
+ Reading Hg196 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg196.h5
+ Reading Hg198 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg198.h5
+ Reading Hg199 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg199.h5
+ Reading Hg200 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg200.h5
+ Reading Hg201 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg201.h5
+ Reading Hg202 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg202.h5
+ Reading Hg204 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Hg204.h5
+ Reading Tl203 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tl203.h5
+ Reading Tl205 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Tl205.h5
+ Reading Pb204 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pb204.h5
+ Reading Pb206 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pb206.h5
+ Reading Pb207 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pb207.h5
+ Reading Pb208 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pb208.h5
+ Reading Bi209 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bi209.h5
+ Reading Ra223 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ra223.h5
+ Reading Ra224 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ra224.h5
+ Reading Ra225 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ra225.h5
+ Reading Ra226 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ra226.h5
+ Reading Ac225 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ac225.h5
+ Reading Ac226 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ac226.h5
+ Reading Ac227 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Ac227.h5
+ Reading Th227 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th227.h5
+ Reading Th228 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th228.h5
+ Reading Th229 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th229.h5
+ Reading Th230 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th230.h5
+ Reading Th231 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th231.h5
+ Reading Th232 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th232.h5
+ Reading Th233 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th233.h5
+ Reading Th234 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Th234.h5
+ Reading Pa229 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pa229.h5
+ Reading Pa230 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pa230.h5
+ Reading Pa231 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pa231.h5
+ Reading Pa232 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pa232.h5
+ Reading Pa233 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pa233.h5
+ Reading U230 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U230.h5
+ Reading U231 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U231.h5
+ Reading U232 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U232.h5
+ Reading U233 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U233.h5
+ Reading U237 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U237.h5
+ Reading U239 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U239.h5
+ Reading U240 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U240.h5
+ Reading U241 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/U241.h5
+ Reading Np234 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Np234.h5
+ Reading Np235 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Np235.h5
+ Reading Np236 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Np236.h5
+ Reading Np237 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Np237.h5
+ Reading Np238 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Np238.h5
+ Reading Np239 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Np239.h5
+ Reading Pu236 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu236.h5
+ Reading Pu237 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu237.h5
+ Reading Pu238 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu238.h5
+ Reading Pu239 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu239.h5
+ Reading Pu240 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu240.h5
+ Reading Pu241 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu241.h5
+ Reading Pu242 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu242.h5
+ Reading Pu243 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu243.h5
+ Reading Pu244 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu244.h5
+ Reading Pu246 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Pu246.h5
+ Reading Am240 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am240.h5
+ Reading Am241 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am241.h5
+ Reading Am242 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am242.h5
+ Reading Am242_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am242_m1.h5
+ Reading Am243 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am243.h5
+ Reading Am244 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am244.h5
+ Reading Am244_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Am244_m1.h5
+ Reading Cm240 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm240.h5
+ Reading Cm241 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm241.h5
+ Reading Cm242 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm242.h5
+ Reading Cm243 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm243.h5
+ Reading Cm244 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm244.h5
+ Reading Cm245 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm245.h5
+ Reading Cm246 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm246.h5
+ Reading Cm247 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm247.h5
+ Reading Cm248 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm248.h5
+ Reading Cm249 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm249.h5
+ Reading Cm250 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cm250.h5
+ Reading Bk245 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bk245.h5
+ Reading Bk246 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bk246.h5
+ Reading Bk247 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bk247.h5
+ Reading Bk248 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bk248.h5
+ Reading Bk249 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bk249.h5
+ Reading Bk250 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Bk250.h5
+ Reading Cf246 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf246.h5
+ Reading Cf248 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf248.h5
+ Reading Cf249 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf249.h5
+ Reading Cf250 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf250.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cf250 at 250K
+ WARNING: Negative value(s) found on probability table for nuclide Cf250 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Cf250 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Cf250 at
+          1200K
+ Reading Cf251 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf251.h5
+ Reading Cf252 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf252.h5
+ Reading Cf253 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf253.h5
+ Reading Cf254 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Cf254.h5
+ Reading Es251 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Es251.h5
+ Reading Es252 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Es252.h5
+ Reading Es253 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Es253.h5
+ Reading Es254 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Es254.h5
+ Reading Es254_m1 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Es254_m1.h5
+ Reading Es255 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Es255.h5
+ Reading Fm255 from
+ /home/oyardas/2023-openmc-depletion-data/days/../../cross-section-libraries/endf
+ b71_hdf5/Fm255.h5
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.46993
+        2/1    1.47111
+        3/1    1.45791
+        4/1    1.45867
+        5/1    1.45940
+        6/1    1.45924
+        7/1    1.46368
+        8/1    1.45405
+        9/1    1.47230
+       10/1    1.46629
+       11/1    1.46842
+       12/1    1.45975
+       13/1    1.45763
+       14/1    1.46203
+       15/1    1.46150
+       16/1    1.47051
+       17/1    1.45478
+       18/1    1.46310
+       19/1    1.46874
+       20/1    1.47119
+       21/1    1.47117
+       22/1    1.46950
+       23/1    1.45550
+       24/1    1.47199
+       25/1    1.46937
+       26/1    1.47302
+       27/1    1.46071    1.46686 +/- 0.00616
+       28/1    1.46647    1.46673 +/- 0.00356
+       29/1    1.47277    1.46824 +/- 0.00293
+       30/1    1.46156    1.46691 +/- 0.00263
+       31/1    1.46844    1.46716 +/- 0.00217
+       32/1    1.47114    1.46773 +/- 0.00192
+       33/1    1.46193    1.46700 +/- 0.00181
+       34/1    1.46516    1.46680 +/- 0.00161
+       35/1    1.47356    1.46748 +/- 0.00159
+       36/1    1.46812    1.46753 +/- 0.00144
+       37/1    1.45352    1.46637 +/- 0.00176
+       38/1    1.45983    1.46586 +/- 0.00169
+       39/1    1.46115    1.46553 +/- 0.00160
+       40/1    1.45598    1.46489 +/- 0.00162
+       41/1    1.47330    1.46542 +/- 0.00161
+       42/1    1.45741    1.46495 +/- 0.00158
+       43/1    1.46977    1.46521 +/- 0.00151
+       44/1    1.46419    1.46516 +/- 0.00143
+       45/1    1.46556    1.46518 +/- 0.00136
+       46/1    1.46382    1.46511 +/- 0.00130
+       47/1    1.46982    1.46533 +/- 0.00125
+       48/1    1.45762    1.46499 +/- 0.00124
+       49/1    1.47440    1.46539 +/- 0.00125
+       50/1    1.46972    1.46556 +/- 0.00121
+       51/1    1.46986    1.46572 +/- 0.00118
+       52/1    1.46143    1.46557 +/- 0.00115
+       53/1    1.45643    1.46524 +/- 0.00115
+       54/1    1.45759    1.46498 +/- 0.00114
+       55/1    1.45436    1.46462 +/- 0.00116
+       56/1    1.46622    1.46467 +/- 0.00112
+       57/1    1.45729    1.46444 +/- 0.00111
+       58/1    1.46558    1.46448 +/- 0.00108
+       59/1    1.46283    1.46443 +/- 0.00105
+       60/1    1.47574    1.46475 +/- 0.00107
+       61/1    1.47120    1.46493 +/- 0.00105
+       62/1    1.46121    1.46483 +/- 0.00103
+       63/1    1.46971    1.46496 +/- 0.00101
+       64/1    1.46153    1.46487 +/- 0.00099
+       65/1    1.46617    1.46490 +/- 0.00096
+       66/1    1.47055    1.46504 +/- 0.00095
+       67/1    1.46405    1.46502 +/- 0.00092
+       68/1    1.46599    1.46504 +/- 0.00090
+       69/1    1.46262    1.46498 +/- 0.00088
+       70/1    1.46363    1.46495 +/- 0.00086
+       71/1    1.46312    1.46491 +/- 0.00085
+       72/1    1.47360    1.46510 +/- 0.00085
+       73/1    1.47348    1.46527 +/- 0.00085
+       74/1    1.46660    1.46530 +/- 0.00083
+       75/1    1.46706    1.46534 +/- 0.00082
+       76/1    1.47410    1.46551 +/- 0.00082
+       77/1    1.46349    1.46547 +/- 0.00080
+       78/1    1.46703    1.46550 +/- 0.00079
+       79/1    1.45734    1.46535 +/- 0.00079
+       80/1    1.46194    1.46529 +/- 0.00078
+       81/1    1.46035    1.46520 +/- 0.00077
+       82/1    1.46341    1.46517 +/- 0.00075
+       83/1    1.46288    1.46513 +/- 0.00074
+       84/1    1.46396    1.46511 +/- 0.00073
+       85/1    1.46479    1.46510 +/- 0.00072
+       86/1    1.46690    1.46513 +/- 0.00071
+       87/1    1.46842    1.46518 +/- 0.00070
+       88/1    1.46673    1.46521 +/- 0.00069
+       89/1    1.47485    1.46536 +/- 0.00069
+       90/1    1.47262    1.46547 +/- 0.00069
+       91/1    1.46167    1.46541 +/- 0.00068
+       92/1    1.45834    1.46531 +/- 0.00068
+       93/1    1.46947    1.46537 +/- 0.00067
+       94/1    1.46507    1.46536 +/- 0.00066
+       95/1    1.47655    1.46552 +/- 0.00067
+       96/1    1.46221    1.46548 +/- 0.00067
+       97/1    1.46082    1.46541 +/- 0.00066
+       98/1    1.46631    1.46543 +/- 0.00065
+       99/1    1.46495    1.46542 +/- 0.00064
+      100/1    1.47371    1.46553 +/- 0.00064
+      101/1    1.46333    1.46550 +/- 0.00063
+      102/1    1.46220    1.46546 +/- 0.00063
+      103/1    1.45909    1.46538 +/- 0.00062
+      104/1    1.46079    1.46532 +/- 0.00062
+      105/1    1.46953    1.46537 +/- 0.00061
+      106/1    1.46048    1.46531 +/- 0.00061
+      107/1    1.46763    1.46534 +/- 0.00060
+      108/1    1.46834    1.46538 +/- 0.00060
+      109/1    1.46345    1.46535 +/- 0.00059
+      110/1    1.46337    1.46533 +/- 0.00058
+      111/1    1.45358    1.46519 +/- 0.00059
+      112/1    1.46320    1.46517 +/- 0.00059
+      113/1    1.47936    1.46533 +/- 0.00060
+      114/1    1.45899    1.46526 +/- 0.00060
+      115/1    1.46595    1.46527 +/- 0.00059
+      116/1    1.46712    1.46529 +/- 0.00059
+      117/1    1.46761    1.46531 +/- 0.00058
+      118/1    1.46792    1.46534 +/- 0.00057
+      119/1    1.46963    1.46539 +/- 0.00057
+      120/1    1.45376    1.46526 +/- 0.00058
+      121/1    1.46553    1.46527 +/- 0.00057
+      122/1    1.46886    1.46530 +/- 0.00057
+      123/1    1.46670    1.46532 +/- 0.00056
+      124/1    1.46866    1.46535 +/- 0.00056
+      125/1    1.46398    1.46534 +/- 0.00055
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.9340e+00 seconds
+   Reading cross sections          = 1.4356e+00 seconds
+ Total time in simulation          = 6.9248e+02 seconds
+   Time in transport only          = 6.8572e+02 seconds
+   Time in inactive batches        = 1.0519e+02 seconds
+   Time in active batches          = 5.8729e+02 seconds
+   Time synchronizing fission bank = 6.4708e+00 seconds
+     Sampling source sites         = 2.5745e-01 seconds
+     SEND/RECV source sites        = 4.3255e-02 seconds
+   Time accumulating tallies       = 6.9872e-02 seconds
+   Time writing statepoints        = 7.7662e-02 seconds
+ Total time for finalization       = 9.2478e-05 seconds
+ Total time elapsed                = 6.9578e+02 seconds
+ Calculation Rate (inactive)       = 23766.1 particles/second
+ Calculation Rate (active)         = 17027.5 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.46540 +/- 0.00045
+ k-effective (Track-length)  = 1.46534 +/- 0.00055
+ k-effective (Absorption)    = 1.46545 +/- 0.00028
+ Combined k-effective        = 1.46544 +/- 0.00027
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n0.h5...
+[openmc.deplete] t=259200.0 s, dt=259200 s, source=174
+[openmc.deplete] t=259200.0 s, dt=259200 s, source=174
+[openmc.deplete] t=259200.0 s, dt=259200 s, source=174
+[openmc.deplete] t=259200.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.42300
+        2/1    1.42164
+        3/1    1.41315
+        4/1    1.40973
+        5/1    1.41231
+        6/1    1.41465
+        7/1    1.40999
+        8/1    1.40616
+        9/1    1.41153
+       10/1    1.42071
+       11/1    1.40902
+       12/1    1.41401
+       13/1    1.41019
+       14/1    1.41748
+       15/1    1.40797
+       16/1    1.40393
+       17/1    1.41752
+       18/1    1.41951
+       19/1    1.42168
+       20/1    1.43013
+       21/1    1.41606
+       22/1    1.40842
+       23/1    1.41202
+       24/1    1.41297
+       25/1    1.41894
+       26/1    1.41237
+       27/1    1.42271    1.41754 +/- 0.00517
+       28/1    1.41302    1.41604 +/- 0.00334
+       29/1    1.42112    1.41731 +/- 0.00268
+       30/1    1.41042    1.41593 +/- 0.00249
+       31/1    1.41664    1.41605 +/- 0.00204
+       32/1    1.41305    1.41562 +/- 0.00178
+       33/1    1.40833    1.41471 +/- 0.00179
+       34/1    1.41920    1.41521 +/- 0.00165
+       35/1    1.41556    1.41524 +/- 0.00148
+       36/1    1.42082    1.41575 +/- 0.00143
+       37/1    1.42342    1.41639 +/- 0.00145
+       38/1    1.42097    1.41674 +/- 0.00138
+       39/1    1.41982    1.41696 +/- 0.00130
+       40/1    1.40968    1.41648 +/- 0.00130
+       41/1    1.41451    1.41635 +/- 0.00123
+       42/1    1.41028    1.41600 +/- 0.00121
+       43/1    1.41633    1.41601 +/- 0.00114
+       44/1    1.41293    1.41585 +/- 0.00109
+       45/1    1.41451    1.41578 +/- 0.00103
+       46/1    1.41550    1.41577 +/- 0.00098
+       47/1    1.41546    1.41576 +/- 0.00094
+       48/1    1.41478    1.41571 +/- 0.00090
+       49/1    1.42194    1.41597 +/- 0.00090
+       50/1    1.41887    1.41609 +/- 0.00087
+       51/1    1.42032    1.41625 +/- 0.00085
+       52/1    1.41426    1.41618 +/- 0.00082
+       53/1    1.41862    1.41627 +/- 0.00080
+       54/1    1.41473    1.41621 +/- 0.00077
+       55/1    1.40760    1.41593 +/- 0.00080
+       56/1    1.41323    1.41584 +/- 0.00078
+       57/1    1.41364    1.41577 +/- 0.00075
+       58/1    1.41862    1.41586 +/- 0.00074
+       59/1    1.41063    1.41570 +/- 0.00073
+       60/1    1.40967    1.41553 +/- 0.00073
+       61/1    1.41679    1.41557 +/- 0.00071
+       62/1    1.40726    1.41534 +/- 0.00073
+       63/1    1.41721    1.41539 +/- 0.00071
+       64/1    1.40809    1.41520 +/- 0.00072
+       65/1    1.40964    1.41506 +/- 0.00071
+       66/1    1.41976    1.41518 +/- 0.00070
+       67/1    1.40820    1.41501 +/- 0.00071
+       68/1    1.41634    1.41504 +/- 0.00069
+       69/1    1.40648    1.41485 +/- 0.00070
+       70/1    1.42131    1.41499 +/- 0.00070
+       71/1    1.40981    1.41488 +/- 0.00069
+       72/1    1.41629    1.41491 +/- 0.00068
+       73/1    1.41771    1.41497 +/- 0.00067
+       74/1    1.40713    1.41481 +/- 0.00067
+       75/1    1.41297    1.41477 +/- 0.00066
+       76/1    1.42096    1.41489 +/- 0.00066
+       77/1    1.41176    1.41483 +/- 0.00065
+       78/1    1.40965    1.41473 +/- 0.00064
+       79/1    1.42438    1.41491 +/- 0.00066
+       80/1    1.40831    1.41479 +/- 0.00066
+       81/1    1.41636    1.41482 +/- 0.00064
+       82/1    1.40619    1.41467 +/- 0.00065
+       83/1    1.41816    1.41473 +/- 0.00064
+       84/1    1.41746    1.41478 +/- 0.00063
+       85/1    1.42142    1.41489 +/- 0.00063
+       86/1    1.41435    1.41488 +/- 0.00062
+       87/1    1.41912    1.41495 +/- 0.00062
+       88/1    1.41046    1.41488 +/- 0.00061
+       89/1    1.41359    1.41486 +/- 0.00060
+       90/1    1.41687    1.41489 +/- 0.00059
+       91/1    1.41181    1.41484 +/- 0.00059
+       92/1    1.40799    1.41474 +/- 0.00059
+       93/1    1.41666    1.41477 +/- 0.00058
+       94/1    1.41205    1.41473 +/- 0.00057
+       95/1    1.41496    1.41473 +/- 0.00056
+       96/1    1.43150    1.41497 +/- 0.00060
+       97/1    1.41570    1.41498 +/- 0.00059
+       98/1    1.41344    1.41495 +/- 0.00059
+       99/1    1.41522    1.41496 +/- 0.00058
+      100/1    1.41275    1.41493 +/- 0.00057
+      101/1    1.42169    1.41502 +/- 0.00057
+      102/1    1.40653    1.41491 +/- 0.00057
+      103/1    1.41334    1.41489 +/- 0.00057
+      104/1    1.41084    1.41484 +/- 0.00056
+      105/1    1.42530    1.41497 +/- 0.00057
+      106/1    1.41374    1.41495 +/- 0.00056
+      107/1    1.41221    1.41492 +/- 0.00056
+      108/1    1.41047    1.41487 +/- 0.00055
+      109/1    1.41546    1.41487 +/- 0.00055
+      110/1    1.42184    1.41495 +/- 0.00055
+      111/1    1.42567    1.41508 +/- 0.00055
+      112/1    1.42215    1.41516 +/- 0.00055
+      113/1    1.40661    1.41506 +/- 0.00056
+      114/1    1.41408    1.41505 +/- 0.00055
+      115/1    1.42007    1.41511 +/- 0.00055
+      116/1    1.41543    1.41511 +/- 0.00054
+      117/1    1.42288    1.41520 +/- 0.00054
+      118/1    1.42545    1.41531 +/- 0.00055
+      119/1    1.41829    1.41534 +/- 0.00054
+      120/1    1.42289    1.41542 +/- 0.00054
+      121/1    1.41449    1.41541 +/- 0.00054
+      122/1    1.42052    1.41546 +/- 0.00053
+      123/1    1.41471    1.41545 +/- 0.00053
+      124/1    1.41682    1.41547 +/- 0.00052
+      125/1    1.42076    1.41552 +/- 0.00052
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.9024e+02 seconds
+   Time in transport only          = 6.8392e+02 seconds
+   Time in inactive batches        = 1.0457e+02 seconds
+   Time in active batches          = 5.8566e+02 seconds
+   Time synchronizing fission bank = 6.0748e+00 seconds
+     Sampling source sites         = 2.4679e-01 seconds
+     SEND/RECV source sites        = 3.9907e-02 seconds
+   Time accumulating tallies       = 6.8491e-02 seconds
+   Time writing statepoints        = 4.7447e-02 seconds
+ Total time for finalization       = 6.1430e-05 seconds
+ Total time elapsed                = 6.9155e+02 seconds
+ Calculation Rate (inactive)       = 23906.3 particles/second
+ Calculation Rate (active)         = 17074.7 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.41553 +/- 0.00040
+ k-effective (Track-length)  = 1.41552 +/- 0.00052
+ k-effective (Absorption)    = 1.41640 +/- 0.00032
+ Combined k-effective        = 1.41613 +/- 0.00031
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n1.h5...
+[openmc.deplete] t=518400.0 s, dt=259200 s, source=174
+[openmc.deplete] t=518400.0 s, dt=259200 s, source=174
+[openmc.deplete] t=518400.0 s, dt=259200 s, source=174
+[openmc.deplete] t=518400.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.40530
+        2/1    1.40949
+        3/1    1.41308
+        4/1    1.41186
+        5/1    1.40825
+        6/1    1.40680
+        7/1    1.42639
+        8/1    1.41082
+        9/1    1.40416
+       10/1    1.41235
+       11/1    1.41674
+       12/1    1.41029
+       13/1    1.41426
+       14/1    1.40819
+       15/1    1.41073
+       16/1    1.41262
+       17/1    1.40855
+       18/1    1.41850
+       19/1    1.41232
+       20/1    1.41279
+       21/1    1.41608
+       22/1    1.41339
+       23/1    1.39860
+       24/1    1.41810
+       25/1    1.41733
+       26/1    1.42006
+       27/1    1.41368    1.41687 +/- 0.00319
+       28/1    1.42310    1.41894 +/- 0.00278
+       29/1    1.40847    1.41632 +/- 0.00327
+       30/1    1.41353    1.41577 +/- 0.00260
+       31/1    1.41110    1.41499 +/- 0.00226
+       32/1    1.41514    1.41501 +/- 0.00191
+       33/1    1.40785    1.41412 +/- 0.00188
+       34/1    1.41611    1.41434 +/- 0.00167
+       35/1    1.40954    1.41386 +/- 0.00157
+       36/1    1.41604    1.41406 +/- 0.00143
+       37/1    1.41047    1.41376 +/- 0.00134
+       38/1    1.41187    1.41361 +/- 0.00124
+       39/1    1.41349    1.41360 +/- 0.00115
+       40/1    1.41893    1.41396 +/- 0.00113
+       41/1    1.41108    1.41378 +/- 0.00107
+       42/1    1.42285    1.41431 +/- 0.00114
+       43/1    1.40805    1.41396 +/- 0.00113
+       44/1    1.40876    1.41369 +/- 0.00110
+       45/1    1.40610    1.41331 +/- 0.00111
+       46/1    1.41462    1.41337 +/- 0.00106
+       47/1    1.41523    1.41346 +/- 0.00101
+       48/1    1.42150    1.41381 +/- 0.00103
+       49/1    1.41110    1.41369 +/- 0.00099
+       50/1    1.41775    1.41386 +/- 0.00097
+       51/1    1.41039    1.41372 +/- 0.00094
+       52/1    1.41459    1.41376 +/- 0.00090
+       53/1    1.41910    1.41395 +/- 0.00089
+       54/1    1.41591    1.41401 +/- 0.00086
+       55/1    1.41641    1.41409 +/- 0.00084
+       56/1    1.41155    1.41401 +/- 0.00081
+       57/1    1.41043    1.41390 +/- 0.00080
+       58/1    1.41307    1.41387 +/- 0.00077
+       59/1    1.42149    1.41410 +/- 0.00078
+       60/1    1.41195    1.41404 +/- 0.00076
+       61/1    1.40969    1.41392 +/- 0.00075
+       62/1    1.41680    1.41399 +/- 0.00073
+       63/1    1.41678    1.41407 +/- 0.00072
+       64/1    1.41992    1.41422 +/- 0.00071
+       65/1    1.41339    1.41420 +/- 0.00070
+       66/1    1.42265    1.41440 +/- 0.00071
+       67/1    1.40831    1.41426 +/- 0.00071
+       68/1    1.41165    1.41420 +/- 0.00069
+       69/1    1.41116    1.41413 +/- 0.00068
+       70/1    1.40516    1.41393 +/- 0.00070
+       71/1    1.41326    1.41391 +/- 0.00068
+       72/1    1.41134    1.41386 +/- 0.00067
+       73/1    1.41408    1.41386 +/- 0.00065
+       74/1    1.41332    1.41385 +/- 0.00064
+       75/1    1.40642    1.41370 +/- 0.00064
+       76/1    1.41379    1.41371 +/- 0.00063
+       77/1    1.41987    1.41382 +/- 0.00063
+       78/1    1.41186    1.41379 +/- 0.00062
+       79/1    1.40129    1.41356 +/- 0.00065
+       80/1    1.40630    1.41342 +/- 0.00065
+       81/1    1.42280    1.41359 +/- 0.00066
+       82/1    1.41230    1.41357 +/- 0.00065
+       83/1    1.40947    1.41350 +/- 0.00064
+       84/1    1.40156    1.41330 +/- 0.00066
+       85/1    1.40672    1.41319 +/- 0.00066
+       86/1    1.41223    1.41317 +/- 0.00065
+       87/1    1.39894    1.41294 +/- 0.00068
+       88/1    1.41772    1.41302 +/- 0.00067
+       89/1    1.41110    1.41299 +/- 0.00066
+       90/1    1.41024    1.41295 +/- 0.00066
+       91/1    1.41550    1.41298 +/- 0.00065
+       92/1    1.41723    1.41305 +/- 0.00064
+       93/1    1.41350    1.41305 +/- 0.00063
+       94/1    1.40804    1.41298 +/- 0.00063
+       95/1    1.40864    1.41292 +/- 0.00062
+       96/1    1.40447    1.41280 +/- 0.00062
+       97/1    1.41327    1.41281 +/- 0.00061
+       98/1    1.40131    1.41265 +/- 0.00063
+       99/1    1.41463    1.41268 +/- 0.00062
+      100/1    1.41583    1.41272 +/- 0.00061
+      101/1    1.40942    1.41267 +/- 0.00060
+      102/1    1.40885    1.41263 +/- 0.00060
+      103/1    1.41350    1.41264 +/- 0.00059
+      104/1    1.40521    1.41254 +/- 0.00059
+      105/1    1.40983    1.41251 +/- 0.00058
+      106/1    1.41430    1.41253 +/- 0.00058
+      107/1    1.41499    1.41256 +/- 0.00057
+      108/1    1.41603    1.41260 +/- 0.00057
+      109/1    1.40095    1.41246 +/- 0.00058
+      110/1    1.41658    1.41251 +/- 0.00057
+      111/1    1.41053    1.41249 +/- 0.00056
+      112/1    1.41337    1.41250 +/- 0.00056
+      113/1    1.41363    1.41251 +/- 0.00055
+      114/1    1.41104    1.41250 +/- 0.00055
+      115/1    1.41428    1.41252 +/- 0.00054
+      116/1    1.41872    1.41258 +/- 0.00054
+      117/1    1.41021    1.41256 +/- 0.00053
+      118/1    1.41162    1.41255 +/- 0.00053
+      119/1    1.41142    1.41254 +/- 0.00052
+      120/1    1.41877    1.41260 +/- 0.00052
+      121/1    1.41028    1.41258 +/- 0.00052
+      122/1    1.41128    1.41256 +/- 0.00051
+      123/1    1.40344    1.41247 +/- 0.00051
+      124/1    1.41030    1.41245 +/- 0.00051
+      125/1    1.40677    1.41239 +/- 0.00051
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8878e+02 seconds
+   Time in transport only          = 6.8319e+02 seconds
+   Time in inactive batches        = 1.0421e+02 seconds
+   Time in active batches          = 5.8457e+02 seconds
+   Time synchronizing fission bank = 5.3388e+00 seconds
+     Sampling source sites         = 2.5159e-01 seconds
+     SEND/RECV source sites        = 4.3103e-02 seconds
+   Time accumulating tallies       = 6.7093e-02 seconds
+   Time writing statepoints        = 6.4181e-02 seconds
+ Total time for finalization       = 7.5690e-05 seconds
+ Total time elapsed                = 6.9012e+02 seconds
+ Calculation Rate (inactive)       = 23990.3 particles/second
+ Calculation Rate (active)         = 17106.5 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.41202 +/- 0.00040
+ k-effective (Track-length)  = 1.41239 +/- 0.00051
+ k-effective (Absorption)    = 1.41196 +/- 0.00032
+ Combined k-effective        = 1.41202 +/- 0.00028
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n2.h5...
+[openmc.deplete] t=777600.0 s, dt=259200 s, source=174
+[openmc.deplete] t=777600.0 s, dt=259200 s, source=174
+[openmc.deplete] t=777600.0 s, dt=259200 s, source=174
+[openmc.deplete] t=777600.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.41867
+        2/1    1.40686
+        3/1    1.42204
+        4/1    1.40980
+        5/1    1.40377
+        6/1    1.40217
+        7/1    1.40488
+        8/1    1.41002
+        9/1    1.40611
+       10/1    1.40922
+       11/1    1.40213
+       12/1    1.40441
+       13/1    1.40180
+       14/1    1.41293
+       15/1    1.40462
+       16/1    1.42120
+       17/1    1.41666
+       18/1    1.40495
+       19/1    1.42153
+       20/1    1.41210
+       21/1    1.40567
+       22/1    1.41084
+       23/1    1.41456
+       24/1    1.40843
+       25/1    1.41601
+       26/1    1.41071
+       27/1    1.41463    1.41267 +/- 0.00196
+       28/1    1.41064    1.41200 +/- 0.00132
+       29/1    1.41074    1.41168 +/- 0.00098
+       30/1    1.42165    1.41368 +/- 0.00213
+       31/1    1.41027    1.41311 +/- 0.00183
+       32/1    1.40764    1.41233 +/- 0.00173
+       33/1    1.40938    1.41196 +/- 0.00155
+       34/1    1.41316    1.41209 +/- 0.00137
+       35/1    1.41691    1.41257 +/- 0.00132
+       36/1    1.40927    1.41227 +/- 0.00123
+       37/1    1.41022    1.41210 +/- 0.00113
+       38/1    1.41457    1.41229 +/- 0.00106
+       39/1    1.40380    1.41168 +/- 0.00115
+       40/1    1.40265    1.41108 +/- 0.00123
+       41/1    1.40675    1.41081 +/- 0.00118
+       42/1    1.41329    1.41096 +/- 0.00112
+       43/1    1.41063    1.41094 +/- 0.00106
+       44/1    1.40103    1.41042 +/- 0.00113
+       45/1    1.40846    1.41032 +/- 0.00107
+       46/1    1.41408    1.41050 +/- 0.00104
+       47/1    1.41053    1.41050 +/- 0.00099
+       48/1    1.41043    1.41050 +/- 0.00095
+       49/1    1.40836    1.41041 +/- 0.00091
+       50/1    1.40213    1.41008 +/- 0.00093
+       51/1    1.40809    1.41000 +/- 0.00090
+       52/1    1.41361    1.41014 +/- 0.00088
+       53/1    1.40931    1.41011 +/- 0.00084
+       54/1    1.40700    1.41000 +/- 0.00082
+       55/1    1.41490    1.41016 +/- 0.00081
+       56/1    1.40957    1.41014 +/- 0.00078
+       57/1    1.41156    1.41019 +/- 0.00076
+       58/1    1.40247    1.40995 +/- 0.00077
+       59/1    1.41228    1.41002 +/- 0.00075
+       60/1    1.40918    1.41000 +/- 0.00073
+       61/1    1.41480    1.41013 +/- 0.00072
+       62/1    1.40410    1.40997 +/- 0.00072
+       63/1    1.40722    1.40990 +/- 0.00071
+       64/1    1.40366    1.40974 +/- 0.00071
+       65/1    1.40989    1.40974 +/- 0.00069
+       66/1    1.41166    1.40979 +/- 0.00067
+       67/1    1.40871    1.40976 +/- 0.00066
+       68/1    1.41063    1.40978 +/- 0.00064
+       69/1    1.40911    1.40977 +/- 0.00063
+       70/1    1.40768    1.40972 +/- 0.00062
+       71/1    1.41292    1.40979 +/- 0.00061
+       72/1    1.41594    1.40992 +/- 0.00061
+       73/1    1.39917    1.40970 +/- 0.00064
+       74/1    1.41370    1.40978 +/- 0.00063
+       75/1    1.40483    1.40968 +/- 0.00062
+       76/1    1.40258    1.40954 +/- 0.00063
+       77/1    1.41112    1.40957 +/- 0.00061
+       78/1    1.40992    1.40958 +/- 0.00060
+       79/1    1.41284    1.40964 +/- 0.00060
+       80/1    1.40695    1.40959 +/- 0.00059
+       81/1    1.40334    1.40948 +/- 0.00059
+       82/1    1.41517    1.40958 +/- 0.00058
+       83/1    1.41351    1.40964 +/- 0.00058
+       84/1    1.41307    1.40970 +/- 0.00057
+       85/1    1.40129    1.40956 +/- 0.00058
+       86/1    1.41584    1.40966 +/- 0.00058
+       87/1    1.41284    1.40972 +/- 0.00057
+       88/1    1.41470    1.40980 +/- 0.00057
+       89/1    1.41583    1.40989 +/- 0.00057
+       90/1    1.40965    1.40989 +/- 0.00056
+       91/1    1.40422    1.40980 +/- 0.00056
+       92/1    1.41083    1.40982 +/- 0.00055
+       93/1    1.41220    1.40985 +/- 0.00054
+       94/1    1.42004    1.41000 +/- 0.00055
+       95/1    1.40329    1.40990 +/- 0.00055
+       96/1    1.41015    1.40991 +/- 0.00055
+       97/1    1.40541    1.40984 +/- 0.00054
+       98/1    1.42077    1.40999 +/- 0.00056
+       99/1    1.41459    1.41006 +/- 0.00055
+      100/1    1.41176    1.41008 +/- 0.00054
+      101/1    1.41137    1.41009 +/- 0.00054
+      102/1    1.40840    1.41007 +/- 0.00053
+      103/1    1.41114    1.41009 +/- 0.00052
+      104/1    1.40641    1.41004 +/- 0.00052
+      105/1    1.41010    1.41004 +/- 0.00051
+      106/1    1.41207    1.41007 +/- 0.00051
+      107/1    1.41022    1.41007 +/- 0.00050
+      108/1    1.41498    1.41013 +/- 0.00050
+      109/1    1.40727    1.41009 +/- 0.00049
+      110/1    1.41943    1.41020 +/- 0.00050
+      111/1    1.40040    1.41009 +/- 0.00051
+      112/1    1.40783    1.41006 +/- 0.00050
+      113/1    1.40823    1.41004 +/- 0.00050
+      114/1    1.40907    1.41003 +/- 0.00049
+      115/1    1.41474    1.41008 +/- 0.00049
+      116/1    1.41527    1.41014 +/- 0.00049
+      117/1    1.41813    1.41023 +/- 0.00049
+      118/1    1.41142    1.41024 +/- 0.00048
+      119/1    1.40797    1.41022 +/- 0.00048
+      120/1    1.41118    1.41023 +/- 0.00047
+      121/1    1.40021    1.41012 +/- 0.00048
+      122/1    1.40940    1.41011 +/- 0.00048
+      123/1    1.40180    1.41003 +/- 0.00048
+      124/1    1.41368    1.41007 +/- 0.00047
+      125/1    1.40558    1.41002 +/- 0.00047
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.9016e+02 seconds
+   Time in transport only          = 6.8383e+02 seconds
+   Time in inactive batches        = 1.0449e+02 seconds
+   Time in active batches          = 5.8567e+02 seconds
+   Time synchronizing fission bank = 6.0814e+00 seconds
+     Sampling source sites         = 2.5238e-01 seconds
+     SEND/RECV source sites        = 4.2850e-02 seconds
+   Time accumulating tallies       = 6.9894e-02 seconds
+   Time writing statepoints        = 5.5864e-02 seconds
+ Total time for finalization       = 7.3022e-05 seconds
+ Total time elapsed                = 6.9145e+02 seconds
+ Calculation Rate (inactive)       = 23926.3 particles/second
+ Calculation Rate (active)         = 17074.4 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40910 +/- 0.00037
+ k-effective (Track-length)  = 1.41002 +/- 0.00047
+ k-effective (Absorption)    = 1.40939 +/- 0.00032
+ Combined k-effective        = 1.40941 +/- 0.00027
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n3.h5...
+[openmc.deplete] t=1036800.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1036800.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1036800.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1036800.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.42148
+        2/1    1.41183
+        3/1    1.41512
+        4/1    1.40903
+        5/1    1.41384
+        6/1    1.40782
+        7/1    1.40773
+        8/1    1.39745
+        9/1    1.40584
+       10/1    1.40556
+       11/1    1.39791
+       12/1    1.40710
+       13/1    1.41091
+       14/1    1.40770
+       15/1    1.40443
+       16/1    1.40794
+       17/1    1.40473
+       18/1    1.40710
+       19/1    1.40130
+       20/1    1.40556
+       21/1    1.40806
+       22/1    1.41024
+       23/1    1.40082
+       24/1    1.40057
+       25/1    1.40359
+       26/1    1.40442
+       27/1    1.41065    1.40753 +/- 0.00311
+       28/1    1.41575    1.41027 +/- 0.00328
+       29/1    1.40399    1.40870 +/- 0.00280
+       30/1    1.40910    1.40878 +/- 0.00217
+       31/1    1.40824    1.40869 +/- 0.00177
+       32/1    1.40550    1.40823 +/- 0.00157
+       33/1    1.41434    1.40900 +/- 0.00156
+       34/1    1.40618    1.40868 +/- 0.00141
+       35/1    1.40665    1.40848 +/- 0.00128
+       36/1    1.41278    1.40887 +/- 0.00122
+       37/1    1.40789    1.40879 +/- 0.00112
+       38/1    1.40817    1.40874 +/- 0.00103
+       39/1    1.40567    1.40852 +/- 0.00098
+       40/1    1.41936    1.40925 +/- 0.00116
+       41/1    1.40328    1.40887 +/- 0.00115
+       42/1    1.40616    1.40871 +/- 0.00109
+       43/1    1.40483    1.40850 +/- 0.00105
+       44/1    1.41431    1.40880 +/- 0.00104
+       45/1    1.41138    1.40893 +/- 0.00099
+       46/1    1.40857    1.40892 +/- 0.00095
+       47/1    1.40498    1.40874 +/- 0.00092
+       48/1    1.41483    1.40900 +/- 0.00092
+       49/1    1.40267    1.40874 +/- 0.00092
+       50/1    1.40131    1.40844 +/- 0.00093
+       51/1    1.41552    1.40871 +/- 0.00093
+       52/1    1.41004    1.40876 +/- 0.00090
+       53/1    1.40477    1.40862 +/- 0.00088
+       54/1    1.40235    1.40840 +/- 0.00087
+       55/1    1.40272    1.40821 +/- 0.00087
+       56/1    1.40021    1.40796 +/- 0.00088
+       57/1    1.40409    1.40783 +/- 0.00086
+       58/1    1.41378    1.40801 +/- 0.00085
+       59/1    1.41548    1.40823 +/- 0.00085
+       60/1    1.41213    1.40835 +/- 0.00084
+       61/1    1.40324    1.40820 +/- 0.00082
+       62/1    1.41280    1.40833 +/- 0.00081
+       63/1    1.41714    1.40856 +/- 0.00082
+       64/1    1.40739    1.40853 +/- 0.00080
+       65/1    1.40251    1.40838 +/- 0.00080
+       66/1    1.40203    1.40822 +/- 0.00079
+       67/1    1.40964    1.40826 +/- 0.00077
+       68/1    1.41730    1.40847 +/- 0.00078
+       69/1    1.40470    1.40838 +/- 0.00077
+       70/1    1.41076    1.40844 +/- 0.00076
+       71/1    1.40845    1.40844 +/- 0.00074
+       72/1    1.40627    1.40839 +/- 0.00072
+       73/1    1.40473    1.40831 +/- 0.00071
+       74/1    1.40148    1.40817 +/- 0.00071
+       75/1    1.40389    1.40809 +/- 0.00070
+       76/1    1.40613    1.40805 +/- 0.00069
+       77/1    1.39729    1.40784 +/- 0.00071
+       78/1    1.39791    1.40766 +/- 0.00072
+       79/1    1.41520    1.40780 +/- 0.00072
+       80/1    1.41369    1.40790 +/- 0.00071
+       81/1    1.40422    1.40784 +/- 0.00070
+       82/1    1.40858    1.40785 +/- 0.00069
+       83/1    1.40778    1.40785 +/- 0.00068
+       84/1    1.41201    1.40792 +/- 0.00067
+       85/1    1.40926    1.40794 +/- 0.00066
+       86/1    1.40885    1.40796 +/- 0.00065
+       87/1    1.40071    1.40784 +/- 0.00065
+       88/1    1.40432    1.40778 +/- 0.00064
+       89/1    1.40699    1.40777 +/- 0.00063
+       90/1    1.40389    1.40771 +/- 0.00063
+       91/1    1.40317    1.40764 +/- 0.00062
+       92/1    1.40991    1.40768 +/- 0.00061
+       93/1    1.39960    1.40756 +/- 0.00061
+       94/1    1.39765    1.40741 +/- 0.00062
+       95/1    1.40951    1.40744 +/- 0.00061
+       96/1    1.39757    1.40731 +/- 0.00062
+       97/1    1.40500    1.40727 +/- 0.00061
+       98/1    1.40176    1.40720 +/- 0.00061
+       99/1    1.41146    1.40726 +/- 0.00060
+      100/1    1.40657    1.40725 +/- 0.00060
+      101/1    1.40210    1.40718 +/- 0.00059
+      102/1    1.40434    1.40714 +/- 0.00059
+      103/1    1.39998    1.40705 +/- 0.00058
+      104/1    1.40419    1.40701 +/- 0.00058
+      105/1    1.40625    1.40700 +/- 0.00057
+      106/1    1.41026    1.40704 +/- 0.00057
+      107/1    1.40859    1.40706 +/- 0.00056
+      108/1    1.40938    1.40709 +/- 0.00055
+      109/1    1.40953    1.40712 +/- 0.00055
+      110/1    1.41291    1.40719 +/- 0.00054
+      111/1    1.41128    1.40724 +/- 0.00054
+      112/1    1.40057    1.40716 +/- 0.00054
+      113/1    1.40521    1.40714 +/- 0.00053
+      114/1    1.40803    1.40715 +/- 0.00053
+      115/1    1.40959    1.40717 +/- 0.00052
+      116/1    1.40294    1.40713 +/- 0.00052
+      117/1    1.40312    1.40708 +/- 0.00052
+      118/1    1.40621    1.40707 +/- 0.00051
+      119/1    1.40448    1.40705 +/- 0.00051
+      120/1    1.40508    1.40703 +/- 0.00050
+      121/1    1.39904    1.40694 +/- 0.00050
+      122/1    1.40165    1.40689 +/- 0.00050
+      123/1    1.40838    1.40690 +/- 0.00049
+      124/1    1.40332    1.40687 +/- 0.00049
+      125/1    1.41263    1.40692 +/- 0.00049
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8884e+02 seconds
+   Time in transport only          = 6.8321e+02 seconds
+   Time in inactive batches        = 1.0413e+02 seconds
+   Time in active batches          = 5.8471e+02 seconds
+   Time synchronizing fission bank = 5.3721e+00 seconds
+     Sampling source sites         = 2.5071e-01 seconds
+     SEND/RECV source sites        = 4.3030e-02 seconds
+   Time accumulating tallies       = 6.7836e-02 seconds
+   Time writing statepoints        = 5.5912e-02 seconds
+ Total time for finalization       = 5.8092e-05 seconds
+ Total time elapsed                = 6.9015e+02 seconds
+ Calculation Rate (inactive)       = 24009.2 particles/second
+ Calculation Rate (active)         = 17102.4 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40752 +/- 0.00039
+ k-effective (Track-length)  = 1.40692 +/- 0.00049
+ k-effective (Absorption)    = 1.40750 +/- 0.00033
+ Combined k-effective        = 1.40749 +/- 0.00029
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n4.h5...
+[openmc.deplete] t=1296000.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1296000.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1296000.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1296000.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.39896
+        2/1    1.40501
+        3/1    1.41818
+        4/1    1.40995
+        5/1    1.39730
+        6/1    1.40784
+        7/1    1.40652
+        8/1    1.40412
+        9/1    1.40272
+       10/1    1.40454
+       11/1    1.41076
+       12/1    1.41273
+       13/1    1.40136
+       14/1    1.40006
+       15/1    1.40595
+       16/1    1.39119
+       17/1    1.40120
+       18/1    1.39944
+       19/1    1.40514
+       20/1    1.40426
+       21/1    1.40627
+       22/1    1.40522
+       23/1    1.40091
+       24/1    1.40323
+       25/1    1.40419
+       26/1    1.40811
+       27/1    1.40031    1.40421 +/- 0.00390
+       28/1    1.40889    1.40577 +/- 0.00274
+       29/1    1.40695    1.40607 +/- 0.00196
+       30/1    1.40909    1.40667 +/- 0.00163
+       31/1    1.40777    1.40685 +/- 0.00135
+       32/1    1.39929    1.40577 +/- 0.00157
+       33/1    1.40393    1.40554 +/- 0.00138
+       34/1    1.41169    1.40622 +/- 0.00139
+       35/1    1.39734    1.40534 +/- 0.00153
+       36/1    1.40576    1.40538 +/- 0.00139
+       37/1    1.40290    1.40517 +/- 0.00128
+       38/1    1.40405    1.40508 +/- 0.00118
+       39/1    1.40790    1.40528 +/- 0.00111
+       40/1    1.41468    1.40591 +/- 0.00121
+       41/1    1.40704    1.40598 +/- 0.00113
+       42/1    1.40626    1.40600 +/- 0.00107
+       43/1    1.40230    1.40579 +/- 0.00103
+       44/1    1.40663    1.40584 +/- 0.00097
+       45/1    1.40813    1.40595 +/- 0.00093
+       46/1    1.41303    1.40629 +/- 0.00095
+       47/1    1.40522    1.40624 +/- 0.00090
+       48/1    1.40376    1.40613 +/- 0.00087
+       49/1    1.40423    1.40605 +/- 0.00084
+       50/1    1.40325    1.40594 +/- 0.00081
+       51/1    1.40466    1.40589 +/- 0.00078
+       52/1    1.40303    1.40579 +/- 0.00076
+       53/1    1.40492    1.40575 +/- 0.00073
+       54/1    1.39887    1.40552 +/- 0.00074
+       55/1    1.39335    1.40511 +/- 0.00083
+       56/1    1.39583    1.40481 +/- 0.00085
+       57/1    1.40431    1.40480 +/- 0.00083
+       58/1    1.40996    1.40495 +/- 0.00082
+       59/1    1.40178    1.40486 +/- 0.00080
+       60/1    1.40685    1.40492 +/- 0.00078
+       61/1    1.40524    1.40493 +/- 0.00075
+       62/1    1.41402    1.40517 +/- 0.00077
+       63/1    1.40657    1.40521 +/- 0.00075
+       64/1    1.40090    1.40510 +/- 0.00074
+       65/1    1.41090    1.40524 +/- 0.00074
+       66/1    1.40138    1.40515 +/- 0.00073
+       67/1    1.41862    1.40547 +/- 0.00078
+       68/1    1.40395    1.40543 +/- 0.00076
+       69/1    1.40009    1.40531 +/- 0.00075
+       70/1    1.40393    1.40528 +/- 0.00074
+       71/1    1.40720    1.40532 +/- 0.00072
+       72/1    1.39633    1.40513 +/- 0.00073
+       73/1    1.40639    1.40516 +/- 0.00072
+       74/1    1.39942    1.40504 +/- 0.00071
+       75/1    1.40445    1.40503 +/- 0.00070
+       76/1    1.39803    1.40489 +/- 0.00070
+       77/1    1.40530    1.40490 +/- 0.00068
+       78/1    1.41236    1.40504 +/- 0.00068
+       79/1    1.40853    1.40511 +/- 0.00068
+       80/1    1.39999    1.40501 +/- 0.00067
+       81/1    1.40839    1.40507 +/- 0.00066
+       82/1    1.40145    1.40501 +/- 0.00065
+       83/1    1.39621    1.40486 +/- 0.00066
+       84/1    1.40515    1.40486 +/- 0.00065
+       85/1    1.41097    1.40496 +/- 0.00064
+       86/1    1.40119    1.40490 +/- 0.00064
+       87/1    1.40057    1.40483 +/- 0.00063
+       88/1    1.41010    1.40492 +/- 0.00063
+       89/1    1.40260    1.40488 +/- 0.00062
+       90/1    1.40728    1.40492 +/- 0.00061
+       91/1    1.40563    1.40493 +/- 0.00060
+       92/1    1.40190    1.40488 +/- 0.00059
+       93/1    1.40404    1.40487 +/- 0.00058
+       94/1    1.39656    1.40475 +/- 0.00059
+       95/1    1.40409    1.40474 +/- 0.00058
+       96/1    1.40267    1.40471 +/- 0.00057
+       97/1    1.41092    1.40480 +/- 0.00057
+       98/1    1.40635    1.40482 +/- 0.00056
+       99/1    1.40369    1.40480 +/- 0.00055
+      100/1    1.40382    1.40479 +/- 0.00055
+      101/1    1.40232    1.40476 +/- 0.00054
+      102/1    1.41156    1.40485 +/- 0.00054
+      103/1    1.40473    1.40484 +/- 0.00053
+      104/1    1.39728    1.40475 +/- 0.00054
+      105/1    1.40260    1.40472 +/- 0.00053
+      106/1    1.40918    1.40478 +/- 0.00053
+      107/1    1.40018    1.40472 +/- 0.00052
+      108/1    1.39612    1.40462 +/- 0.00053
+      109/1    1.39443    1.40450 +/- 0.00053
+      110/1    1.40926    1.40455 +/- 0.00053
+      111/1    1.40111    1.40451 +/- 0.00053
+      112/1    1.41435    1.40462 +/- 0.00053
+      113/1    1.39705    1.40454 +/- 0.00053
+      114/1    1.40761    1.40457 +/- 0.00053
+      115/1    1.40107    1.40453 +/- 0.00052
+      116/1    1.40520    1.40454 +/- 0.00052
+      117/1    1.41418    1.40465 +/- 0.00052
+      118/1    1.40584    1.40466 +/- 0.00052
+      119/1    1.39935    1.40460 +/- 0.00052
+      120/1    1.39983    1.40455 +/- 0.00051
+      121/1    1.39682    1.40447 +/- 0.00051
+      122/1    1.40102    1.40444 +/- 0.00051
+      123/1    1.40496    1.40444 +/- 0.00050
+      124/1    1.40784    1.40448 +/- 0.00050
+      125/1    1.40818    1.40451 +/- 0.00050
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.9038e+02 seconds
+   Time in transport only          = 6.8335e+02 seconds
+   Time in inactive batches        = 1.0437e+02 seconds
+   Time in active batches          = 5.8601e+02 seconds
+   Time synchronizing fission bank = 6.7745e+00 seconds
+     Sampling source sites         = 2.5458e-01 seconds
+     SEND/RECV source sites        = 4.1684e-02 seconds
+   Time accumulating tallies       = 6.8499e-02 seconds
+   Time writing statepoints        = 5.1727e-02 seconds
+ Total time for finalization       = 8.4135e-05 seconds
+ Total time elapsed                = 6.9167e+02 seconds
+ Calculation Rate (inactive)       = 23954.3 particles/second
+ Calculation Rate (active)         = 17064.5 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40447 +/- 0.00037
+ k-effective (Track-length)  = 1.40451 +/- 0.00050
+ k-effective (Absorption)    = 1.40413 +/- 0.00029
+ Combined k-effective        = 1.40423 +/- 0.00026
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n5.h5...
+[openmc.deplete] t=1555200.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1555200.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1555200.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1555200.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.40989
+        2/1    1.39845
+        3/1    1.39608
+        4/1    1.39155
+        5/1    1.40000
+        6/1    1.39642
+        7/1    1.40630
+        8/1    1.39060
+        9/1    1.40200
+       10/1    1.39767
+       11/1    1.39813
+       12/1    1.40216
+       13/1    1.40436
+       14/1    1.39769
+       15/1    1.40023
+       16/1    1.39924
+       17/1    1.41302
+       18/1    1.40491
+       19/1    1.39479
+       20/1    1.40561
+       21/1    1.39877
+       22/1    1.40664
+       23/1    1.40608
+       24/1    1.40951
+       25/1    1.39559
+       26/1    1.41024
+       27/1    1.41415    1.41219 +/- 0.00196
+       28/1    1.40456    1.40965 +/- 0.00278
+       29/1    1.39860    1.40689 +/- 0.00339
+       30/1    1.41006    1.40752 +/- 0.00270
+       31/1    1.40377    1.40690 +/- 0.00229
+       32/1    1.40429    1.40652 +/- 0.00197
+       33/1    1.40170    1.40592 +/- 0.00181
+       34/1    1.40549    1.40587 +/- 0.00160
+       35/1    1.40310    1.40560 +/- 0.00146
+       36/1    1.39721    1.40483 +/- 0.00152
+       37/1    1.39779    1.40425 +/- 0.00151
+       38/1    1.40262    1.40412 +/- 0.00139
+       39/1    1.40395    1.40411 +/- 0.00129
+       40/1    1.40910    1.40444 +/- 0.00125
+       41/1    1.40058    1.40420 +/- 0.00119
+       42/1    1.40753    1.40440 +/- 0.00114
+       43/1    1.39750    1.40401 +/- 0.00114
+       44/1    1.40299    1.40396 +/- 0.00108
+       45/1    1.41069    1.40430 +/- 0.00108
+       46/1    1.39852    1.40402 +/- 0.00106
+       47/1    1.40162    1.40391 +/- 0.00102
+       48/1    1.40149    1.40381 +/- 0.00098
+       49/1    1.39221    1.40332 +/- 0.00105
+       50/1    1.40395    1.40335 +/- 0.00101
+       51/1    1.39723    1.40311 +/- 0.00100
+       52/1    1.40824    1.40330 +/- 0.00098
+       53/1    1.40619    1.40341 +/- 0.00095
+       54/1    1.39430    1.40309 +/- 0.00097
+       55/1    1.40466    1.40314 +/- 0.00094
+       56/1    1.39679    1.40294 +/- 0.00093
+       57/1    1.40179    1.40290 +/- 0.00090
+       58/1    1.40082    1.40284 +/- 0.00087
+       59/1    1.40830    1.40300 +/- 0.00086
+       60/1    1.39858    1.40287 +/- 0.00085
+       61/1    1.39891    1.40276 +/- 0.00083
+       62/1    1.40424    1.40280 +/- 0.00081
+       63/1    1.39577    1.40262 +/- 0.00081
+       64/1    1.40481    1.40268 +/- 0.00079
+       65/1    1.40006    1.40261 +/- 0.00077
+       66/1    1.40636    1.40270 +/- 0.00076
+       67/1    1.40897    1.40285 +/- 0.00076
+       68/1    1.40530    1.40291 +/- 0.00074
+       69/1    1.40363    1.40292 +/- 0.00072
+       70/1    1.39754    1.40280 +/- 0.00072
+       71/1    1.39996    1.40274 +/- 0.00070
+       72/1    1.40165    1.40272 +/- 0.00069
+       73/1    1.39948    1.40265 +/- 0.00068
+       74/1    1.39750    1.40255 +/- 0.00067
+       75/1    1.40259    1.40255 +/- 0.00066
+       76/1    1.40807    1.40266 +/- 0.00066
+       77/1    1.39241    1.40246 +/- 0.00067
+       78/1    1.40866    1.40258 +/- 0.00067
+       79/1    1.40340    1.40259 +/- 0.00066
+       80/1    1.40410    1.40262 +/- 0.00065
+       81/1    1.40288    1.40262 +/- 0.00063
+       82/1    1.40363    1.40264 +/- 0.00062
+       83/1    1.39968    1.40259 +/- 0.00061
+       84/1    1.40699    1.40266 +/- 0.00061
+       85/1    1.41884    1.40293 +/- 0.00066
+       86/1    1.40464    1.40296 +/- 0.00065
+       87/1    1.40084    1.40293 +/- 0.00064
+       88/1    1.39488    1.40280 +/- 0.00064
+       89/1    1.41217    1.40295 +/- 0.00065
+       90/1    1.40410    1.40296 +/- 0.00064
+       91/1    1.40036    1.40292 +/- 0.00063
+       92/1    1.40821    1.40300 +/- 0.00062
+       93/1    1.39802    1.40293 +/- 0.00062
+       94/1    1.40652    1.40298 +/- 0.00061
+       95/1    1.39693    1.40290 +/- 0.00061
+       96/1    1.40557    1.40293 +/- 0.00060
+       97/1    1.39986    1.40289 +/- 0.00059
+       98/1    1.40535    1.40292 +/- 0.00059
+       99/1    1.39977    1.40288 +/- 0.00058
+      100/1    1.40000    1.40284 +/- 0.00057
+      101/1    1.39600    1.40275 +/- 0.00057
+      102/1    1.40481    1.40278 +/- 0.00057
+      103/1    1.40393    1.40279 +/- 0.00056
+      104/1    1.40252    1.40279 +/- 0.00055
+      105/1    1.41279    1.40292 +/- 0.00056
+      106/1    1.40433    1.40293 +/- 0.00055
+      107/1    1.40587    1.40297 +/- 0.00055
+      108/1    1.41319    1.40309 +/- 0.00055
+      109/1    1.40346    1.40310 +/- 0.00055
+      110/1    1.39996    1.40306 +/- 0.00054
+      111/1    1.40397    1.40307 +/- 0.00054
+      112/1    1.39414    1.40297 +/- 0.00054
+      113/1    1.40158    1.40295 +/- 0.00053
+      114/1    1.39735    1.40289 +/- 0.00053
+      115/1    1.39110    1.40276 +/- 0.00054
+      116/1    1.39985    1.40273 +/- 0.00054
+      117/1    1.40795    1.40278 +/- 0.00053
+      118/1    1.40128    1.40277 +/- 0.00053
+      119/1    1.39676    1.40270 +/- 0.00053
+      120/1    1.40058    1.40268 +/- 0.00052
+      121/1    1.39198    1.40257 +/- 0.00053
+      122/1    1.40705    1.40262 +/- 0.00052
+      123/1    1.40419    1.40263 +/- 0.00052
+      124/1    1.41173    1.40272 +/- 0.00052
+      125/1    1.40513    1.40275 +/- 0.00052
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8892e+02 seconds
+   Time in transport only          = 6.8402e+02 seconds
+   Time in inactive batches        = 1.0423e+02 seconds
+   Time in active batches          = 5.8469e+02 seconds
+   Time synchronizing fission bank = 4.6202e+00 seconds
+     Sampling source sites         = 2.5574e-01 seconds
+     SEND/RECV source sites        = 4.3397e-02 seconds
+   Time accumulating tallies       = 6.6245e-02 seconds
+   Time writing statepoints        = 8.1148e-02 seconds
+ Total time for finalization       = 7.0701e-05 seconds
+ Total time elapsed                = 6.9025e+02 seconds
+ Calculation Rate (inactive)       = 23984.3 particles/second
+ Calculation Rate (active)         = 17103.1 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40273 +/- 0.00043
+ k-effective (Track-length)  = 1.40275 +/- 0.00052
+ k-effective (Absorption)    = 1.40309 +/- 0.00033
+ Combined k-effective        = 1.40299 +/- 0.00031
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n6.h5...
+[openmc.deplete] t=1814400.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1814400.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1814400.0 s, dt=259200 s, source=174
+[openmc.deplete] t=1814400.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.39730
+        2/1    1.39479
+        3/1    1.40573
+        4/1    1.40634
+        5/1    1.40415
+        6/1    1.39893
+        7/1    1.39954
+        8/1    1.40184
+        9/1    1.40092
+       10/1    1.40015
+       11/1    1.39812
+       12/1    1.40193
+       13/1    1.40265
+       14/1    1.39807
+       15/1    1.40194
+       16/1    1.39010
+       17/1    1.39192
+       18/1    1.40313
+       19/1    1.40138
+       20/1    1.39351
+       21/1    1.39952
+       22/1    1.39804
+       23/1    1.40345
+       24/1    1.39838
+       25/1    1.40273
+       26/1    1.40347
+       27/1    1.40863    1.40605 +/- 0.00258
+       28/1    1.40709    1.40640 +/- 0.00153
+       29/1    1.40502    1.40605 +/- 0.00114
+       30/1    1.40430    1.40570 +/- 0.00095
+       31/1    1.40378    1.40538 +/- 0.00084
+       32/1    1.39773    1.40429 +/- 0.00130
+       33/1    1.40224    1.40403 +/- 0.00116
+       34/1    1.39376    1.40289 +/- 0.00153
+       35/1    1.39997    1.40260 +/- 0.00140
+       36/1    1.39108    1.40155 +/- 0.00164
+       37/1    1.40393    1.40175 +/- 0.00151
+       38/1    1.40766    1.40220 +/- 0.00146
+       39/1    1.39618    1.40177 +/- 0.00142
+       40/1    1.40077    1.40171 +/- 0.00133
+       41/1    1.39800    1.40148 +/- 0.00126
+       42/1    1.39987    1.40138 +/- 0.00119
+       43/1    1.40285    1.40146 +/- 0.00112
+       44/1    1.39832    1.40130 +/- 0.00108
+       45/1    1.39645    1.40105 +/- 0.00105
+       46/1    1.39934    1.40097 +/- 0.00100
+       47/1    1.40073    1.40096 +/- 0.00095
+       48/1    1.39556    1.40073 +/- 0.00094
+       49/1    1.40129    1.40075 +/- 0.00090
+       50/1    1.39721    1.40061 +/- 0.00088
+       51/1    1.39310    1.40032 +/- 0.00089
+       52/1    1.39272    1.40004 +/- 0.00090
+       53/1    1.40615    1.40026 +/- 0.00090
+       54/1    1.40252    1.40033 +/- 0.00087
+       55/1    1.40539    1.40050 +/- 0.00086
+       56/1    1.40318    1.40059 +/- 0.00083
+       57/1    1.40896    1.40085 +/- 0.00085
+       58/1    1.39828    1.40077 +/- 0.00082
+       59/1    1.40316    1.40084 +/- 0.00080
+       60/1    1.39792    1.40076 +/- 0.00078
+       61/1    1.40546    1.40089 +/- 0.00077
+       62/1    1.40220    1.40093 +/- 0.00075
+       63/1    1.39790    1.40085 +/- 0.00074
+       64/1    1.41062    1.40110 +/- 0.00076
+       65/1    1.40082    1.40109 +/- 0.00074
+       66/1    1.40032    1.40107 +/- 0.00072
+       67/1    1.40212    1.40110 +/- 0.00071
+       68/1    1.40052    1.40108 +/- 0.00069
+       69/1    1.39745    1.40100 +/- 0.00068
+       70/1    1.39689    1.40091 +/- 0.00067
+       71/1    1.39436    1.40077 +/- 0.00067
+       72/1    1.39466    1.40064 +/- 0.00067
+       73/1    1.41212    1.40088 +/- 0.00070
+       74/1    1.40654    1.40099 +/- 0.00069
+       75/1    1.40204    1.40101 +/- 0.00068
+       76/1    1.40542    1.40110 +/- 0.00067
+       77/1    1.41057    1.40128 +/- 0.00068
+       78/1    1.41145    1.40147 +/- 0.00070
+       79/1    1.40064    1.40146 +/- 0.00068
+       80/1    1.40075    1.40144 +/- 0.00067
+       81/1    1.40140    1.40144 +/- 0.00066
+       82/1    1.40083    1.40143 +/- 0.00065
+       83/1    1.39560    1.40133 +/- 0.00064
+       84/1    1.40381    1.40137 +/- 0.00063
+       85/1    1.40452    1.40143 +/- 0.00063
+       86/1    1.39199    1.40127 +/- 0.00063
+       87/1    1.41088    1.40143 +/- 0.00064
+       88/1    1.38874    1.40123 +/- 0.00066
+       89/1    1.39474    1.40112 +/- 0.00066
+       90/1    1.40546    1.40119 +/- 0.00065
+       91/1    1.38619    1.40096 +/- 0.00068
+       92/1    1.39418    1.40086 +/- 0.00068
+       93/1    1.39463    1.40077 +/- 0.00068
+       94/1    1.39897    1.40075 +/- 0.00067
+       95/1    1.39144    1.40061 +/- 0.00067
+       96/1    1.41694    1.40084 +/- 0.00070
+       97/1    1.39988    1.40083 +/- 0.00069
+       98/1    1.40326    1.40086 +/- 0.00068
+       99/1    1.39876    1.40083 +/- 0.00067
+      100/1    1.39813    1.40080 +/- 0.00067
+      101/1    1.40831    1.40090 +/- 0.00066
+      102/1    1.40340    1.40093 +/- 0.00066
+      103/1    1.40927    1.40104 +/- 0.00066
+      104/1    1.40167    1.40104 +/- 0.00065
+      105/1    1.40355    1.40108 +/- 0.00064
+      106/1    1.40099    1.40107 +/- 0.00063
+      107/1    1.39418    1.40099 +/- 0.00063
+      108/1    1.40591    1.40105 +/- 0.00063
+      109/1    1.40100    1.40105 +/- 0.00062
+      110/1    1.40658    1.40111 +/- 0.00061
+      111/1    1.38919    1.40098 +/- 0.00062
+      112/1    1.41201    1.40110 +/- 0.00063
+      113/1    1.40226    1.40112 +/- 0.00062
+      114/1    1.39958    1.40110 +/- 0.00062
+      115/1    1.40255    1.40111 +/- 0.00061
+      116/1    1.40285    1.40113 +/- 0.00060
+      117/1    1.40466    1.40117 +/- 0.00060
+      118/1    1.39619    1.40112 +/- 0.00059
+      119/1    1.39922    1.40110 +/- 0.00059
+      120/1    1.40336    1.40112 +/- 0.00058
+      121/1    1.39162    1.40102 +/- 0.00058
+      122/1    1.40533    1.40107 +/- 0.00058
+      123/1    1.40294    1.40109 +/- 0.00057
+      124/1    1.39103    1.40098 +/- 0.00058
+      125/1    1.40496    1.40102 +/- 0.00057
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8885e+02 seconds
+   Time in transport only          = 6.8382e+02 seconds
+   Time in inactive batches        = 1.0426e+02 seconds
+   Time in active batches          = 5.8459e+02 seconds
+   Time synchronizing fission bank = 4.7745e+00 seconds
+     Sampling source sites         = 2.5560e-01 seconds
+     SEND/RECV source sites        = 4.4007e-02 seconds
+   Time accumulating tallies       = 7.0702e-02 seconds
+   Time writing statepoints        = 5.0665e-02 seconds
+ Total time for finalization       = 5.9592e-05 seconds
+ Total time elapsed                = 6.9014e+02 seconds
+ Calculation Rate (inactive)       = 23979 particles/second
+ Calculation Rate (active)         = 17106.1 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40098 +/- 0.00042
+ k-effective (Track-length)  = 1.40102 +/- 0.00057
+ k-effective (Absorption)    = 1.40156 +/- 0.00032
+ Combined k-effective        = 1.40137 +/- 0.00029
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n7.h5...
+[openmc.deplete] t=2073600.0 s, dt=259200 s, source=174
+[openmc.deplete] t=2073600.0 s, dt=259200 s, source=174
+[openmc.deplete] t=2073600.0 s, dt=259200 s, source=174
+[openmc.deplete] t=2073600.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.40846
+        2/1    1.39773
+        3/1    1.40469
+        4/1    1.40600
+        5/1    1.40790
+        6/1    1.40033
+        7/1    1.41571
+        8/1    1.40237
+        9/1    1.39656
+       10/1    1.41128
+       11/1    1.40154
+       12/1    1.40789
+       13/1    1.39329
+       14/1    1.40645
+       15/1    1.39688
+       16/1    1.40893
+       17/1    1.40269
+       18/1    1.39311
+       19/1    1.39722
+       20/1    1.39670
+       21/1    1.40037
+       22/1    1.40252
+       23/1    1.39645
+       24/1    1.39536
+       25/1    1.39436
+       26/1    1.39354
+       27/1    1.40385    1.39870 +/- 0.00515
+       28/1    1.38904    1.39548 +/- 0.00438
+       29/1    1.40407    1.39763 +/- 0.00377
+       30/1    1.40289    1.39868 +/- 0.00310
+       31/1    1.39822    1.39860 +/- 0.00254
+       32/1    1.40584    1.39964 +/- 0.00238
+       33/1    1.40419    1.40021 +/- 0.00214
+       34/1    1.40355    1.40058 +/- 0.00192
+       35/1    1.39278    1.39980 +/- 0.00189
+       36/1    1.40002    1.39982 +/- 0.00171
+       37/1    1.39042    1.39903 +/- 0.00174
+       38/1    1.39756    1.39892 +/- 0.00161
+       39/1    1.40489    1.39935 +/- 0.00155
+       40/1    1.40401    1.39966 +/- 0.00148
+       41/1    1.38428    1.39870 +/- 0.00168
+       42/1    1.39643    1.39856 +/- 0.00159
+       43/1    1.40203    1.39876 +/- 0.00151
+       44/1    1.39676    1.39865 +/- 0.00143
+       45/1    1.39527    1.39848 +/- 0.00137
+       46/1    1.41097    1.39908 +/- 0.00143
+       47/1    1.40393    1.39930 +/- 0.00138
+       48/1    1.40274    1.39945 +/- 0.00133
+       49/1    1.40545    1.39970 +/- 0.00130
+       50/1    1.40439    1.39989 +/- 0.00126
+       51/1    1.39891    1.39985 +/- 0.00121
+       52/1    1.39027    1.39949 +/- 0.00122
+       53/1    1.40249    1.39960 +/- 0.00118
+       54/1    1.39765    1.39953 +/- 0.00114
+       55/1    1.39827    1.39949 +/- 0.00110
+       56/1    1.39917    1.39948 +/- 0.00106
+       57/1    1.39923    1.39947 +/- 0.00103
+       58/1    1.40805    1.39973 +/- 0.00103
+       59/1    1.39024    1.39945 +/- 0.00104
+       60/1    1.40642    1.39965 +/- 0.00103
+       61/1    1.39461    1.39951 +/- 0.00101
+       62/1    1.40151    1.39957 +/- 0.00098
+       63/1    1.41011    1.39984 +/- 0.00100
+       64/1    1.39892    1.39982 +/- 0.00097
+       65/1    1.39807    1.39978 +/- 0.00095
+       66/1    1.40296    1.39985 +/- 0.00093
+       67/1    1.39794    1.39981 +/- 0.00091
+       68/1    1.40802    1.40000 +/- 0.00090
+       69/1    1.41014    1.40023 +/- 0.00091
+       70/1    1.40696    1.40038 +/- 0.00090
+       71/1    1.39184    1.40019 +/- 0.00090
+       72/1    1.40026    1.40020 +/- 0.00088
+       73/1    1.39887    1.40017 +/- 0.00087
+       74/1    1.40474    1.40026 +/- 0.00085
+       75/1    1.41017    1.40046 +/- 0.00086
+       76/1    1.39991    1.40045 +/- 0.00084
+       77/1    1.39823    1.40041 +/- 0.00083
+       78/1    1.39172    1.40024 +/- 0.00083
+       79/1    1.39596    1.40016 +/- 0.00082
+       80/1    1.40371    1.40023 +/- 0.00080
+       81/1    1.40497    1.40031 +/- 0.00079
+       82/1    1.39713    1.40026 +/- 0.00078
+       83/1    1.40616    1.40036 +/- 0.00078
+       84/1    1.40468    1.40043 +/- 0.00077
+       85/1    1.39209    1.40029 +/- 0.00077
+       86/1    1.40252    1.40033 +/- 0.00075
+       87/1    1.39543    1.40025 +/- 0.00075
+       88/1    1.39264    1.40013 +/- 0.00074
+       89/1    1.39956    1.40012 +/- 0.00073
+       90/1    1.40358    1.40017 +/- 0.00072
+       91/1    1.40656    1.40027 +/- 0.00072
+       92/1    1.39553    1.40020 +/- 0.00071
+       93/1    1.39769    1.40016 +/- 0.00070
+       94/1    1.39847    1.40014 +/- 0.00069
+       95/1    1.39175    1.40002 +/- 0.00069
+       96/1    1.40803    1.40013 +/- 0.00069
+       97/1    1.39791    1.40010 +/- 0.00068
+       98/1    1.39675    1.40005 +/- 0.00067
+       99/1    1.39843    1.40003 +/- 0.00067
+      100/1    1.39704    1.39999 +/- 0.00066
+      101/1    1.40423    1.40005 +/- 0.00065
+      102/1    1.40227    1.40008 +/- 0.00064
+      103/1    1.40756    1.40017 +/- 0.00064
+      104/1    1.40275    1.40021 +/- 0.00064
+      105/1    1.40327    1.40024 +/- 0.00063
+      106/1    1.39871    1.40022 +/- 0.00062
+      107/1    1.39178    1.40012 +/- 0.00062
+      108/1    1.38708    1.39996 +/- 0.00063
+      109/1    1.40494    1.40002 +/- 0.00063
+      110/1    1.39458    1.39996 +/- 0.00063
+      111/1    1.40587    1.40003 +/- 0.00062
+      112/1    1.39973    1.40003 +/- 0.00061
+      113/1    1.40408    1.40007 +/- 0.00061
+      114/1    1.39482    1.40001 +/- 0.00061
+      115/1    1.40097    1.40002 +/- 0.00060
+      116/1    1.40090    1.40003 +/- 0.00059
+      117/1    1.40052    1.40004 +/- 0.00059
+      118/1    1.38998    1.39993 +/- 0.00059
+      119/1    1.39394    1.39987 +/- 0.00059
+      120/1    1.39699    1.39984 +/- 0.00058
+      121/1    1.40654    1.39991 +/- 0.00058
+      122/1    1.40570    1.39997 +/- 0.00058
+      123/1    1.40606    1.40003 +/- 0.00057
+      124/1    1.40272    1.40005 +/- 0.00057
+      125/1    1.40080    1.40006 +/- 0.00056
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8876e+02 seconds
+   Time in transport only          = 6.8238e+02 seconds
+   Time in inactive batches        = 1.0434e+02 seconds
+   Time in active batches          = 5.8442e+02 seconds
+   Time synchronizing fission bank = 6.1310e+00 seconds
+     Sampling source sites         = 2.5590e-01 seconds
+     SEND/RECV source sites        = 4.5593e-02 seconds
+   Time accumulating tallies       = 6.4501e-02 seconds
+   Time writing statepoints        = 5.2075e-02 seconds
+ Total time for finalization       = 8.6445e-05 seconds
+ Total time elapsed                = 6.9005e+02 seconds
+ Calculation Rate (inactive)       = 23961.3 particles/second
+ Calculation Rate (active)         = 17110.9 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40013 +/- 0.00040
+ k-effective (Track-length)  = 1.40006 +/- 0.00056
+ k-effective (Absorption)    = 1.40045 +/- 0.00028
+ Combined k-effective        = 1.40037 +/- 0.00026
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n8.h5...
+[openmc.deplete] t=2332800.0 s, dt=259200 s, source=174
+[openmc.deplete] t=2332800.0 s, dt=259200 s, source=174
+[openmc.deplete] t=2332800.0 s, dt=259200 s, source=174
+[openmc.deplete] t=2332800.0 s, dt=259200 s, source=174
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.39980
+        2/1    1.40617
+        3/1    1.39699
+        4/1    1.39179
+        5/1    1.39419
+        6/1    1.40617
+        7/1    1.38588
+        8/1    1.39765
+        9/1    1.39612
+       10/1    1.39482
+       11/1    1.40319
+       12/1    1.39716
+       13/1    1.39716
+       14/1    1.39703
+       15/1    1.39164
+       16/1    1.40242
+       17/1    1.40034
+       18/1    1.39804
+       19/1    1.39105
+       20/1    1.39624
+       21/1    1.39282
+       22/1    1.39501
+       23/1    1.39608
+       24/1    1.39330
+       25/1    1.39489
+       26/1    1.39918
+       27/1    1.39856    1.39887 +/- 0.00031
+       28/1    1.39984    1.39919 +/- 0.00037
+       29/1    1.39478    1.39809 +/- 0.00113
+       30/1    1.39788    1.39804 +/- 0.00088
+       31/1    1.39899    1.39820 +/- 0.00073
+       32/1    1.39844    1.39824 +/- 0.00062
+       33/1    1.40466    1.39904 +/- 0.00097
+       34/1    1.39767    1.39889 +/- 0.00087
+       35/1    1.40174    1.39917 +/- 0.00083
+       36/1    1.39728    1.39900 +/- 0.00077
+       37/1    1.40234    1.39928 +/- 0.00075
+       38/1    1.40112    1.39942 +/- 0.00071
+       39/1    1.39491    1.39910 +/- 0.00073
+       40/1    1.40775    1.39967 +/- 0.00089
+       41/1    1.41025    1.40034 +/- 0.00106
+       42/1    1.38806    1.39961 +/- 0.00123
+       43/1    1.39872    1.39956 +/- 0.00116
+       44/1    1.39415    1.39928 +/- 0.00114
+       45/1    1.39426    1.39903 +/- 0.00111
+       46/1    1.40407    1.39927 +/- 0.00108
+       47/1    1.39639    1.39914 +/- 0.00104
+       48/1    1.39785    1.39908 +/- 0.00099
+       49/1    1.39628    1.39896 +/- 0.00096
+       50/1    1.39607    1.39885 +/- 0.00093
+       51/1    1.39670    1.39877 +/- 0.00089
+       52/1    1.39703    1.39870 +/- 0.00086
+       53/1    1.40218    1.39883 +/- 0.00084
+       54/1    1.39989    1.39886 +/- 0.00081
+       55/1    1.41031    1.39924 +/- 0.00087
+       56/1    1.39452    1.39909 +/- 0.00086
+       57/1    1.39708    1.39903 +/- 0.00083
+       58/1    1.40116    1.39909 +/- 0.00081
+       59/1    1.40462    1.39926 +/- 0.00080
+       60/1    1.40130    1.39931 +/- 0.00078
+       61/1    1.40155    1.39938 +/- 0.00076
+       62/1    1.40390    1.39950 +/- 0.00075
+       63/1    1.39512    1.39938 +/- 0.00074
+       64/1    1.39237    1.39920 +/- 0.00074
+       65/1    1.40093    1.39925 +/- 0.00072
+       66/1    1.40963    1.39950 +/- 0.00075
+       67/1    1.39790    1.39946 +/- 0.00073
+       68/1    1.41283    1.39977 +/- 0.00078
+       69/1    1.40248    1.39983 +/- 0.00077
+       70/1    1.39900    1.39982 +/- 0.00075
+       71/1    1.40803    1.39999 +/- 0.00075
+       72/1    1.40282    1.40005 +/- 0.00074
+       73/1    1.40878    1.40024 +/- 0.00075
+       74/1    1.40155    1.40026 +/- 0.00073
+       75/1    1.40283    1.40031 +/- 0.00072
+       76/1    1.40500    1.40041 +/- 0.00071
+       77/1    1.40039    1.40041 +/- 0.00070
+       78/1    1.39384    1.40028 +/- 0.00069
+       79/1    1.39311    1.40015 +/- 0.00069
+       80/1    1.40522    1.40024 +/- 0.00069
+       81/1    1.39579    1.40016 +/- 0.00068
+       82/1    1.40237    1.40020 +/- 0.00067
+       83/1    1.40422    1.40027 +/- 0.00066
+       84/1    1.39876    1.40025 +/- 0.00065
+       85/1    1.39739    1.40020 +/- 0.00064
+       86/1    1.41282    1.40040 +/- 0.00066
+       87/1    1.40448    1.40047 +/- 0.00066
+       88/1    1.39658    1.40041 +/- 0.00065
+       89/1    1.40385    1.40046 +/- 0.00064
+       90/1    1.39408    1.40036 +/- 0.00064
+       91/1    1.39861    1.40034 +/- 0.00063
+       92/1    1.40627    1.40043 +/- 0.00063
+       93/1    1.40016    1.40042 +/- 0.00062
+       94/1    1.40266    1.40045 +/- 0.00061
+       95/1    1.40839    1.40057 +/- 0.00061
+       96/1    1.40300    1.40060 +/- 0.00060
+       97/1    1.39627    1.40054 +/- 0.00060
+       98/1    1.38500    1.40033 +/- 0.00063
+       99/1    1.40668    1.40041 +/- 0.00062
+      100/1    1.39823    1.40039 +/- 0.00062
+      101/1    1.40178    1.40040 +/- 0.00061
+      102/1    1.39431    1.40033 +/- 0.00061
+      103/1    1.39903    1.40031 +/- 0.00060
+      104/1    1.40398    1.40035 +/- 0.00059
+      105/1    1.39326    1.40027 +/- 0.00059
+      106/1    1.39233    1.40017 +/- 0.00059
+      107/1    1.39806    1.40014 +/- 0.00059
+      108/1    1.40011    1.40014 +/- 0.00058
+      109/1    1.40403    1.40019 +/- 0.00057
+      110/1    1.39906    1.40017 +/- 0.00057
+      111/1    1.39525    1.40012 +/- 0.00056
+      112/1    1.40601    1.40019 +/- 0.00056
+      113/1    1.39140    1.40009 +/- 0.00056
+      114/1    1.39378    1.40001 +/- 0.00056
+      115/1    1.40138    1.40003 +/- 0.00056
+      116/1    1.39483    1.39997 +/- 0.00055
+      117/1    1.40188    1.39999 +/- 0.00055
+      118/1    1.40536    1.40005 +/- 0.00054
+      119/1    1.40484    1.40010 +/- 0.00054
+      120/1    1.39560    1.40005 +/- 0.00054
+      121/1    1.39081    1.39996 +/- 0.00054
+      122/1    1.39887    1.39995 +/- 0.00053
+      123/1    1.40122    1.39996 +/- 0.00053
+      124/1    1.39504    1.39991 +/- 0.00053
+      125/1    1.39455    1.39986 +/- 0.00052
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8956e+02 seconds
+   Time in transport only          = 6.8392e+02 seconds
+   Time in inactive batches        = 1.0441e+02 seconds
+   Time in active batches          = 5.8515e+02 seconds
+   Time synchronizing fission bank = 5.3973e+00 seconds
+     Sampling source sites         = 2.4968e-01 seconds
+     SEND/RECV source sites        = 4.2436e-02 seconds
+   Time accumulating tallies       = 6.5675e-02 seconds
+   Time writing statepoints        = 4.9886e-02 seconds
+ Total time for finalization       = 8.5357e-05 seconds
+ Total time elapsed                = 6.9088e+02 seconds
+ Calculation Rate (inactive)       = 23944.8 particles/second
+ Calculation Rate (active)         = 17089.6 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.39951 +/- 0.00046
+ k-effective (Track-length)  = 1.39986 +/- 0.00052
+ k-effective (Absorption)    = 1.39896 +/- 0.00034
+ Combined k-effective        = 1.39915 +/- 0.00032
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n9.h5...
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.39523
+        2/1    1.38579
+        3/1    1.38795
+        4/1    1.40312
+        5/1    1.39562
+        6/1    1.39373
+        7/1    1.40713
+        8/1    1.39931
+        9/1    1.38983
+       10/1    1.38569
+       11/1    1.39669
+       12/1    1.39770
+       13/1    1.39421
+       14/1    1.40227
+       15/1    1.39873
+       16/1    1.39924
+       17/1    1.40045
+       18/1    1.40211
+       19/1    1.39386
+       20/1    1.39844
+       21/1    1.40042
+       22/1    1.39672
+       23/1    1.39811
+       24/1    1.40558
+       25/1    1.40210
+       26/1    1.38715
+       27/1    1.40100    1.39407 +/- 0.00693
+       28/1    1.40023    1.39612 +/- 0.00449
+       29/1    1.39525    1.39591 +/- 0.00319
+       30/1    1.40239    1.39720 +/- 0.00279
+       31/1    1.40080    1.39780 +/- 0.00235
+       32/1    1.39068    1.39678 +/- 0.00223
+       33/1    1.40111    1.39732 +/- 0.00201
+       34/1    1.39450    1.39701 +/- 0.00180
+       35/1    1.39880    1.39719 +/- 0.00162
+       36/1    1.38925    1.39647 +/- 0.00163
+       37/1    1.38845    1.39580 +/- 0.00163
+       38/1    1.38980    1.39534 +/- 0.00157
+       39/1    1.39504    1.39532 +/- 0.00146
+       40/1    1.39834    1.39552 +/- 0.00137
+       41/1    1.40000    1.39580 +/- 0.00131
+       42/1    1.37855    1.39478 +/- 0.00160
+       43/1    1.39989    1.39507 +/- 0.00153
+       44/1    1.39772    1.39521 +/- 0.00146
+       45/1    1.41058    1.39598 +/- 0.00158
+       46/1    1.40018    1.39618 +/- 0.00152
+       47/1    1.39773    1.39625 +/- 0.00145
+       48/1    1.40477    1.39662 +/- 0.00143
+       49/1    1.39742    1.39665 +/- 0.00137
+       50/1    1.39022    1.39639 +/- 0.00134
+       51/1    1.39788    1.39645 +/- 0.00129
+       52/1    1.39339    1.39634 +/- 0.00125
+       53/1    1.40187    1.39653 +/- 0.00122
+       54/1    1.39810    1.39659 +/- 0.00117
+       55/1    1.40069    1.39673 +/- 0.00114
+       56/1    1.39711    1.39674 +/- 0.00111
+       57/1    1.39092    1.39656 +/- 0.00109
+       58/1    1.39518    1.39651 +/- 0.00105
+       59/1    1.39016    1.39633 +/- 0.00104
+       60/1    1.39794    1.39637 +/- 0.00101
+       61/1    1.39659    1.39638 +/- 0.00098
+       62/1    1.40953    1.39673 +/- 0.00102
+       63/1    1.40029    1.39683 +/- 0.00100
+       64/1    1.40509    1.39704 +/- 0.00099
+       65/1    1.40450    1.39723 +/- 0.00099
+       66/1    1.39563    1.39719 +/- 0.00096
+       67/1    1.39903    1.39723 +/- 0.00094
+       68/1    1.39984    1.39729 +/- 0.00092
+       69/1    1.39560    1.39725 +/- 0.00090
+       70/1    1.39968    1.39731 +/- 0.00088
+       71/1    1.39742    1.39731 +/- 0.00086
+       72/1    1.39150    1.39719 +/- 0.00085
+       73/1    1.40132    1.39727 +/- 0.00084
+       74/1    1.39313    1.39719 +/- 0.00083
+       75/1    1.39219    1.39709 +/- 0.00081
+       76/1    1.39987    1.39714 +/- 0.00080
+       77/1    1.39404    1.39708 +/- 0.00079
+       78/1    1.39981    1.39713 +/- 0.00077
+       79/1    1.39608    1.39712 +/- 0.00076
+       80/1    1.39426    1.39706 +/- 0.00075
+       81/1    1.40991    1.39729 +/- 0.00077
+       82/1    1.39421    1.39724 +/- 0.00076
+       83/1    1.41211    1.39750 +/- 0.00079
+       84/1    1.40451    1.39761 +/- 0.00078
+       85/1    1.39109    1.39751 +/- 0.00078
+       86/1    1.39902    1.39753 +/- 0.00076
+       87/1    1.39852    1.39755 +/- 0.00075
+       88/1    1.40337    1.39764 +/- 0.00075
+       89/1    1.40375    1.39773 +/- 0.00074
+       90/1    1.39400    1.39768 +/- 0.00073
+       91/1    1.39474    1.39763 +/- 0.00072
+       92/1    1.41006    1.39782 +/- 0.00073
+       93/1    1.40347    1.39790 +/- 0.00073
+       94/1    1.39545    1.39786 +/- 0.00072
+       95/1    1.40046    1.39790 +/- 0.00071
+       96/1    1.39666    1.39788 +/- 0.00070
+       97/1    1.39746    1.39788 +/- 0.00069
+       98/1    1.39556    1.39785 +/- 0.00068
+       99/1    1.39847    1.39786 +/- 0.00067
+      100/1    1.40494    1.39795 +/- 0.00067
+      101/1    1.39100    1.39786 +/- 0.00067
+      102/1    1.40482    1.39795 +/- 0.00066
+      103/1    1.39881    1.39796 +/- 0.00066
+      104/1    1.39197    1.39788 +/- 0.00065
+      105/1    1.39318    1.39782 +/- 0.00065
+      106/1    1.39406    1.39778 +/- 0.00064
+      107/1    1.39670    1.39777 +/- 0.00063
+      108/1    1.39825    1.39777 +/- 0.00062
+      109/1    1.39700    1.39776 +/- 0.00062
+      110/1    1.39701    1.39775 +/- 0.00061
+      111/1    1.39244    1.39769 +/- 0.00061
+      112/1    1.40414    1.39777 +/- 0.00060
+      113/1    1.39813    1.39777 +/- 0.00060
+      114/1    1.40814    1.39789 +/- 0.00060
+      115/1    1.39013    1.39780 +/- 0.00060
+      116/1    1.40792    1.39791 +/- 0.00060
+      117/1    1.40246    1.39796 +/- 0.00060
+      118/1    1.39957    1.39798 +/- 0.00059
+      119/1    1.40267    1.39803 +/- 0.00059
+      120/1    1.40738    1.39813 +/- 0.00059
+      121/1    1.40006    1.39815 +/- 0.00059
+      122/1    1.39189    1.39808 +/- 0.00058
+      123/1    1.39555    1.39806 +/- 0.00058
+      124/1    1.39781    1.39805 +/- 0.00057
+      125/1    1.39916    1.39806 +/- 0.00057
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 0.0000e+00 seconds
+   Reading cross sections          = 0.0000e+00 seconds
+ Total time in simulation          = 6.8811e+02 seconds
+   Time in transport only          = 6.8138e+02 seconds
+   Time in inactive batches        = 1.0420e+02 seconds
+   Time in active batches          = 5.8390e+02 seconds
+   Time synchronizing fission bank = 6.4480e+00 seconds
+     Sampling source sites         = 2.4976e-01 seconds
+     SEND/RECV source sites        = 4.3097e-02 seconds
+   Time accumulating tallies       = 6.8150e-02 seconds
+   Time writing statepoints        = 7.9364e-02 seconds
+ Total time for finalization       = 6.7230e-05 seconds
+ Total time elapsed                = 6.8940e+02 seconds
+ Calculation Rate (inactive)       = 23991.5 particles/second
+ Calculation Rate (active)         = 17126.1 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.39762 +/- 0.00044
+ k-effective (Track-length)  = 1.39806 +/- 0.00057
+ k-effective (Absorption)    = 1.39756 +/- 0.00031
+ Combined k-effective        = 1.39757 +/- 0.00029
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+ Creating state point openmc_simulation_n10.h5...

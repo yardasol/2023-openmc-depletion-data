@@ -1,0 +1,341 @@
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=259200.0 (final operator evaluation)
+[openmc.deplete] t=259200.0 (final operator evaluation)
+[openmc.deplete] t=259200.0 (final operator evaluation)
+[openmc.deplete] t=259200.0 (final operator evaluation)
+re-initializing model
+re-initializing model
+re-initializing model
+re-initializing model
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-08-19 15:45:29
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr92.h5
+generating new microxs
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/c_H_in_H2O.h5
+generating new microxs
+ Minimum neutron data temperature: 0 K
+ Maximum neutron data temperature: 1.7976931348623157e+308 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-08-19 15:45:31
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/days3/../../cross-section-libraries/end
+ fb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 0 K
+ Maximum neutron data temperature: 1.7976931348623157e+308 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.40127
+        2/1    1.47906
+        3/1    1.50120
+        4/1    1.42933
+        5/1    1.40697
+        6/1    1.38910
+        7/1    1.41868
+        8/1    1.48158
+        9/1    1.40193
+       10/1    1.38879
+       11/1    1.46453
+       12/1    1.42764    1.44608 +/- 0.01844
+       13/1    1.48586    1.45934 +/- 0.01701
+       14/1    1.41574    1.44844 +/- 0.01623
+       15/1    1.39422    1.43760 +/- 0.01660
+       16/1    1.37220    1.42670 +/- 0.01739
+       17/1    1.38450    1.42067 +/- 0.01589
+       18/1    1.39530    1.41750 +/- 0.01412
+       19/1    1.44109    1.42012 +/- 0.01273
+       20/1    1.38063    1.41617 +/- 0.01205
+       21/1    1.40216    1.41490 +/- 0.01097
+       22/1    1.39315    1.41309 +/- 0.01018
+       23/1    1.37225    1.40995 +/- 0.00988
+       24/1    1.42954    1.41134 +/- 0.00925
+       25/1    1.48259    1.41609 +/- 0.00983
+       26/1    1.44009    1.41759 +/- 0.00932
+       27/1    1.47395    1.42091 +/- 0.00936
+       28/1    1.46717    1.42348 +/- 0.00919
+       29/1    1.50008    1.42751 +/- 0.00958
+       30/1    1.45628    1.42895 +/- 0.00921
+       31/1    1.34428    1.42492 +/- 0.00964
+       32/1    1.64449    1.43490 +/- 0.01357
+       33/1    1.36539    1.43188 +/- 0.01331
+       34/1    1.45763    1.43295 +/- 0.01279
+       35/1    1.52750    1.43673 +/- 0.01284
+       36/1    1.45251    1.43734 +/- 0.01235
+       37/1    1.47907    1.43888 +/- 0.01198
+       38/1    1.55057    1.44287 +/- 0.01222
+       39/1    1.33689    1.43922 +/- 0.01234
+       40/1    1.43475    1.43907 +/- 0.01192
+       41/1    1.42287    1.43855 +/- 0.01154
+       42/1    1.45557    1.43908 +/- 0.01119
+       43/1    1.40465    1.43804 +/- 0.01090
+       44/1    1.53779    1.44097 +/- 0.01097
+       45/1    1.47785    1.44202 +/- 0.01070
+       46/1    1.44497    1.44210 +/- 0.01040
+       47/1    1.50860    1.44390 +/- 0.01028
+       48/1    1.48488    1.44498 +/- 0.01006
+       49/1    1.42209    1.44439 +/- 0.00982
+       50/1    1.50111    1.44581 +/- 0.00967
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.1199e+00 seconds
+   Reading cross sections          = 2.0972e+00 seconds
+ Total time in simulation          = 2.0088e-01 seconds
+   Time in transport only          = 1.2432e-01 seconds
+   Time in inactive batches        = 2.3841e-02 seconds
+   Time in active batches          = 1.7704e-01 seconds
+   Time synchronizing fission bank = 1.9556e-02 seconds
+     Sampling source sites         = 7.5273e-03 seconds
+     SEND/RECV source sites        = 3.6607e-04 seconds
+   Time accumulating tallies       = 2.9981e-03 seconds
+   Time writing statepoints        = 4.4083e-02 seconds
+ Total time for finalization       = 2.5973e-05 seconds
+ Total time elapsed                = 2.3362e+00 seconds
+ Calculation Rate (inactive)       = 419452 particles/second
+ Calculation Rate (active)         = 225935 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.44901 +/- 0.00723
+ k-effective (Track-length)  = 1.44581 +/- 0.00967
+ k-effective (Absorption)    = 1.44486 +/- 0.00497
+ Combined k-effective        = 1.44609 +/- 0.00461
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=0.0 s, dt=259200 s, source=174
+[openmc.deplete] t=259200.0 (final operator evaluation)
+[openmc.deplete] t=259200.0 (final operator evaluation)
+[openmc.deplete] t=259200.0 (final operator evaluation)
+[openmc.deplete] t=259200.0 (final operator evaluation)
+re-initializing model
+re-initializing model
+re-initializing model
+re-initializing model
+ ERROR: Error processing settings.xml file.
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2548677.0 ON bdw-0159 CANCELLED AT 2022-08-19T15:45:35 ***
+srun: error: bdw-0317: tasks 2-3: Killed
+srun: error: bdw-0159: tasks 0-1: Killed

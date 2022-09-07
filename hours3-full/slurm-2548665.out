@@ -1,0 +1,3175 @@
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-08-19 15:23:40
+   MPI Processes | 8
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ac225 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ac225.h5
+ Reading Ac226 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ac226.h5
+ Reading Ac227 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ac227.h5
+ Reading Ag107 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag107.h5
+ Reading Ag109 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag109.h5
+ Reading Ag110_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag110_m1.h5
+ Reading Ag111 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag111.h5
+ Reading Al27 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Al27.h5
+ Reading Am240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am240.h5
+ Reading Am241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am241.h5
+ Reading Am242 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am242.h5
+ Reading Am242_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am242_m1.h5
+ Reading Am243 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am243.h5
+ Reading Am244 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am244.h5
+ Reading Am244_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am244_m1.h5
+ Reading Ar36 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ar36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 294K
+ Reading Ar38 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ar38.h5
+ Reading Ar40 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ar40.h5
+ Reading As74 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/As74.h5
+ Reading As75 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/As75.h5
+ Reading Au197 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Au197.h5
+ Reading B10 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/B10.h5
+ Reading B11 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/B11.h5
+ Reading Ba130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba130.h5
+ Reading Ba132 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba132.h5
+ Reading Ba133 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba133.h5
+ Reading Ba134 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba134.h5
+ Reading Ba135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba135.h5
+ Reading Ba136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba136.h5
+ Reading Ba137 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba137.h5
+ Reading Ba138 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba138.h5
+ Reading Ba140 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba140.h5
+ Reading Be9 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Be9.h5
+ Reading Bi209 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bi209.h5
+ Reading Bk245 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk245.h5
+ Reading Bk246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk246.h5
+ Reading Bk247 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk247.h5
+ Reading Bk248 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk248.h5
+ Reading Bk249 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk249.h5
+ Reading Bk250 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk250.h5
+ Reading Br79 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Br79.h5
+ Reading Br81 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Br81.h5
+ Reading Ca40 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca40.h5
+ Reading Ca42 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca42.h5
+ Reading Ca43 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca43.h5
+ Reading Ca44 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca44.h5
+ Reading Ca46 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca46.h5
+ Reading Ca48 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca48.h5
+ Reading Cd106 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd106.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 294K
+ Reading Cd108 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd108.h5
+ Reading Cd110 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd110.h5
+ Reading Cd111 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd111.h5
+ Reading Cd112 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd112.h5
+ Reading Cd113 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd113.h5
+ Reading Cd114 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd114.h5
+ Reading Cd115_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd115_m1.h5
+ Reading Cd116 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd116.h5
+ Reading Ce136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce136.h5
+ Reading Ce138 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce138.h5
+ Reading Ce139 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce139.h5
+ Reading Ce140 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce140.h5
+ Reading Ce141 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce141.h5
+ Reading Ce142 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce142.h5
+ Reading Ce143 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce143.h5
+ Reading Ce144 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce144.h5
+ Reading Cf246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf246.h5
+ Reading Cf248 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf248.h5
+ Reading Cf249 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf249.h5
+ Reading Cf250 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf250.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cf250 at 294K
+ Reading Cf251 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf251.h5
+ Reading Cf252 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf252.h5
+ Reading Cf253 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf253.h5
+ Reading Cf254 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf254.h5
+ Reading Cl35 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cl35.h5
+ Reading Cl37 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cl37.h5
+ Reading Cm240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm240.h5
+ Reading Cm241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm241.h5
+ Reading Cm242 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm242.h5
+ Reading Cm243 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm243.h5
+ Reading Cm244 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm244.h5
+ Reading Cm245 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm245.h5
+ Reading Cm246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm246.h5
+ Reading Cm247 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm247.h5
+ Reading Cm248 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm248.h5
+ Reading Cm249 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm249.h5
+ Reading Cm250 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm250.h5
+ Reading Co58 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Co58.h5
+ Reading Co58_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Co58_m1.h5
+ Reading Co59 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Co59.h5
+ Reading Cr50 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr50.h5
+ Reading Cr52 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr52.h5
+ Reading Cr53 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr53.h5
+ Reading Cr54 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr54.h5
+ Reading Cs133 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs133.h5
+ Reading Cs134 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs134.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs135.h5
+ Reading Cs136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs136.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at 294K
+ Reading Cs137 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs137.h5
+ Reading Cu63 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cu63.h5
+ Reading Cu65 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cu65.h5
+ Reading Dy156 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy156.h5
+ Reading Dy158 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy158.h5
+ Reading Dy160 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy160.h5
+ Reading Dy161 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy161.h5
+ Reading Dy162 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy162.h5
+ Reading Dy163 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy163.h5
+ Reading Dy164 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy164.h5
+ Reading Er162 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er162.h5
+ Reading Er164 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er164.h5
+ Reading Er166 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er166.h5
+ Reading Er167 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er167.h5
+ Reading Er168 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er168.h5
+ Reading Er170 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er170.h5
+ Reading Es251 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es251.h5
+ Reading Es252 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es252.h5
+ Reading Es253 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es253.h5
+ Reading Es254 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es254.h5
+ Reading Es254_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es254_m1.h5
+ Reading Es255 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es255.h5
+ Reading Eu151 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu151.h5
+ Reading Eu152 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu152.h5
+ Reading Eu153 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu153.h5
+ Reading Eu154 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu154.h5
+ Reading Eu155 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu155.h5
+ Reading Eu156 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu156.h5
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at 294K
+ Reading Eu157 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu157.h5
+ Reading F19 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/F19.h5
+ Reading Fe54 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe54.h5
+ Reading Fe56 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe56.h5
+ Reading Fe57 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe57.h5
+ Reading Fe58 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe58.h5
+ Reading Fm255 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fm255.h5
+ Reading Ga69 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ga69.h5
+ Reading Ga71 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ga71.h5
+ Reading Gd152 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd152.h5
+ Reading Gd153 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd153.h5
+ Reading Gd154 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd154.h5
+ Reading Gd155 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd155.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd157.h5
+ Reading Gd158 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd158.h5
+ Reading Gd160 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd160.h5
+ Reading Ge70 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge70.h5
+ Reading Ge72 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge72.h5
+ Reading Ge73 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge73.h5
+ Reading Ge74 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge74.h5
+ Reading Ge76 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge76.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/H2.h5
+ Reading H3 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/H3.h5
+ Reading He3 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/He3.h5
+ Reading He4 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/He4.h5
+ Reading Hf174 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf174.h5
+ Reading Hf176 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf176.h5
+ Reading Hf177 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf177.h5
+ Reading Hf178 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf178.h5
+ Reading Hf179 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf179.h5
+ Reading Hf180 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf180.h5
+ Reading Hg196 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg196.h5
+ Reading Hg198 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg198.h5
+ Reading Hg199 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg199.h5
+ Reading Hg200 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg200.h5
+ Reading Hg201 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg201.h5
+ Reading Hg202 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg202.h5
+ Reading Hg204 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg204.h5
+ Reading Ho165 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ho165.h5
+ Reading Ho166_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ho166_m1.h5
+ Reading I127 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I127.h5
+ Reading I129 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I129.h5
+ Reading I130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I130.h5
+ Reading I131 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I131.h5
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 294K
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I135.h5
+ Reading In113 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/In113.h5
+ Reading In115 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/In115.h5
+ Reading Ir191 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ir191.h5
+ Reading Ir193 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ir193.h5
+ Reading K39 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/K39.h5
+ Reading K40 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/K40.h5
+ Reading K41 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/K41.h5
+ Reading Kr78 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr78.h5
+ Reading Kr80 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr80.h5
+ Reading Kr82 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr82.h5
+ Reading Kr83 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr83.h5
+ Reading Kr84 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr84.h5
+ Reading Kr85 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr85.h5
+ Reading Kr86 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr86.h5
+ Reading La138 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/La138.h5
+ Reading La139 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/La139.h5
+ Reading La140 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/La140.h5
+ Reading Li6 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Li6.h5
+ Reading Li7 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Li7.h5
+ Reading Lu175 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Lu175.h5
+ Reading Lu176 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Lu176.h5
+ Reading Mg24 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mg24.h5
+ Reading Mg25 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mg25.h5
+ Reading Mg26 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mg26.h5
+ Reading Mn55 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mn55.h5
+ Reading Mo100 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo100.h5
+ Reading Mo92 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo92.h5
+ Reading Mo94 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo94.h5
+ Reading Mo95 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo95.h5
+ Reading Mo96 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo96.h5
+ Reading Mo97 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo97.h5
+ Reading Mo98 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo98.h5
+ Reading Mo99 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo99.h5
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 294K
+ Reading N14 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/N14.h5
+ Reading N15 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/N15.h5
+ Reading Na22 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Na22.h5
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 294K
+ Reading Na23 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Na23.h5
+ Reading Nb93 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nb93.h5
+ Reading Nb94 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nb94.h5
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 294K
+ Reading Nb95 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nb95.h5
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 294K
+ Reading Nd142 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd142.h5
+ Reading Nd143 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd143.h5
+ Reading Nd144 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd144.h5
+ Reading Nd145 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd145.h5
+ Reading Nd146 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd146.h5
+ Reading Nd147 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd147.h5
+ Reading Nd148 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd148.h5
+ Reading Nd150 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd150.h5
+ Reading Ni58 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni58.h5
+ Reading Ni59 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni59.h5
+ Reading Ni60 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni60.h5
+ Reading Ni61 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni61.h5
+ Reading Ni62 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni62.h5
+ Reading Ni64 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni64.h5
+ Reading Np234 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np234.h5
+ Reading Np235 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np235.h5
+ Reading Np236 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np236.h5
+ Reading Np237 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np237.h5
+ Reading Np238 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np238.h5
+ Reading Np239 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np239.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/O17.h5
+ Reading P31 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/P31.h5
+ Reading Pa229 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa229.h5
+ Reading Pa230 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa230.h5
+ Reading Pa231 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa231.h5
+ Reading Pa232 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa232.h5
+ Reading Pa233 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa233.h5
+ Reading Pb204 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb204.h5
+ Reading Pb206 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb206.h5
+ Reading Pb207 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb207.h5
+ Reading Pb208 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb208.h5
+ Reading Pd102 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd102.h5
+ Reading Pd104 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd104.h5
+ Reading Pd105 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd105.h5
+ Reading Pd106 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd106.h5
+ Reading Pd107 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd107.h5
+ Reading Pd108 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd108.h5
+ Reading Pd110 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd110.h5
+ Reading Pm147 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm147.h5
+ Reading Pm148 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm148.h5
+ Reading Pm148_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm148_m1.h5
+ Reading Pm149 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm149.h5
+ Reading Pm151 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm151.h5
+ Reading Pr141 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pr141.h5
+ Reading Pr142 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pr142.h5
+ Reading Pr143 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pr143.h5
+ Reading Pu236 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu236.h5
+ Reading Pu237 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu237.h5
+ Reading Pu238 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu238.h5
+ Reading Pu239 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu239.h5
+ Reading Pu240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu240.h5
+ Reading Pu241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu241.h5
+ Reading Pu242 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu242.h5
+ Reading Pu243 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu243.h5
+ Reading Pu244 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu244.h5
+ Reading Pu246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu246.h5
+ Reading Ra223 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra223.h5
+ Reading Ra224 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra224.h5
+ Reading Ra225 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra225.h5
+ Reading Ra226 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra226.h5
+ Reading Rb85 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rb85.h5
+ Reading Rb86 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rb86.h5
+ Reading Rb87 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rb87.h5
+ Reading Re185 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Re185.h5
+ Reading Re187 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Re187.h5
+ Reading Rh103 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rh103.h5
+ Reading Rh105 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rh105.h5
+ Reading Ru100 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru100.h5
+ Reading Ru101 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru101.h5
+ Reading Ru102 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru102.h5
+ Reading Ru103 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru103.h5
+ Reading Ru104 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru104.h5
+ Reading Ru105 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru105.h5
+ Reading Ru106 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru106.h5
+ Reading Ru96 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru96.h5
+ Reading Ru98 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru98.h5
+ Reading Ru99 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru99.h5
+ Reading S32 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S32.h5
+ Reading S33 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S33.h5
+ Reading S34 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S34.h5
+ Reading S36 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S36.h5
+ Reading Sb121 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb121.h5
+ Reading Sb123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb123.h5
+ Reading Sb124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb124.h5
+ Reading Sb125 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb125.h5
+ Reading Sb126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb126.h5
+ Reading Sc45 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sc45.h5
+ Reading Se74 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se74.h5
+ Reading Se76 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se76.h5
+ Reading Se77 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se77.h5
+ Reading Se78 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se78.h5
+ Reading Se79 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se79.h5
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 294K
+ Reading Se80 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se80.h5
+ Reading Se82 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se82.h5
+ Reading Si28 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Si28.h5
+ Reading Si29 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Si29.h5
+ Reading Si30 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Si30.h5
+ Reading Sm144 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm144.h5
+ Reading Sm147 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm147.h5
+ Reading Sm148 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm148.h5
+ Reading Sm149 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm149.h5
+ Reading Sm150 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm150.h5
+ Reading Sm151 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm151.h5
+ Reading Sm152 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm152.h5
+ Reading Sm153 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm153.h5
+ Reading Sm154 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm154.h5
+ Reading Sn112 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn112.h5
+ Reading Sn113 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn113.h5
+ Reading Sn114 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn114.h5
+ Reading Sn115 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn115.h5
+ Reading Sn116 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn116.h5
+ Reading Sn117 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn117.h5
+ Reading Sn118 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn118.h5
+ Reading Sn119 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn119.h5
+ Reading Sn120 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn120.h5
+ Reading Sn122 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn122.h5
+ Reading Sn123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn123.h5
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at 294K
+ Reading Sn124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn124.h5
+ Reading Sn125 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn125.h5
+ Reading Sn126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn126.h5
+ Reading Sr84 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr84.h5
+ Reading Sr86 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr86.h5
+ Reading Sr87 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr87.h5
+ Reading Sr88 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr88.h5
+ Reading Sr89 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr89.h5
+ Reading Sr90 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr90.h5
+ Reading Ta180 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ta180.h5
+ Reading Ta181 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ta181.h5
+ Reading Ta182 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ta182.h5
+ Reading Tb159 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tb159.h5
+ Reading Tb160 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tb160.h5
+ Reading Tc99 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tc99.h5
+ Reading Te120 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te120.h5
+ Reading Te122 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te122.h5
+ Reading Te123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te123.h5
+ Reading Te124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te124.h5
+ Reading Te125 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te125.h5
+ Reading Te126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te126.h5
+ Reading Te127_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te127_m1.h5
+ Reading Te128 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te128.h5
+ Reading Te129_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te129_m1.h5
+ Reading Te130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te130.h5
+ Reading Te132 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te132.h5
+ Reading Th227 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th227.h5
+ Reading Th228 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th228.h5
+ Reading Th229 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th229.h5
+ Reading Th230 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th230.h5
+ Reading Th231 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th231.h5
+ Reading Th232 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th232.h5
+ Reading Th233 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th233.h5
+ Reading Th234 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th234.h5
+ Reading Ti46 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti46.h5
+ Reading Ti47 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti47.h5
+ Reading Ti48 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti48.h5
+ Reading Ti49 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti49.h5
+ Reading Ti50 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti50.h5
+ Reading Tl203 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tl203.h5
+ Reading Tl205 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tl205.h5
+ Reading Tm168 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tm168.h5
+ Reading Tm169 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tm169.h5
+ Reading Tm170 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tm170.h5
+ Reading U230 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U230.h5
+ Reading U231 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U231.h5
+ Reading U232 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U232.h5
+ Reading U233 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U233.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U235.h5
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U236.h5
+ Reading U237 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U237.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U238.h5
+ Reading U239 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U239.h5
+ Reading U240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U240.h5
+ Reading U241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U241.h5
+ Reading V50 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/V50.h5
+ Reading V51 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/V51.h5
+ Reading W180 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W180.h5
+ Reading W182 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W182.h5
+ Reading W183 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W183.h5
+ Reading W184 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W184.h5
+ Reading W186 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W186.h5
+ Reading Xe123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe123.h5
+ Reading Xe124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe124.h5
+ Reading Xe126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe126.h5
+ Reading Xe128 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe128.h5
+ Reading Xe129 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe129.h5
+ Reading Xe130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe130.h5
+ Reading Xe131 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe131.h5
+ Reading Xe132 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe132.h5
+ Reading Xe133 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe133.h5
+ Reading Xe134 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe134.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe136.h5
+ Reading Y89 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Y89.h5
+ Reading Y90 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Y90.h5
+ Reading Y91 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Y91.h5
+ Reading Zn64 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn64.h5
+ Reading Zn65 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn65.h5
+ Reading Zn66 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn66.h5
+ Reading Zn67 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn67.h5
+ Reading Zn68 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn68.h5
+ Reading Zn70 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn70.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr92.h5
+ Reading Zr93 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr93.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr94.h5
+ Reading Zr95 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr95.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr96.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 0 K
+ Maximum neutron data temperature: 1.7976931348623157e+308 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for Ac225
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.45897
+        2/1    1.46003
+        3/1    1.45663
+        4/1    1.45928
+        5/1    1.45916
+        6/1    1.45221
+        7/1    1.46654
+        8/1    1.45946
+        9/1    1.46180
+       10/1    1.46409
+       11/1    1.46225
+       12/1    1.45109
+       13/1    1.45808
+       14/1    1.45411
+       15/1    1.45733
+       16/1    1.46313
+       17/1    1.45339
+       18/1    1.46127
+       19/1    1.46003
+       20/1    1.45914
+       21/1    1.45053
+       22/1    1.45343
+       23/1    1.45406
+       24/1    1.44676
+       25/1    1.45178
+       26/1    1.45998
+       27/1    1.45845    1.45922 +/- 0.00077
+       28/1    1.46493    1.46112 +/- 0.00196
+       29/1    1.45345    1.45920 +/- 0.00236
+       30/1    1.46105    1.45957 +/- 0.00187
+       31/1    1.45204    1.45832 +/- 0.00198
+       32/1    1.46345    1.45905 +/- 0.00182
+       33/1    1.45600    1.45867 +/- 0.00162
+       34/1    1.45389    1.45814 +/- 0.00153
+       35/1    1.46028    1.45835 +/- 0.00138
+       36/1    1.45777    1.45830 +/- 0.00125
+       37/1    1.44920    1.45754 +/- 0.00137
+       38/1    1.46805    1.45835 +/- 0.00150
+       39/1    1.45306    1.45797 +/- 0.00144
+       40/1    1.45676    1.45789 +/- 0.00134
+       41/1    1.45360    1.45762 +/- 0.00128
+       42/1    1.45081    1.45722 +/- 0.00127
+       43/1    1.45627    1.45717 +/- 0.00120
+       44/1    1.46179    1.45741 +/- 0.00116
+       45/1    1.44579    1.45683 +/- 0.00124
+       46/1    1.46004    1.45698 +/- 0.00119
+       47/1    1.46697    1.45744 +/- 0.00123
+       48/1    1.45696    1.45742 +/- 0.00117
+       49/1    1.46695    1.45781 +/- 0.00119
+       50/1    1.45398    1.45766 +/- 0.00115
+       51/1    1.45883    1.45771 +/- 0.00111
+       52/1    1.45789    1.45771 +/- 0.00106
+       53/1    1.45321    1.45755 +/- 0.00104
+       54/1    1.45186    1.45736 +/- 0.00102
+       55/1    1.46846    1.45773 +/- 0.00105
+       56/1    1.45281    1.45757 +/- 0.00103
+       57/1    1.45167    1.45738 +/- 0.00102
+       58/1    1.45998    1.45746 +/- 0.00099
+       59/1    1.45080    1.45727 +/- 0.00098
+       60/1    1.45536    1.45721 +/- 0.00095
+       61/1    1.45581    1.45717 +/- 0.00093
+       62/1    1.45401    1.45709 +/- 0.00090
+       63/1    1.45250    1.45697 +/- 0.00089
+       64/1    1.45683    1.45696 +/- 0.00086
+       65/1    1.45715    1.45697 +/- 0.00084
+       66/1    1.45543    1.45693 +/- 0.00082
+       67/1    1.44859    1.45673 +/- 0.00083
+       68/1    1.46588    1.45694 +/- 0.00084
+       69/1    1.46121    1.45704 +/- 0.00082
+       70/1    1.45814    1.45707 +/- 0.00080
+       71/1    1.45522    1.45703 +/- 0.00079
+       72/1    1.46806    1.45726 +/- 0.00081
+       73/1    1.45863    1.45729 +/- 0.00079
+       74/1    1.45376    1.45722 +/- 0.00078
+       75/1    1.45563    1.45718 +/- 0.00076
+       76/1    1.45595    1.45716 +/- 0.00075
+       77/1    1.44986    1.45702 +/- 0.00075
+       78/1    1.45490    1.45698 +/- 0.00073
+       79/1    1.46890    1.45720 +/- 0.00075
+       80/1    1.45508    1.45716 +/- 0.00074
+       81/1    1.46799    1.45736 +/- 0.00075
+       82/1    1.46661    1.45752 +/- 0.00076
+       83/1    1.44771    1.45735 +/- 0.00076
+       84/1    1.46113    1.45741 +/- 0.00075
+       85/1    1.45952    1.45745 +/- 0.00074
+       86/1    1.45815    1.45746 +/- 0.00073
+       87/1    1.45943    1.45749 +/- 0.00072
+       88/1    1.46070    1.45754 +/- 0.00071
+       89/1    1.46021    1.45758 +/- 0.00070
+       90/1    1.45413    1.45753 +/- 0.00069
+       91/1    1.46701    1.45767 +/- 0.00069
+       92/1    1.45703    1.45766 +/- 0.00068
+       93/1    1.45627    1.45764 +/- 0.00067
+       94/1    1.45671    1.45763 +/- 0.00066
+       95/1    1.45817    1.45764 +/- 0.00065
+       96/1    1.45535    1.45761 +/- 0.00064
+       97/1    1.45629    1.45759 +/- 0.00064
+       98/1    1.45481    1.45755 +/- 0.00063
+       99/1    1.45429    1.45751 +/- 0.00062
+      100/1    1.46205    1.45757 +/- 0.00062
+      101/1    1.46347    1.45764 +/- 0.00061
+      102/1    1.45631    1.45763 +/- 0.00060
+      103/1    1.45110    1.45754 +/- 0.00060
+      104/1    1.46801    1.45768 +/- 0.00061
+      105/1    1.45509    1.45764 +/- 0.00060
+      106/1    1.46353    1.45772 +/- 0.00060
+      107/1    1.46200    1.45777 +/- 0.00059
+      108/1    1.45179    1.45770 +/- 0.00059
+      109/1    1.44919    1.45759 +/- 0.00059
+      110/1    1.45718    1.45759 +/- 0.00059
+      111/1    1.45522    1.45756 +/- 0.00058
+      112/1    1.46592    1.45766 +/- 0.00058
+      113/1    1.45952    1.45768 +/- 0.00058
+      114/1    1.45124    1.45761 +/- 0.00057
+      115/1    1.45738    1.45761 +/- 0.00057
+      116/1    1.45947    1.45763 +/- 0.00056
+      117/1    1.46038    1.45766 +/- 0.00056
+      118/1    1.45144    1.45759 +/- 0.00055
+      119/1    1.45606    1.45757 +/- 0.00055
+      120/1    1.45541    1.45755 +/- 0.00054
+      121/1    1.45691    1.45754 +/- 0.00054
+      122/1    1.45930    1.45756 +/- 0.00053
+      123/1    1.45850    1.45757 +/- 0.00053
+      124/1    1.46209    1.45762 +/- 0.00052
+      125/1    1.44778    1.45752 +/- 0.00053
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 5.3361e+01 seconds
+   Reading cross sections          = 5.2946e+01 seconds
+ Total time in simulation          = 7.8878e+02 seconds
+   Time in transport only          = 7.7039e+02 seconds
+   Time in inactive batches        = 3.5270e+01 seconds
+   Time in active batches          = 7.5351e+02 seconds
+   Time synchronizing fission bank = 1.7975e+01 seconds
+     Sampling source sites         = 1.7943e-01 seconds
+     SEND/RECV source sites        = 2.5551e-02 seconds
+   Time accumulating tallies       = 2.2051e-01 seconds
+   Time writing statepoints        = 8.9786e-02 seconds
+ Total time for finalization       = 1.4450e-04 seconds
+ Total time elapsed                = 8.4239e+02 seconds
+ Calculation Rate (inactive)       = 70881.8 particles/second
+ Calculation Rate (active)         = 13271.3 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.45828 +/- 0.00043
+ k-effective (Track-length)  = 1.45752 +/- 0.00053
+ k-effective (Absorption)    = 1.45831 +/- 0.00032
+ Combined k-effective        = 1.45821 +/- 0.00031
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-08-19 15:37:54
+   MPI Processes | 8
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ac225 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ac225.h5
+ Reading Ac226 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ac226.h5
+ Reading Ac227 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ac227.h5
+ Reading Ag107 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag107.h5
+ Reading Ag109 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag109.h5
+ Reading Ag110_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag110_m1.h5
+ Reading Ag111 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ag111.h5
+ Reading Al27 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Al27.h5
+ Reading Am240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am240.h5
+ Reading Am241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am241.h5
+ Reading Am242 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am242.h5
+ Reading Am242_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am242_m1.h5
+ Reading Am243 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am243.h5
+ Reading Am244 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am244.h5
+ Reading Am244_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Am244_m1.h5
+ Reading Ar36 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ar36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 294K
+ Reading Ar38 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ar38.h5
+ Reading Ar40 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ar40.h5
+ Reading As74 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/As74.h5
+ Reading As75 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/As75.h5
+ Reading Au197 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Au197.h5
+ Reading B10 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/B10.h5
+ Reading B11 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/B11.h5
+ Reading Ba130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba130.h5
+ Reading Ba132 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba132.h5
+ Reading Ba133 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba133.h5
+ Reading Ba134 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba134.h5
+ Reading Ba135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba135.h5
+ Reading Ba136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba136.h5
+ Reading Ba137 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba137.h5
+ Reading Ba138 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba138.h5
+ Reading Ba140 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ba140.h5
+ Reading Be9 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Be9.h5
+ Reading Bi209 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bi209.h5
+ Reading Bk245 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk245.h5
+ Reading Bk246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk246.h5
+ Reading Bk247 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk247.h5
+ Reading Bk248 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk248.h5
+ Reading Bk249 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk249.h5
+ Reading Bk250 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Bk250.h5
+ Reading Br79 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Br79.h5
+ Reading Br81 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Br81.h5
+ Reading Ca40 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca40.h5
+ Reading Ca42 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca42.h5
+ Reading Ca43 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca43.h5
+ Reading Ca44 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca44.h5
+ Reading Ca46 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca46.h5
+ Reading Ca48 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ca48.h5
+ Reading Cd106 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd106.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 294K
+ Reading Cd108 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd108.h5
+ Reading Cd110 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd110.h5
+ Reading Cd111 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd111.h5
+ Reading Cd112 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd112.h5
+ Reading Cd113 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd113.h5
+ Reading Cd114 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd114.h5
+ Reading Cd115_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd115_m1.h5
+ Reading Cd116 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cd116.h5
+ Reading Ce136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce136.h5
+ Reading Ce138 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce138.h5
+ Reading Ce139 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce139.h5
+ Reading Ce140 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce140.h5
+ Reading Ce141 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce141.h5
+ Reading Ce142 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce142.h5
+ Reading Ce143 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce143.h5
+ Reading Ce144 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ce144.h5
+ Reading Cf246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf246.h5
+ Reading Cf248 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf248.h5
+ Reading Cf249 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf249.h5
+ Reading Cf250 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf250.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cf250 at 294K
+ Reading Cf251 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf251.h5
+ Reading Cf252 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf252.h5
+ Reading Cf253 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf253.h5
+ Reading Cf254 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cf254.h5
+ Reading Cl35 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cl35.h5
+ Reading Cl37 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cl37.h5
+ Reading Cm240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm240.h5
+ Reading Cm241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm241.h5
+ Reading Cm242 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm242.h5
+ Reading Cm243 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm243.h5
+ Reading Cm244 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm244.h5
+ Reading Cm245 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm245.h5
+ Reading Cm246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm246.h5
+ Reading Cm247 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm247.h5
+ Reading Cm248 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm248.h5
+ Reading Cm249 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm249.h5
+ Reading Cm250 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cm250.h5
+ Reading Co58 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Co58.h5
+ Reading Co58_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Co58_m1.h5
+ Reading Co59 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Co59.h5
+ Reading Cr50 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr50.h5
+ Reading Cr52 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr52.h5
+ Reading Cr53 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr53.h5
+ Reading Cr54 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cr54.h5
+ Reading Cs133 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs133.h5
+ Reading Cs134 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs134.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs135.h5
+ Reading Cs136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs136.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cs136 at 294K
+ Reading Cs137 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cs137.h5
+ Reading Cu63 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cu63.h5
+ Reading Cu65 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Cu65.h5
+ Reading Dy156 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy156.h5
+ Reading Dy158 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy158.h5
+ Reading Dy160 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy160.h5
+ Reading Dy161 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy161.h5
+ Reading Dy162 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy162.h5
+ Reading Dy163 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy163.h5
+ Reading Dy164 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Dy164.h5
+ Reading Er162 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er162.h5
+ Reading Er164 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er164.h5
+ Reading Er166 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er166.h5
+ Reading Er167 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er167.h5
+ Reading Er168 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er168.h5
+ Reading Er170 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Er170.h5
+ Reading Es251 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es251.h5
+ Reading Es252 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es252.h5
+ Reading Es253 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es253.h5
+ Reading Es254 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es254.h5
+ Reading Es254_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es254_m1.h5
+ Reading Es255 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Es255.h5
+ Reading Eu151 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu151.h5
+ Reading Eu152 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu152.h5
+ Reading Eu153 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu153.h5
+ Reading Eu154 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu154.h5
+ Reading Eu155 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu155.h5
+ Reading Eu156 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu156.h5
+ WARNING: Negative value(s) found on probability table for nuclide Eu156 at 294K
+ Reading Eu157 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Eu157.h5
+ Reading F19 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/F19.h5
+ Reading Fe54 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe54.h5
+ Reading Fe56 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe56.h5
+ Reading Fe57 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe57.h5
+ Reading Fe58 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fe58.h5
+ Reading Fm255 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Fm255.h5
+ Reading Ga69 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ga69.h5
+ Reading Ga71 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ga71.h5
+ Reading Gd152 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd152.h5
+ Reading Gd153 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd153.h5
+ Reading Gd154 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd154.h5
+ Reading Gd155 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd155.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd157.h5
+ Reading Gd158 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd158.h5
+ Reading Gd160 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Gd160.h5
+ Reading Ge70 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge70.h5
+ Reading Ge72 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge72.h5
+ Reading Ge73 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge73.h5
+ Reading Ge74 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge74.h5
+ Reading Ge76 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ge76.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/H2.h5
+ Reading H3 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/H3.h5
+ Reading He3 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/He3.h5
+ Reading He4 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/He4.h5
+ Reading Hf174 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf174.h5
+ Reading Hf176 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf176.h5
+ Reading Hf177 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf177.h5
+ Reading Hf178 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf178.h5
+ Reading Hf179 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf179.h5
+ Reading Hf180 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hf180.h5
+ Reading Hg196 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg196.h5
+ Reading Hg198 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg198.h5
+ Reading Hg199 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg199.h5
+ Reading Hg200 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg200.h5
+ Reading Hg201 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg201.h5
+ Reading Hg202 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg202.h5
+ Reading Hg204 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Hg204.h5
+ Reading Ho165 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ho165.h5
+ Reading Ho166_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ho166_m1.h5
+ Reading I127 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I127.h5
+ Reading I129 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I129.h5
+ Reading I130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I130.h5
+ Reading I131 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I131.h5
+ WARNING: Negative value(s) found on probability table for nuclide I131 at 294K
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/I135.h5
+ Reading In113 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/In113.h5
+ Reading In115 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/In115.h5
+ Reading Ir191 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ir191.h5
+ Reading Ir193 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ir193.h5
+ Reading K39 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/K39.h5
+ Reading K40 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/K40.h5
+ Reading K41 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/K41.h5
+ Reading Kr78 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr78.h5
+ Reading Kr80 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr80.h5
+ Reading Kr82 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr82.h5
+ Reading Kr83 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr83.h5
+ Reading Kr84 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr84.h5
+ Reading Kr85 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr85.h5
+ Reading Kr86 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Kr86.h5
+ Reading La138 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/La138.h5
+ Reading La139 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/La139.h5
+ Reading La140 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/La140.h5
+ Reading Li6 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Li6.h5
+ Reading Li7 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Li7.h5
+ Reading Lu175 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Lu175.h5
+ Reading Lu176 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Lu176.h5
+ Reading Mg24 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mg24.h5
+ Reading Mg25 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mg25.h5
+ Reading Mg26 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mg26.h5
+ Reading Mn55 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mn55.h5
+ Reading Mo100 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo100.h5
+ Reading Mo92 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo92.h5
+ Reading Mo94 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo94.h5
+ Reading Mo95 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo95.h5
+ Reading Mo96 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo96.h5
+ Reading Mo97 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo97.h5
+ Reading Mo98 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo98.h5
+ Reading Mo99 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Mo99.h5
+ WARNING: Negative value(s) found on probability table for nuclide Mo99 at 294K
+ Reading N14 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/N14.h5
+ Reading N15 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/N15.h5
+ Reading Na22 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Na22.h5
+ WARNING: Negative value(s) found on probability table for nuclide Na22 at 294K
+ Reading Na23 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Na23.h5
+ Reading Nb93 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nb93.h5
+ Reading Nb94 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nb94.h5
+ WARNING: Negative value(s) found on probability table for nuclide Nb94 at 294K
+ Reading Nb95 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nb95.h5
+ WARNING: Negative value(s) found on probability table for nuclide Nb95 at 294K
+ Reading Nd142 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd142.h5
+ Reading Nd143 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd143.h5
+ Reading Nd144 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd144.h5
+ Reading Nd145 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd145.h5
+ Reading Nd146 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd146.h5
+ Reading Nd147 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd147.h5
+ Reading Nd148 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd148.h5
+ Reading Nd150 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Nd150.h5
+ Reading Ni58 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni58.h5
+ Reading Ni59 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni59.h5
+ Reading Ni60 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni60.h5
+ Reading Ni61 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni61.h5
+ Reading Ni62 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni62.h5
+ Reading Ni64 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ni64.h5
+ Reading Np234 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np234.h5
+ Reading Np235 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np235.h5
+ Reading Np236 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np236.h5
+ Reading Np237 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np237.h5
+ Reading Np238 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np238.h5
+ Reading Np239 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Np239.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/O17.h5
+ Reading P31 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/P31.h5
+ Reading Pa229 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa229.h5
+ Reading Pa230 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa230.h5
+ Reading Pa231 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa231.h5
+ Reading Pa232 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa232.h5
+ Reading Pa233 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pa233.h5
+ Reading Pb204 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb204.h5
+ Reading Pb206 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb206.h5
+ Reading Pb207 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb207.h5
+ Reading Pb208 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pb208.h5
+ Reading Pd102 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd102.h5
+ Reading Pd104 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd104.h5
+ Reading Pd105 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd105.h5
+ Reading Pd106 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd106.h5
+ Reading Pd107 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd107.h5
+ Reading Pd108 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd108.h5
+ Reading Pd110 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pd110.h5
+ Reading Pm147 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm147.h5
+ Reading Pm148 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm148.h5
+ Reading Pm148_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm148_m1.h5
+ Reading Pm149 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm149.h5
+ Reading Pm151 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pm151.h5
+ Reading Pr141 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pr141.h5
+ Reading Pr142 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pr142.h5
+ Reading Pr143 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pr143.h5
+ Reading Pu236 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu236.h5
+ Reading Pu237 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu237.h5
+ Reading Pu238 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu238.h5
+ Reading Pu239 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu239.h5
+ Reading Pu240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu240.h5
+ Reading Pu241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu241.h5
+ Reading Pu242 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu242.h5
+ Reading Pu243 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu243.h5
+ Reading Pu244 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu244.h5
+ Reading Pu246 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Pu246.h5
+ Reading Ra223 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra223.h5
+ Reading Ra224 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra224.h5
+ Reading Ra225 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra225.h5
+ Reading Ra226 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ra226.h5
+ Reading Rb85 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rb85.h5
+ Reading Rb86 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rb86.h5
+ Reading Rb87 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rb87.h5
+ Reading Re185 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Re185.h5
+ Reading Re187 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Re187.h5
+ Reading Rh103 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rh103.h5
+ Reading Rh105 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Rh105.h5
+ Reading Ru100 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru100.h5
+ Reading Ru101 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru101.h5
+ Reading Ru102 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru102.h5
+ Reading Ru103 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru103.h5
+ Reading Ru104 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru104.h5
+ Reading Ru105 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru105.h5
+ Reading Ru106 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru106.h5
+ Reading Ru96 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru96.h5
+ Reading Ru98 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru98.h5
+ Reading Ru99 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ru99.h5
+ Reading S32 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S32.h5
+ Reading S33 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S33.h5
+ Reading S34 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S34.h5
+ Reading S36 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/S36.h5
+ Reading Sb121 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb121.h5
+ Reading Sb123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb123.h5
+ Reading Sb124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb124.h5
+ Reading Sb125 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb125.h5
+ Reading Sb126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sb126.h5
+ Reading Sc45 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sc45.h5
+ Reading Se74 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se74.h5
+ Reading Se76 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se76.h5
+ Reading Se77 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se77.h5
+ Reading Se78 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se78.h5
+ Reading Se79 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se79.h5
+ WARNING: Negative value(s) found on probability table for nuclide Se79 at 294K
+ Reading Se80 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se80.h5
+ Reading Se82 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Se82.h5
+ Reading Si28 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Si28.h5
+ Reading Si29 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Si29.h5
+ Reading Si30 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Si30.h5
+ Reading Sm144 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm144.h5
+ Reading Sm147 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm147.h5
+ Reading Sm148 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm148.h5
+ Reading Sm149 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm149.h5
+ Reading Sm150 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm150.h5
+ Reading Sm151 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm151.h5
+ Reading Sm152 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm152.h5
+ Reading Sm153 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm153.h5
+ Reading Sm154 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sm154.h5
+ Reading Sn112 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn112.h5
+ Reading Sn113 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn113.h5
+ Reading Sn114 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn114.h5
+ Reading Sn115 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn115.h5
+ Reading Sn116 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn116.h5
+ Reading Sn117 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn117.h5
+ Reading Sn118 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn118.h5
+ Reading Sn119 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn119.h5
+ Reading Sn120 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn120.h5
+ Reading Sn122 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn122.h5
+ Reading Sn123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn123.h5
+ WARNING: Negative value(s) found on probability table for nuclide Sn123 at 294K
+ Reading Sn124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn124.h5
+ Reading Sn125 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn125.h5
+ Reading Sn126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sn126.h5
+ Reading Sr84 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr84.h5
+ Reading Sr86 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr86.h5
+ Reading Sr87 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr87.h5
+ Reading Sr88 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr88.h5
+ Reading Sr89 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr89.h5
+ Reading Sr90 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Sr90.h5
+ Reading Ta180 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ta180.h5
+ Reading Ta181 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ta181.h5
+ Reading Ta182 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ta182.h5
+ Reading Tb159 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tb159.h5
+ Reading Tb160 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tb160.h5
+ Reading Tc99 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tc99.h5
+ Reading Te120 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te120.h5
+ Reading Te122 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te122.h5
+ Reading Te123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te123.h5
+ Reading Te124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te124.h5
+ Reading Te125 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te125.h5
+ Reading Te126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te126.h5
+ Reading Te127_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te127_m1.h5
+ Reading Te128 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te128.h5
+ Reading Te129_m1 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te129_m1.h5
+ Reading Te130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te130.h5
+ Reading Te132 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Te132.h5
+ Reading Th227 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th227.h5
+ Reading Th228 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th228.h5
+ Reading Th229 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th229.h5
+ Reading Th230 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th230.h5
+ Reading Th231 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th231.h5
+ Reading Th232 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th232.h5
+ Reading Th233 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th233.h5
+ Reading Th234 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Th234.h5
+ Reading Ti46 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti46.h5
+ Reading Ti47 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti47.h5
+ Reading Ti48 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti48.h5
+ Reading Ti49 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti49.h5
+ Reading Ti50 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Ti50.h5
+ Reading Tl203 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tl203.h5
+ Reading Tl205 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tl205.h5
+ Reading Tm168 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tm168.h5
+ Reading Tm169 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tm169.h5
+ Reading Tm170 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Tm170.h5
+ Reading U230 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U230.h5
+ Reading U231 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U231.h5
+ Reading U232 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U232.h5
+ Reading U233 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U233.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U235.h5
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U236.h5
+ Reading U237 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U237.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U238.h5
+ Reading U239 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U239.h5
+ Reading U240 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U240.h5
+ Reading U241 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/U241.h5
+ Reading V50 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/V50.h5
+ Reading V51 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/V51.h5
+ Reading W180 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W180.h5
+ Reading W182 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W182.h5
+ Reading W183 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W183.h5
+ Reading W184 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W184.h5
+ Reading W186 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/W186.h5
+ Reading Xe123 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe123.h5
+ Reading Xe124 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe124.h5
+ Reading Xe126 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe126.h5
+ Reading Xe128 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe128.h5
+ Reading Xe129 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe129.h5
+ Reading Xe130 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe130.h5
+ Reading Xe131 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe131.h5
+ Reading Xe132 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe132.h5
+ Reading Xe133 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe133.h5
+ Reading Xe134 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe134.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Xe136.h5
+ Reading Y89 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Y89.h5
+ Reading Y90 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Y90.h5
+ Reading Y91 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Y91.h5
+ Reading Zn64 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn64.h5
+ Reading Zn65 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn65.h5
+ Reading Zn66 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn66.h5
+ Reading Zn67 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn67.h5
+ Reading Zn68 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn68.h5
+ Reading Zn70 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zn70.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr92.h5
+ Reading Zr93 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr93.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr94.h5
+ Reading Zr95 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr95.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/Zr96.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/hours3-full/../../cross-section-librari
+ es/endfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 0 K
+ Maximum neutron data temperature: 1.7976931348623157e+308 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for Ac225
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.44828
+        2/1    1.44489
+        3/1    1.44903
+        4/1    1.45395
+        5/1    1.44906
+        6/1    1.43309
+        7/1    1.45201
+        8/1    1.44401
+        9/1    1.45457
+       10/1    1.45081
+       11/1    1.44951
+       12/1    1.43898
+       13/1    1.44321
+       14/1    1.44645
+       15/1    1.45063
+       16/1    1.45062
+       17/1    1.44141
+       18/1    1.44732
+       19/1    1.44584
+       20/1    1.45670
+       21/1    1.43803
+       22/1    1.45182
+       23/1    1.45959
+       24/1    1.44860
+       25/1    1.45158
+       26/1    1.43984
+       27/1    1.45548    1.44766 +/- 0.00782
+       28/1    1.45440    1.44991 +/- 0.00504
+       29/1    1.44325    1.44824 +/- 0.00394
+       30/1    1.44653    1.44790 +/- 0.00307
+       31/1    1.44408    1.44726 +/- 0.00258
+       32/1    1.45284    1.44806 +/- 0.00233
+       33/1    1.44438    1.44760 +/- 0.00207
+       34/1    1.45125    1.44801 +/- 0.00187
+       35/1    1.45286    1.44849 +/- 0.00174
+       36/1    1.43930    1.44766 +/- 0.00178
+       37/1    1.44724    1.44762 +/- 0.00163
+       38/1    1.44602    1.44750 +/- 0.00150
+       39/1    1.44827    1.44755 +/- 0.00139
+       40/1    1.44335    1.44727 +/- 0.00132
+       41/1    1.44947    1.44741 +/- 0.00125
+       42/1    1.44518    1.44728 +/- 0.00118
+       43/1    1.44399    1.44710 +/- 0.00113
+       44/1    1.45179    1.44734 +/- 0.00109
+       45/1    1.44421    1.44719 +/- 0.00105
+       46/1    1.45302    1.44746 +/- 0.00104
+       47/1    1.44300    1.44726 +/- 0.00101
+       48/1    1.45112    1.44743 +/- 0.00098
+       49/1    1.45058    1.44756 +/- 0.00095
+       50/1    1.45222    1.44775 +/- 0.00093
+       51/1    1.44558    1.44766 +/- 0.00089
+       52/1    1.45620    1.44798 +/- 0.00092
+       53/1    1.43937    1.44767 +/- 0.00093
+       54/1    1.45182    1.44781 +/- 0.00091
+       55/1    1.44546    1.44774 +/- 0.00089
+       56/1    1.44696    1.44771 +/- 0.00086
+       57/1    1.43580    1.44734 +/- 0.00091
+       58/1    1.44524    1.44728 +/- 0.00088
+       59/1    1.44878    1.44732 +/- 0.00086
+       60/1    1.44632    1.44729 +/- 0.00083
+       61/1    1.44256    1.44716 +/- 0.00082
+       62/1    1.46261    1.44758 +/- 0.00090
+       63/1    1.45176    1.44769 +/- 0.00088
+       64/1    1.44749    1.44768 +/- 0.00086
+       65/1    1.44941    1.44773 +/- 0.00084
+       66/1    1.43829    1.44750 +/- 0.00085
+       67/1    1.45066    1.44757 +/- 0.00083
+       68/1    1.42813    1.44712 +/- 0.00093
+       69/1    1.44231    1.44701 +/- 0.00092
+       70/1    1.45268    1.44714 +/- 0.00091
+       71/1    1.44760    1.44715 +/- 0.00089
+       72/1    1.44813    1.44717 +/- 0.00087
+       73/1    1.44777    1.44718 +/- 0.00085
+       74/1    1.44582    1.44715 +/- 0.00083
+       75/1    1.44950    1.44720 +/- 0.00082
+       76/1    1.45664    1.44738 +/- 0.00082
+       77/1    1.45039    1.44744 +/- 0.00081
+       78/1    1.45162    1.44752 +/- 0.00080
+       79/1    1.44611    1.44749 +/- 0.00078
+       80/1    1.45634    1.44765 +/- 0.00078
+       81/1    1.45552    1.44780 +/- 0.00078
+       82/1    1.44601    1.44776 +/- 0.00077
+       83/1    1.44562    1.44773 +/- 0.00076
+       84/1    1.45197    1.44780 +/- 0.00075
+       85/1    1.45050    1.44784 +/- 0.00074
+       86/1    1.45501    1.44796 +/- 0.00073
+       87/1    1.44570    1.44792 +/- 0.00072
+       88/1    1.44891    1.44794 +/- 0.00071
+       89/1    1.44161    1.44784 +/- 0.00071
+       90/1    1.44497    1.44780 +/- 0.00070
+       91/1    1.43867    1.44766 +/- 0.00070
+       92/1    1.45317    1.44774 +/- 0.00069
+       93/1    1.45534    1.44785 +/- 0.00069
+       94/1    1.45005    1.44788 +/- 0.00068
+       95/1    1.45380    1.44797 +/- 0.00068
+       96/1    1.45001    1.44800 +/- 0.00067
+       97/1    1.44864    1.44801 +/- 0.00066
+       98/1    1.45390    1.44809 +/- 0.00066
+       99/1    1.44953    1.44811 +/- 0.00065
+      100/1    1.44646    1.44809 +/- 0.00064
+      101/1    1.45874    1.44823 +/- 0.00065
+      102/1    1.45260    1.44828 +/- 0.00064
+      103/1    1.44815    1.44828 +/- 0.00063
+      104/1    1.44248    1.44821 +/- 0.00063
+      105/1    1.45170    1.44825 +/- 0.00062
+      106/1    1.43273    1.44806 +/- 0.00064
+      107/1    1.44052    1.44797 +/- 0.00064
+      108/1    1.44969    1.44799 +/- 0.00064
+      109/1    1.44304    1.44793 +/- 0.00063
+      110/1    1.44430    1.44789 +/- 0.00062
+      111/1    1.44599    1.44786 +/- 0.00062
+      112/1    1.44299    1.44781 +/- 0.00061
+      113/1    1.44482    1.44777 +/- 0.00061
+      114/1    1.45570    1.44786 +/- 0.00061
+      115/1    1.44450    1.44783 +/- 0.00060
+      116/1    1.45128    1.44786 +/- 0.00060
+      117/1    1.45095    1.44790 +/- 0.00059
+      118/1    1.44690    1.44789 +/- 0.00058
+      119/1    1.43748    1.44778 +/- 0.00059
+      120/1    1.44294    1.44773 +/- 0.00058
+      121/1    1.45349    1.44779 +/- 0.00058
+      122/1    1.44305    1.44774 +/- 0.00058
+      123/1    1.45201    1.44778 +/- 0.00057
+      124/1    1.45058    1.44781 +/- 0.00057
+      125/1    1.45685    1.44790 +/- 0.00057
+ Creating state point statepoint.125.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 5.3354e+01 seconds
+   Reading cross sections          = 5.3324e+01 seconds
+ Total time in simulation          = 7.8773e+02 seconds
+   Time in transport only          = 7.7286e+02 seconds
+   Time in inactive batches        = 3.5645e+01 seconds
+   Time in active batches          = 7.5208e+02 seconds
+   Time synchronizing fission bank = 1.4417e+01 seconds
+     Sampling source sites         = 1.9243e-01 seconds
+     SEND/RECV source sites        = 2.5299e-02 seconds
+   Time accumulating tallies       = 2.2166e-01 seconds
+   Time writing statepoints        = 1.2265e-01 seconds
+ Total time for finalization       = 1.5554e-04 seconds
+ Total time elapsed                = 8.4132e+02 seconds
+ Calculation Rate (inactive)       = 70135.2 particles/second
+ Calculation Rate (active)         = 13296.4 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.44790 +/- 0.00045
+ k-effective (Track-length)  = 1.44790 +/- 0.00057
+ k-effective (Absorption)    = 1.44816 +/- 0.00031
+ Combined k-effective        = 1.44810 +/- 0.00030
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=0.0 s, dt=14400 s, source=174
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+[openmc.deplete] t=14400.0 (final operator evaluation)
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-08-19 15:52:07
+   MPI Processes | 8
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+ Reading materials XML file...
+ Reading geometry XML file...
+ ERROR: Could not find material 1 specified on cell 1
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 0
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2548665.0 ON bdw-0028 CANCELLED AT 2022-08-19T15:52:07 ***
+srun: error: bdw-0157: tasks 4-5: Killed
+srun: error: bdw-0147: tasks 2-3: Killed
+srun: error: bdw-0453: tasks 6-7: Killed
+srun: error: bdw-0028: tasks 0-1: Killed

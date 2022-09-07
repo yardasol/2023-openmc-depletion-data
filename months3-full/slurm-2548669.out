@@ -1,0 +1,64 @@
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+ ERROR: Error processing settings.xml file.
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 7
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2548669.0 ON bdw-0365 CANCELLED AT 2022-08-19T15:40:03 ***
+srun: error: bdw-0567: tasks 6-7: Killed
+srun: error: bdw-0558: tasks 4-5: Killed
+srun: error: bdw-0365: tasks 0-1: Killed
+srun: error: bdw-0557: tasks 2-3: Killed

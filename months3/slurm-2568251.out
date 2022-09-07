@@ -1,0 +1,2145 @@
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:07
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.37856
+        2/1    1.32155
+        3/1    1.41305
+        4/1    1.41623
+        5/1    1.40072
+        6/1    1.44409
+        7/1    1.49746
+        8/1    1.38730
+        9/1    1.33819
+       10/1    1.42284
+       11/1    1.47366
+       12/1    1.37714    1.42540 +/- 0.04826
+       13/1    1.46341    1.43807 +/- 0.03061
+       14/1    1.41312    1.43183 +/- 0.02252
+       15/1    1.42177    1.42982 +/- 0.01756
+       16/1    1.43108    1.43003 +/- 0.01434
+       17/1    1.41906    1.42846 +/- 0.01222
+       18/1    1.40913    1.42605 +/- 0.01086
+       19/1    1.54389    1.43914 +/- 0.01622
+       20/1    1.45115    1.44034 +/- 0.01456
+       21/1    1.37611    1.43450 +/- 0.01440
+       22/1    1.39412    1.43114 +/- 0.01357
+       23/1    1.50924    1.43714 +/- 0.01386
+       24/1    1.44116    1.43743 +/- 0.01283
+       25/1    1.44064    1.43765 +/- 0.01195
+       26/1    1.51295    1.44235 +/- 0.01213
+       27/1    1.47118    1.44405 +/- 0.01152
+       28/1    1.40084    1.44165 +/- 0.01112
+       29/1    1.39791    1.43935 +/- 0.01077
+       30/1    1.30778    1.43277 +/- 0.01215
+       31/1    1.43914    1.43307 +/- 0.01156
+       32/1    1.36123    1.42981 +/- 0.01150
+       33/1    1.42108    1.42943 +/- 0.01099
+       34/1    1.48598    1.43178 +/- 0.01078
+       35/1    1.44182    1.43218 +/- 0.01035
+       36/1    1.46667    1.43351 +/- 0.01003
+       37/1    1.45544    1.43432 +/- 0.00969
+       38/1    1.41679    1.43370 +/- 0.00936
+       39/1    1.45806    1.43454 +/- 0.00907
+       40/1    1.38518    1.43289 +/- 0.00891
+       41/1    1.43204    1.43286 +/- 0.00862
+       42/1    1.46263    1.43379 +/- 0.00840
+       43/1    1.29808    1.42968 +/- 0.00912
+       44/1    1.45719    1.43049 +/- 0.00889
+       45/1    1.51166    1.43281 +/- 0.00893
+       46/1    1.46913    1.43382 +/- 0.00874
+       47/1    1.46021    1.43453 +/- 0.00853
+       48/1    1.48470    1.43585 +/- 0.00841
+       49/1    1.36096    1.43393 +/- 0.00841
+       50/1    1.43246    1.43390 +/- 0.00820
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.6923e+00 seconds
+   Reading cross sections          = 2.3656e+00 seconds
+ Total time in simulation          = 2.0006e-01 seconds
+   Time in transport only          = 1.2703e-01 seconds
+   Time in inactive batches        = 2.6219e-02 seconds
+   Time in active batches          = 1.7384e-01 seconds
+   Time synchronizing fission bank = 2.2305e-02 seconds
+     Sampling source sites         = 8.8743e-03 seconds
+     SEND/RECV source sites        = 4.4682e-04 seconds
+   Time accumulating tallies       = 3.0849e-03 seconds
+   Time writing statepoints        = 3.8087e-02 seconds
+ Total time for finalization       = 2.1967e-05 seconds
+ Total time elapsed                = 2.9084e+00 seconds
+ Calculation Rate (inactive)       = 381397 particles/second
+ Calculation Rate (active)         = 230100 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.43399 +/- 0.00699
+ k-effective (Track-length)  = 1.43390 +/- 0.00820
+ k-effective (Absorption)    = 1.42602 +/- 0.00510
+ Combined k-effective        = 1.42759 +/- 0.00518
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:11
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.38274
+        2/1    1.42413
+        3/1    1.42917
+        4/1    1.42679
+        5/1    1.40072
+        6/1    1.43822
+        7/1    1.48716
+        8/1    1.34699
+        9/1    1.41687
+       10/1    1.36197
+       11/1    1.55167
+       12/1    1.36183    1.45675 +/- 0.09492
+       13/1    1.41466    1.44272 +/- 0.05657
+       14/1    1.36268    1.42271 +/- 0.04473
+       15/1    1.39515    1.41720 +/- 0.03508
+       16/1    1.35826    1.40737 +/- 0.03028
+       17/1    1.44480    1.41272 +/- 0.02615
+       18/1    1.45391    1.41787 +/- 0.02322
+       19/1    1.54562    1.43206 +/- 0.02492
+       20/1    1.42063    1.43092 +/- 0.02232
+       21/1    1.43215    1.43103 +/- 0.02019
+       22/1    1.37632    1.42647 +/- 0.01898
+       23/1    1.39696    1.42420 +/- 0.01761
+       24/1    1.45889    1.42668 +/- 0.01649
+       25/1    1.41348    1.42580 +/- 0.01538
+       26/1    1.45059    1.42735 +/- 0.01447
+       27/1    1.37412    1.42422 +/- 0.01394
+       28/1    1.45024    1.42566 +/- 0.01323
+       29/1    1.44841    1.42686 +/- 0.01257
+       30/1    1.38797    1.42492 +/- 0.01208
+       31/1    1.38806    1.42316 +/- 0.01162
+       32/1    1.50392    1.42683 +/- 0.01168
+       33/1    1.47979    1.42914 +/- 0.01139
+       34/1    1.38784    1.42741 +/- 0.01104
+       35/1    1.39071    1.42595 +/- 0.01069
+       36/1    1.44949    1.42685 +/- 0.01031
+       37/1    1.53534    1.43087 +/- 0.01071
+       38/1    1.46214    1.43199 +/- 0.01038
+       39/1    1.43824    1.43220 +/- 0.01001
+       40/1    1.44843    1.43274 +/- 0.00969
+       41/1    1.38446    1.43119 +/- 0.00950
+       42/1    1.43743    1.43138 +/- 0.00920
+       43/1    1.45667    1.43215 +/- 0.00895
+       44/1    1.40009    1.43120 +/- 0.00873
+       45/1    1.42229    1.43095 +/- 0.00849
+       46/1    1.43748    1.43113 +/- 0.00825
+       47/1    1.42027    1.43084 +/- 0.00803
+       48/1    1.46305    1.43169 +/- 0.00786
+       49/1    1.52583    1.43410 +/- 0.00803
+       50/1    1.44603    1.43440 +/- 0.00783
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0809e+00 seconds
+   Reading cross sections          = 2.0448e+00 seconds
+ Total time in simulation          = 2.0281e-01 seconds
+   Time in transport only          = 1.2877e-01 seconds
+   Time in inactive batches        = 4.1427e-02 seconds
+   Time in active batches          = 1.6138e-01 seconds
+   Time synchronizing fission bank = 3.5342e-02 seconds
+     Sampling source sites         = 7.7059e-03 seconds
+     SEND/RECV source sites        = 3.7805e-04 seconds
+   Time accumulating tallies       = 4.2808e-03 seconds
+   Time writing statepoints        = 2.5199e-02 seconds
+ Total time for finalization       = 2.2417e-05 seconds
+ Total time elapsed                = 2.3013e+00 seconds
+ Calculation Rate (inactive)       = 241387 particles/second
+ Calculation Rate (active)         = 247857 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.43451 +/- 0.00598
+ k-effective (Track-length)  = 1.43440 +/- 0.00783
+ k-effective (Absorption)    = 1.42665 +/- 0.00408
+ Combined k-effective        = 1.42790 +/- 0.00405
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:15
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.38689
+        2/1    1.37542
+        3/1    1.39094
+        4/1    1.42924
+        5/1    1.33797
+        6/1    1.36529
+        7/1    1.35053
+        8/1    1.43944
+        9/1    1.40970
+       10/1    1.45679
+       11/1    1.44327
+       12/1    1.41734    1.43030 +/- 0.01296
+       13/1    1.42974    1.43011 +/- 0.00749
+       14/1    1.47652    1.44171 +/- 0.01275
+       15/1    1.38940    1.43125 +/- 0.01439
+       16/1    1.48761    1.44064 +/- 0.01504
+       17/1    1.38383    1.43253 +/- 0.01508
+       18/1    1.41177    1.42993 +/- 0.01332
+       19/1    1.49364    1.43701 +/- 0.01371
+       20/1    1.50388    1.44370 +/- 0.01397
+       21/1    1.40376    1.44007 +/- 0.01315
+       22/1    1.39832    1.43659 +/- 0.01250
+       23/1    1.38465    1.43259 +/- 0.01217
+       24/1    1.45139    1.43394 +/- 0.01135
+       25/1    1.49863    1.43825 +/- 0.01141
+       26/1    1.39540    1.43557 +/- 0.01100
+       27/1    1.37894    1.43224 +/- 0.01086
+       28/1    1.41809    1.43145 +/- 0.01027
+       29/1    1.53183    1.43674 +/- 0.01106
+       30/1    1.45857    1.43783 +/- 0.01055
+       31/1    1.49913    1.44075 +/- 0.01045
+       32/1    1.36676    1.43738 +/- 0.01051
+       33/1    1.43392    1.43723 +/- 0.01005
+       34/1    1.47938    1.43899 +/- 0.00978
+       35/1    1.34543    1.43525 +/- 0.01010
+       36/1    1.40088    1.43393 +/- 0.00979
+       37/1    1.37453    1.43173 +/- 0.00968
+       38/1    1.39372    1.43037 +/- 0.00942
+       39/1    1.50820    1.43305 +/- 0.00948
+       40/1    1.43586    1.43315 +/- 0.00916
+       41/1    1.44387    1.43349 +/- 0.00886
+       42/1    1.45484    1.43416 +/- 0.00861
+       43/1    1.47672    1.43545 +/- 0.00844
+       44/1    1.36707    1.43344 +/- 0.00843
+       45/1    1.53093    1.43622 +/- 0.00865
+       46/1    1.42199    1.43583 +/- 0.00842
+       47/1    1.43879    1.43591 +/- 0.00819
+       48/1    1.46808    1.43675 +/- 0.00801
+       49/1    1.42196    1.43638 +/- 0.00781
+       50/1    1.42560    1.43611 +/- 0.00762
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0669e+00 seconds
+   Reading cross sections          = 2.0322e+00 seconds
+ Total time in simulation          = 2.2488e-01 seconds
+   Time in transport only          = 1.2965e-01 seconds
+   Time in inactive batches        = 5.7803e-02 seconds
+   Time in active batches          = 1.6708e-01 seconds
+   Time synchronizing fission bank = 5.3971e-02 seconds
+     Sampling source sites         = 8.7805e-03 seconds
+     SEND/RECV source sites        = 4.3040e-04 seconds
+   Time accumulating tallies       = 3.1691e-03 seconds
+   Time writing statepoints        = 2.8439e-02 seconds
+ Total time for finalization       = 2.2967e-05 seconds
+ Total time elapsed                = 2.3067e+00 seconds
+ Calculation Rate (inactive)       = 173001 particles/second
+ Calculation Rate (active)         = 239412 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.42710 +/- 0.00626
+ k-effective (Track-length)  = 1.43611 +/- 0.00762
+ k-effective (Absorption)    = 1.42468 +/- 0.00486
+ Combined k-effective        = 1.42603 +/- 0.00471
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:19
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.37709
+        2/1    1.38610
+        3/1    1.32771
+        4/1    1.41252
+        5/1    1.41519
+        6/1    1.36203
+        7/1    1.41788
+        8/1    1.42849
+        9/1    1.42209
+       10/1    1.44522
+       11/1    1.41861
+       12/1    1.34262    1.38062 +/- 0.03800
+       13/1    1.44209    1.40111 +/- 0.03002
+       14/1    1.42415    1.40687 +/- 0.02200
+       15/1    1.40118    1.40573 +/- 0.01708
+       16/1    1.42346    1.40868 +/- 0.01425
+       17/1    1.41332    1.40935 +/- 0.01206
+       18/1    1.36406    1.40369 +/- 0.01188
+       19/1    1.38937    1.40209 +/- 0.01060
+       20/1    1.45523    1.40741 +/- 0.01087
+       21/1    1.36903    1.40392 +/- 0.01043
+       22/1    1.41808    1.40510 +/- 0.00959
+       23/1    1.45615    1.40903 +/- 0.00966
+       24/1    1.40345    1.40863 +/- 0.00895
+       25/1    1.51990    1.41605 +/- 0.01116
+       26/1    1.37860    1.41371 +/- 0.01070
+       27/1    1.46190    1.41654 +/- 0.01044
+       28/1    1.36482    1.41367 +/- 0.01025
+       29/1    1.36728    1.41123 +/- 0.01000
+       30/1    1.43869    1.41260 +/- 0.00959
+       31/1    1.39035    1.41154 +/- 0.00918
+       32/1    1.36626    1.40948 +/- 0.00899
+       33/1    1.40571    1.40932 +/- 0.00859
+       34/1    1.36889    1.40763 +/- 0.00840
+       35/1    1.46947    1.41011 +/- 0.00843
+       36/1    1.41582    1.41033 +/- 0.00810
+       37/1    1.39340    1.40970 +/- 0.00782
+       38/1    1.44694    1.41103 +/- 0.00765
+       39/1    1.43822    1.41197 +/- 0.00744
+       40/1    1.44656    1.41312 +/- 0.00728
+       41/1    1.41784    1.41327 +/- 0.00704
+       42/1    1.36082    1.41163 +/- 0.00701
+       43/1    1.37927    1.41065 +/- 0.00687
+       44/1    1.39729    1.41026 +/- 0.00668
+       45/1    1.44728    1.41132 +/- 0.00657
+       46/1    1.48292    1.41331 +/- 0.00669
+       47/1    1.49582    1.41554 +/- 0.00687
+       48/1    1.50648    1.41793 +/- 0.00711
+       49/1    1.49515    1.41991 +/- 0.00720
+       50/1    1.43065    1.42018 +/- 0.00702
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.1023e+00 seconds
+   Reading cross sections          = 2.0655e+00 seconds
+ Total time in simulation          = 2.0794e-01 seconds
+   Time in transport only          = 1.2804e-01 seconds
+   Time in inactive batches        = 4.8874e-02 seconds
+   Time in active batches          = 1.5906e-01 seconds
+   Time synchronizing fission bank = 4.5051e-02 seconds
+     Sampling source sites         = 7.8082e-03 seconds
+     SEND/RECV source sites        = 6.6653e-04 seconds
+   Time accumulating tallies       = 3.4886e-03 seconds
+   Time writing statepoints        = 2.1809e-02 seconds
+ Total time for finalization       = 2.0734e-05 seconds
+ Total time elapsed                = 2.3255e+00 seconds
+ Calculation Rate (inactive)       = 204608 particles/second
+ Calculation Rate (active)         = 251475 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.42759 +/- 0.00690
+ k-effective (Track-length)  = 1.42018 +/- 0.00702
+ k-effective (Absorption)    = 1.41995 +/- 0.00472
+ Combined k-effective        = 1.41867 +/- 0.00451
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:22
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.36209
+        2/1    1.34553
+        3/1    1.43495
+        4/1    1.35666
+        5/1    1.47485
+        6/1    1.42341
+        7/1    1.49065
+        8/1    1.41340
+        9/1    1.38295
+       10/1    1.41540
+       11/1    1.43368
+       12/1    1.37597    1.40483 +/- 0.02885
+       13/1    1.42674    1.41213 +/- 0.01819
+       14/1    1.43783    1.41856 +/- 0.01438
+       15/1    1.43253    1.42135 +/- 0.01148
+       16/1    1.46610    1.42881 +/- 0.01198
+       17/1    1.47293    1.43511 +/- 0.01193
+       18/1    1.47155    1.43967 +/- 0.01129
+       19/1    1.31600    1.42593 +/- 0.01697
+       20/1    1.46474    1.42981 +/- 0.01567
+       21/1    1.44708    1.43138 +/- 0.01426
+       22/1    1.41437    1.42996 +/- 0.01309
+       23/1    1.34850    1.42369 +/- 0.01358
+       24/1    1.42739    1.42396 +/- 0.01257
+       25/1    1.44416    1.42530 +/- 0.01178
+       26/1    1.34064    1.42001 +/- 0.01222
+       27/1    1.43149    1.42069 +/- 0.01150
+       28/1    1.43741    1.42162 +/- 0.01088
+       29/1    1.43689    1.42242 +/- 0.01033
+       30/1    1.37740    1.42017 +/- 0.01005
+       31/1    1.50027    1.42398 +/- 0.01029
+       32/1    1.36848    1.42146 +/- 0.01013
+       33/1    1.43134    1.42189 +/- 0.00969
+       34/1    1.44529    1.42287 +/- 0.00933
+       35/1    1.36344    1.42049 +/- 0.00926
+       36/1    1.42785    1.42077 +/- 0.00890
+       37/1    1.48471    1.42314 +/- 0.00889
+       38/1    1.38592    1.42181 +/- 0.00867
+       39/1    1.45719    1.42303 +/- 0.00845
+       40/1    1.49345    1.42538 +/- 0.00850
+       41/1    1.40517    1.42473 +/- 0.00824
+       42/1    1.44900    1.42549 +/- 0.00802
+       43/1    1.38978    1.42440 +/- 0.00784
+       44/1    1.38324    1.42319 +/- 0.00771
+       45/1    1.46477    1.42438 +/- 0.00758
+       46/1    1.43165    1.42458 +/- 0.00737
+       47/1    1.39259    1.42372 +/- 0.00722
+       48/1    1.44958    1.42440 +/- 0.00706
+       49/1    1.52466    1.42697 +/- 0.00734
+       50/1    1.48430    1.42840 +/- 0.00729
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0769e+00 seconds
+   Reading cross sections          = 2.0384e+00 seconds
+ Total time in simulation          = 1.9475e-01 seconds
+   Time in transport only          = 1.2824e-01 seconds
+   Time in inactive batches        = 3.2539e-02 seconds
+   Time in active batches          = 1.6221e-01 seconds
+   Time synchronizing fission bank = 2.9299e-02 seconds
+     Sampling source sites         = 7.5531e-03 seconds
+     SEND/RECV source sites        = 7.0771e-04 seconds
+   Time accumulating tallies       = 3.1911e-03 seconds
+   Time writing statepoints        = 2.4265e-02 seconds
+ Total time for finalization       = 2.2318e-05 seconds
+ Total time elapsed                = 2.2869e+00 seconds
+ Calculation Rate (inactive)       = 307321 particles/second
+ Calculation Rate (active)         = 246592 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.43103 +/- 0.00470
+ k-effective (Track-length)  = 1.42840 +/- 0.00729
+ k-effective (Absorption)    = 1.42202 +/- 0.00480
+ Combined k-effective        = 1.42683 +/- 0.00429
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:26
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.33549
+        2/1    1.35492
+        3/1    1.35000
+        4/1    1.42085
+        5/1    1.43095
+        6/1    1.52972
+        7/1    1.48111
+        8/1    1.37392
+        9/1    1.43841
+       10/1    1.38197
+       11/1    1.43028
+       12/1    1.44727    1.43878 +/- 0.00849
+       13/1    1.35127    1.40961 +/- 0.02958
+       14/1    1.45813    1.42174 +/- 0.02418
+       15/1    1.34527    1.40644 +/- 0.02418
+       16/1    1.42670    1.40982 +/- 0.02003
+       17/1    1.39101    1.40713 +/- 0.01714
+       18/1    1.38089    1.40385 +/- 0.01520
+       19/1    1.38407    1.40165 +/- 0.01359
+       20/1    1.38261    1.39975 +/- 0.01230
+       21/1    1.41276    1.40093 +/- 0.01119
+       22/1    1.42370    1.40283 +/- 0.01039
+       23/1    1.43839    1.40557 +/- 0.00994
+       24/1    1.40013    1.40518 +/- 0.00921
+       25/1    1.34496    1.40116 +/- 0.00947
+       26/1    1.38825    1.40036 +/- 0.00889
+       27/1    1.56139    1.40983 +/- 0.01263
+       28/1    1.40903    1.40978 +/- 0.01191
+       29/1    1.42922    1.41081 +/- 0.01131
+       30/1    1.35135    1.40783 +/- 0.01113
+       31/1    1.44923    1.40981 +/- 0.01077
+       32/1    1.42730    1.41060 +/- 0.01030
+       33/1    1.42353    1.41116 +/- 0.00986
+       34/1    1.38424    1.41004 +/- 0.00951
+       35/1    1.48343    1.41298 +/- 0.00958
+       36/1    1.44098    1.41405 +/- 0.00927
+       37/1    1.42566    1.41448 +/- 0.00893
+       38/1    1.43348    1.41516 +/- 0.00863
+       39/1    1.47427    1.41720 +/- 0.00857
+       40/1    1.40093    1.41666 +/- 0.00830
+       41/1    1.40357    1.41624 +/- 0.00804
+       42/1    1.42807    1.41661 +/- 0.00779
+       43/1    1.39544    1.41596 +/- 0.00758
+       44/1    1.38438    1.41504 +/- 0.00741
+       45/1    1.39331    1.41441 +/- 0.00722
+       46/1    1.49959    1.41678 +/- 0.00741
+       47/1    1.44837    1.41763 +/- 0.00725
+       48/1    1.42036    1.41771 +/- 0.00706
+       49/1    1.46161    1.41883 +/- 0.00697
+       50/1    1.39666    1.41828 +/- 0.00682
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.1157e+00 seconds
+   Reading cross sections          = 2.0791e+00 seconds
+ Total time in simulation          = 1.9255e-01 seconds
+   Time in transport only          = 1.2811e-01 seconds
+   Time in inactive batches        = 2.5214e-02 seconds
+   Time in active batches          = 1.6734e-01 seconds
+   Time synchronizing fission bank = 2.2768e-02 seconds
+     Sampling source sites         = 7.3711e-03 seconds
+     SEND/RECV source sites        = 5.1545e-04 seconds
+   Time accumulating tallies       = 3.6467e-03 seconds
+   Time writing statepoints        = 2.8464e-02 seconds
+ Total time for finalization       = 2.1872e-05 seconds
+ Total time elapsed                = 2.3233e+00 seconds
+ Calculation Rate (inactive)       = 396604 particles/second
+ Calculation Rate (active)         = 239039 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.41419 +/- 0.00622
+ k-effective (Track-length)  = 1.41828 +/- 0.00682
+ k-effective (Absorption)    = 1.40442 +/- 0.00484
+ Combined k-effective        = 1.40821 +/- 0.00472
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:30
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.36773
+        2/1    1.48453
+        3/1    1.36982
+        4/1    1.45325
+        5/1    1.43185
+        6/1    1.42805
+        7/1    1.42007
+        8/1    1.39922
+        9/1    1.39969
+       10/1    1.48399
+       11/1    1.42878
+       12/1    1.29019    1.35949 +/- 0.06930
+       13/1    1.44549    1.38816 +/- 0.04922
+       14/1    1.39065    1.38878 +/- 0.03481
+       15/1    1.30845    1.37271 +/- 0.03139
+       16/1    1.45673    1.38672 +/- 0.02920
+       17/1    1.42256    1.39184 +/- 0.02521
+       18/1    1.45127    1.39927 +/- 0.02306
+       19/1    1.42347    1.40196 +/- 0.02051
+       20/1    1.37656    1.39942 +/- 0.01852
+       21/1    1.36284    1.39609 +/- 0.01708
+       22/1    1.36873    1.39381 +/- 0.01576
+       23/1    1.47949    1.40040 +/- 0.01592
+       24/1    1.50840    1.40812 +/- 0.01664
+       25/1    1.31470    1.40189 +/- 0.01669
+       26/1    1.41563    1.40275 +/- 0.01564
+       27/1    1.40403    1.40282 +/- 0.01469
+       28/1    1.44381    1.40510 +/- 0.01404
+       29/1    1.41398    1.40557 +/- 0.01329
+       30/1    1.37443    1.40401 +/- 0.01270
+       31/1    1.41393    1.40448 +/- 0.01209
+       32/1    1.38356    1.40353 +/- 0.01157
+       33/1    1.48001    1.40686 +/- 0.01154
+       34/1    1.52165    1.41164 +/- 0.01204
+       35/1    1.43592    1.41261 +/- 0.01159
+       36/1    1.40667    1.41238 +/- 0.01114
+       37/1    1.39195    1.41163 +/- 0.01074
+       38/1    1.44300    1.41275 +/- 0.01041
+       39/1    1.31954    1.40953 +/- 0.01055
+       40/1    1.34821    1.40749 +/- 0.01039
+       41/1    1.44173    1.40859 +/- 0.01011
+       42/1    1.29607    1.40508 +/- 0.01041
+       43/1    1.50798    1.40819 +/- 0.01056
+       44/1    1.37327    1.40717 +/- 0.01029
+       45/1    1.31783    1.40461 +/- 0.01031
+       46/1    1.37279    1.40373 +/- 0.01006
+       47/1    1.41354    1.40400 +/- 0.00979
+       48/1    1.38727    1.40356 +/- 0.00954
+       49/1    1.49277    1.40584 +/- 0.00957
+       50/1    1.33113    1.40398 +/- 0.00951
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0685e+00 seconds
+   Reading cross sections          = 2.0340e+00 seconds
+ Total time in simulation          = 3.4073e-01 seconds
+   Time in transport only          = 1.3127e-01 seconds
+   Time in inactive batches        = 1.6503e-01 seconds
+   Time in active batches          = 1.7570e-01 seconds
+   Time synchronizing fission bank = 1.6674e-01 seconds
+     Sampling source sites         = 7.7404e-03 seconds
+     SEND/RECV source sites        = 4.7700e-04 seconds
+   Time accumulating tallies       = 3.9922e-03 seconds
+   Time writing statepoints        = 3.0028e-02 seconds
+ Total time for finalization       = 2.4406e-05 seconds
+ Total time elapsed                = 2.4253e+00 seconds
+ Calculation Rate (inactive)       = 60594.8 particles/second
+ Calculation Rate (active)         = 227657 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40019 +/- 0.00695
+ k-effective (Track-length)  = 1.40398 +/- 0.00951
+ k-effective (Absorption)    = 1.40999 +/- 0.00466
+ Combined k-effective        = 1.40814 +/- 0.00481
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:33
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.33650
+        2/1    1.49685
+        3/1    1.44614
+        4/1    1.45478
+        5/1    1.46661
+        6/1    1.25350
+        7/1    1.36001
+        8/1    1.31467
+        9/1    1.34695
+       10/1    1.32131
+       11/1    1.38837
+       12/1    1.34361    1.36599 +/- 0.02238
+       13/1    1.38238    1.37145 +/- 0.01403
+       14/1    1.34734    1.36543 +/- 0.01161
+       15/1    1.41898    1.37614 +/- 0.01399
+       16/1    1.43021    1.38515 +/- 0.01455
+       17/1    1.46518    1.39658 +/- 0.01679
+       18/1    1.45785    1.40424 +/- 0.01643
+       19/1    1.39675    1.40341 +/- 0.01452
+       20/1    1.42799    1.40587 +/- 0.01321
+       21/1    1.33250    1.39920 +/- 0.01369
+       22/1    1.32342    1.39288 +/- 0.01400
+       23/1    1.43156    1.39586 +/- 0.01322
+       24/1    1.48996    1.40258 +/- 0.01396
+       25/1    1.32850    1.39764 +/- 0.01390
+       26/1    1.50126    1.40412 +/- 0.01453
+       27/1    1.43676    1.40604 +/- 0.01378
+       28/1    1.43890    1.40786 +/- 0.01312
+       29/1    1.40987    1.40797 +/- 0.01241
+       30/1    1.36837    1.40599 +/- 0.01194
+       31/1    1.35211    1.40342 +/- 0.01164
+       32/1    1.30734    1.39905 +/- 0.01193
+       33/1    1.36834    1.39772 +/- 0.01148
+       34/1    1.40892    1.39819 +/- 0.01100
+       35/1    1.34660    1.39612 +/- 0.01075
+       36/1    1.39776    1.39619 +/- 0.01033
+       37/1    1.45033    1.39819 +/- 0.01014
+       38/1    1.37932    1.39752 +/- 0.00979
+       39/1    1.36407    1.39636 +/- 0.00952
+       40/1    1.42675    1.39738 +/- 0.00925
+       41/1    1.29931    1.39421 +/- 0.00949
+       42/1    1.38669    1.39398 +/- 0.00919
+       43/1    1.37795    1.39349 +/- 0.00892
+       44/1    1.38038    1.39311 +/- 0.00867
+       45/1    1.34505    1.39173 +/- 0.00853
+       46/1    1.46607    1.39380 +/- 0.00854
+       47/1    1.41699    1.39442 +/- 0.00833
+       48/1    1.30900    1.39218 +/- 0.00841
+       49/1    1.43646    1.39331 +/- 0.00827
+       50/1    1.45060    1.39474 +/- 0.00819
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0434e+00 seconds
+   Reading cross sections          = 2.0073e+00 seconds
+ Total time in simulation          = 2.5594e-01 seconds
+   Time in transport only          = 1.3036e-01 seconds
+   Time in inactive batches        = 8.0652e-02 seconds
+   Time in active batches          = 1.7529e-01 seconds
+   Time synchronizing fission bank = 7.7636e-02 seconds
+     Sampling source sites         = 7.5271e-03 seconds
+     SEND/RECV source sites        = 6.2006e-04 seconds
+   Time accumulating tallies       = 4.2064e-03 seconds
+   Time writing statepoints        = 3.4158e-02 seconds
+ Total time for finalization       = 2.2012e-05 seconds
+ Total time elapsed                = 2.3143e+00 seconds
+ Calculation Rate (inactive)       = 123990 particles/second
+ Calculation Rate (active)         = 228191 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.40713 +/- 0.00687
+ k-effective (Track-length)  = 1.39474 +/- 0.00819
+ k-effective (Absorption)    = 1.39927 +/- 0.00411
+ Combined k-effective        = 1.40114 +/- 0.00451
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:37
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.33154
+        2/1    1.37465
+        3/1    1.40343
+        4/1    1.38446
+        5/1    1.37893
+        6/1    1.44467
+        7/1    1.36359
+        8/1    1.35832
+        9/1    1.34070
+       10/1    1.32449
+       11/1    1.42126
+       12/1    1.34735    1.38430 +/- 0.03696
+       13/1    1.40947    1.39269 +/- 0.02293
+       14/1    1.44142    1.40487 +/- 0.02028
+       15/1    1.45424    1.41475 +/- 0.01855
+       16/1    1.35448    1.40470 +/- 0.01818
+       17/1    1.33608    1.39490 +/- 0.01822
+       18/1    1.37916    1.39293 +/- 0.01590
+       19/1    1.36346    1.38966 +/- 0.01440
+       20/1    1.34763    1.38546 +/- 0.01355
+       21/1    1.46596    1.39277 +/- 0.01428
+       22/1    1.42671    1.39560 +/- 0.01334
+       23/1    1.40678    1.39646 +/- 0.01230
+       24/1    1.42013    1.39815 +/- 0.01151
+       25/1    1.41367    1.39919 +/- 0.01076
+       26/1    1.36635    1.39713 +/- 0.01028
+       27/1    1.39226    1.39685 +/- 0.00966
+       28/1    1.28660    1.39072 +/- 0.01097
+       29/1    1.40658    1.39156 +/- 0.01041
+       30/1    1.39125    1.39154 +/- 0.00988
+       31/1    1.46164    1.39488 +/- 0.00997
+       32/1    1.45237    1.39749 +/- 0.00986
+       33/1    1.54046    1.40371 +/- 0.01129
+       34/1    1.38560    1.40295 +/- 0.01083
+       35/1    1.40882    1.40319 +/- 0.01039
+       36/1    1.41522    1.40365 +/- 0.01000
+       37/1    1.35877    1.40199 +/- 0.00976
+       38/1    1.38069    1.40123 +/- 0.00944
+       39/1    1.20658    1.39452 +/- 0.01131
+       40/1    1.52624    1.39891 +/- 0.01178
+       41/1    1.41151    1.39931 +/- 0.01140
+       42/1    1.39710    1.39925 +/- 0.01104
+       43/1    1.38193    1.39872 +/- 0.01071
+       44/1    1.47249    1.40089 +/- 0.01061
+       45/1    1.41278    1.40123 +/- 0.01031
+       46/1    1.41584    1.40164 +/- 0.01003
+       47/1    1.43075    1.40242 +/- 0.00979
+       48/1    1.36861    1.40153 +/- 0.00957
+       49/1    1.40446    1.40161 +/- 0.00932
+       50/1    1.30115    1.39910 +/- 0.00942
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0580e+00 seconds
+   Reading cross sections          = 2.0222e+00 seconds
+ Total time in simulation          = 2.4156e-01 seconds
+   Time in transport only          = 1.3297e-01 seconds
+   Time in inactive batches        = 7.7646e-02 seconds
+   Time in active batches          = 1.6391e-01 seconds
+   Time synchronizing fission bank = 7.2346e-02 seconds
+     Sampling source sites         = 8.8311e-03 seconds
+     SEND/RECV source sites        = 4.3037e-04 seconds
+   Time accumulating tallies       = 3.1278e-03 seconds
+   Time writing statepoints        = 2.3482e-02 seconds
+ Total time for finalization       = 4.2923e-05 seconds
+ Total time elapsed                = 2.3146e+00 seconds
+ Calculation Rate (inactive)       = 128790 particles/second
+ Calculation Rate (active)         = 244033 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.39548 +/- 0.00692
+ k-effective (Track-length)  = 1.39910 +/- 0.00942
+ k-effective (Absorption)    = 1.39778 +/- 0.00460
+ Combined k-effective        = 1.39708 +/- 0.00453
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:41
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.33635
+        2/1    1.46235
+        3/1    1.38935
+        4/1    1.36425
+        5/1    1.37318
+        6/1    1.41424
+        7/1    1.37130
+        8/1    1.28607
+        9/1    1.33266
+       10/1    1.29048
+       11/1    1.35252
+       12/1    1.43669    1.39461 +/- 0.04208
+       13/1    1.33958    1.37626 +/- 0.03044
+       14/1    1.44454    1.39333 +/- 0.02747
+       15/1    1.37176    1.38902 +/- 0.02171
+       16/1    1.31952    1.37744 +/- 0.02118
+       17/1    1.42929    1.38484 +/- 0.01937
+       18/1    1.43881    1.39159 +/- 0.01808
+       19/1    1.45068    1.39815 +/- 0.01724
+       20/1    1.33556    1.39190 +/- 0.01665
+       21/1    1.26489    1.38035 +/- 0.01897
+       22/1    1.38735    1.38093 +/- 0.01733
+       23/1    1.39779    1.38223 +/- 0.01599
+       24/1    1.38498    1.38243 +/- 0.01481
+       25/1    1.39228    1.38308 +/- 0.01380
+       26/1    1.40496    1.38445 +/- 0.01298
+       27/1    1.46154    1.38898 +/- 0.01301
+       28/1    1.33014    1.38572 +/- 0.01270
+       29/1    1.40933    1.38696 +/- 0.01207
+       30/1    1.43911    1.38957 +/- 0.01175
+       31/1    1.31060    1.38581 +/- 0.01179
+       32/1    1.35446    1.38438 +/- 0.01133
+       33/1    1.34808    1.38280 +/- 0.01094
+       34/1    1.33874    1.38097 +/- 0.01063
+       35/1    1.32915    1.37889 +/- 0.01041
+       36/1    1.35153    1.37784 +/- 0.01006
+       37/1    1.40090    1.37870 +/- 0.00971
+       38/1    1.49513    1.38285 +/- 0.01024
+       39/1    1.40711    1.38369 +/- 0.00992
+       40/1    1.35059    1.38259 +/- 0.00965
+       41/1    1.44829    1.38471 +/- 0.00957
+       42/1    1.31898    1.38265 +/- 0.00949
+       43/1    1.34564    1.38153 +/- 0.00926
+       44/1    1.42546    1.38282 +/- 0.00908
+       45/1    1.34632    1.38178 +/- 0.00888
+       46/1    1.44190    1.38345 +/- 0.00879
+       47/1    1.42541    1.38458 +/- 0.00862
+       48/1    1.42995    1.38578 +/- 0.00848
+       49/1    1.40071    1.38616 +/- 0.00827
+       50/1    1.41816    1.38696 +/- 0.00810
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.1143e+00 seconds
+   Reading cross sections          = 2.0784e+00 seconds
+ Total time in simulation          = 1.9015e-01 seconds
+   Time in transport only          = 1.3275e-01 seconds
+   Time in inactive batches        = 2.5472e-02 seconds
+   Time in active batches          = 1.6467e-01 seconds
+   Time synchronizing fission bank = 1.9982e-02 seconds
+     Sampling source sites         = 5.9018e-03 seconds
+     SEND/RECV source sites        = 9.0587e-04 seconds
+   Time accumulating tallies       = 3.3149e-03 seconds
+   Time writing statepoints        = 2.3397e-02 seconds
+ Total time for finalization       = 2.2868e-05 seconds
+ Total time elapsed                = 2.3194e+00 seconds
+ Calculation Rate (inactive)       = 392589 particles/second
+ Calculation Rate (active)         = 242905 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.39019 +/- 0.00569
+ k-effective (Track-length)  = 1.38696 +/- 0.00810
+ k-effective (Absorption)    = 1.39718 +/- 0.00467
+ Combined k-effective        = 1.39466 +/- 0.00442
+ Leakage Fraction            = 0.00000 +/- 0.00000
+
+[openmc.deplete] t=0.0 s, dt=2592000 s, source=174
+[openmc.deplete] t=2592000.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2022 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.13.1-dev
+        Git SHA1 | 91638baeecec220b1ab5df59adf71714daf2cba4
+       Date/Time | 2022-09-07 10:56:44
+   MPI Processes | 4
+  OpenMP Threads | 18
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U236 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U236.h5
+ Reading O16 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O16.h5
+ Reading O17 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/O17.h5
+ Reading Cs135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Cs135.h5
+ Reading Gd156 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd156.h5
+ Reading Gd157 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Gd157.h5
+ Reading I135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/I135.h5
+ Reading U234 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U234.h5
+ Reading U235 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U235.h5
+ Reading U238 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/U238.h5
+ Reading Xe135 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe135.h5
+ Reading Xe136 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Xe136.h5
+ Reading Zr90 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr90.h5
+ Reading Zr91 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr91.h5
+ Reading Zr92 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr92.h5
+ Reading Zr94 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr94.h5
+ Reading Zr96 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/Zr96.h5
+ Reading H1 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H1.h5
+ Reading H2 from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /home/oyardas/2023-openmc-depletion-data/months3/../../cross-section-libraries/e
+ ndfb71_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Reading tallies XML file...
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.34901
+        2/1    1.36692
+        3/1    1.34236
+        4/1    1.37038
+        5/1    1.38193
+        6/1    1.41311
+        7/1    1.33907
+        8/1    1.39261
+        9/1    1.32135
+       10/1    1.37663
+       11/1    1.39518
+       12/1    1.33392    1.36455 +/- 0.03063
+       13/1    1.42053    1.38321 +/- 0.02571
+       14/1    1.35261    1.37556 +/- 0.01972
+       15/1    1.37288    1.37502 +/- 0.01529
+       16/1    1.39456    1.37828 +/- 0.01290
+       17/1    1.42980    1.38564 +/- 0.01315
+       18/1    1.34852    1.38100 +/- 0.01230
+       19/1    1.28109    1.36990 +/- 0.01552
+       20/1    1.45343    1.37825 +/- 0.01620
+       21/1    1.40169    1.38038 +/- 0.01481
+       22/1    1.29882    1.37359 +/- 0.01513
+       23/1    1.43839    1.37857 +/- 0.01478
+       24/1    1.40966    1.38079 +/- 0.01387
+       25/1    1.40569    1.38245 +/- 0.01302
+       26/1    1.35875    1.38097 +/- 0.01226
+       27/1    1.35070    1.37919 +/- 0.01166
+       28/1    1.29253    1.37438 +/- 0.01200
+       29/1    1.39805    1.37562 +/- 0.01142
+       30/1    1.39588    1.37663 +/- 0.01088
+       31/1    1.39189    1.37736 +/- 0.01037
+       32/1    1.39351    1.37809 +/- 0.00992
+       33/1    1.29542    1.37450 +/- 0.01014
+       34/1    1.41216    1.37607 +/- 0.00983
+       35/1    1.44027    1.37864 +/- 0.00977
+       36/1    1.43678    1.38087 +/- 0.00965
+       37/1    1.41124    1.38200 +/- 0.00936
+       38/1    1.38291    1.38203 +/- 0.00902
+       39/1    1.40902    1.38296 +/- 0.00875
+       40/1    1.33323    1.38130 +/- 0.00861
+       41/1    1.35744    1.38053 +/- 0.00837
+       42/1    1.35126    1.37962 +/- 0.00815
+       43/1    1.28654    1.37680 +/- 0.00839
+       44/1    1.33147    1.37547 +/- 0.00825
+       45/1    1.43399    1.37714 +/- 0.00818
+       46/1    1.34843    1.37634 +/- 0.00799
+       47/1    1.36804    1.37612 +/- 0.00777
+       48/1    1.40878    1.37698 +/- 0.00762
+       49/1    1.39382    1.37741 +/- 0.00743
+       50/1    1.46211    1.37953 +/- 0.00755
+ Creating state point statepoint.50.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 2.0562e+00 seconds
+   Reading cross sections          = 2.0224e+00 seconds
+ Total time in simulation          = 2.9352e-01 seconds
+   Time in transport only          = 1.3314e-01 seconds
+   Time in inactive batches        = 1.2797e-01 seconds
+   Time in active batches          = 1.6555e-01 seconds
+   Time synchronizing fission bank = 1.2163e-01 seconds
+     Sampling source sites         = 7.2544e-03 seconds
+     SEND/RECV source sites        = 4.6100e-04 seconds
+   Time accumulating tallies       = 3.3613e-03 seconds
+   Time writing statepoints        = 2.4975e-02 seconds
+ Total time for finalization       = 2.1379e-05 seconds
+ Total time elapsed                = 2.3648e+00 seconds
+ Calculation Rate (inactive)       = 78142.9 particles/second
+ Calculation Rate (active)         = 241625 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.38450 +/- 0.00687
+ k-effective (Track-length)  = 1.37953 +/- 0.00755
+ k-effective (Absorption)    = 1.38314 +/- 0.00551
+ Combined k-effective        = 1.38300 +/- 0.00540
+ Leakage Fraction            = 0.00000 +/- 0.00000
+

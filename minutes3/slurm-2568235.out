@@ -1,0 +1,19 @@
+[openmc.deplete] t=0.0 s, dt=360 s, source=174
+[openmc.deplete] t=360.0 (final operator evaluation)
+generating new microxs
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+/gpfs/fs1/home/oyardas/openmc/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=2.
+  warn(msg, IDWarning)
+Traceback (most recent call last):
+  File "/gpfs/fs1/home/oyardas/2023-openmc-depletion-data/minutes3/run_case.py", line 95, in <module>
+    micro_xs = MicroXS.from_model(model,
+  File "/gpfs/fs1/home/oyardas/openmc/openmc/deplete/microxs.py", line 98, in from_model
+    statepoint_path = model.run(**run_kwargs)
+  File "/gpfs/fs1/home/oyardas/openmc/openmc/model/model.py", line 584, in run
+    openmc.run(particles, threads, geometry_debug, restart_file,
+  File "/gpfs/fs1/home/oyardas/openmc/openmc/executor.py", line 271, in run
+    args = _process_CLI_arguments(
+  File "/gpfs/fs1/home/oyardas/openmc/openmc/executor.py", line 81, in _process_CLI_arguments
+    args = mpi_args + args
+TypeError: can only concatenate tuple (not "list") to tuple
