@@ -2,6 +2,9 @@
 <settings>
   <run_mode>eigenvalue</run_mode>
   <particles>100000</particles>
-  <batches>100</batches>
+  <batches>125</batches>
   <inactive>25</inactive>
+  <output>
+    <tallies>false</tallies>
+  </output>
 </settings>

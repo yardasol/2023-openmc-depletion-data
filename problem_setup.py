@@ -1,8 +1,7 @@
 import openmc
 from openmc.deplete.microxs import MicroXS
-from openmc.mgxs import FissionXS, ArbitraryXS, EnergyGroups
+from openmc.mgxs import EnergyGroups
 from openmc.deplete import Chain
-from mpi4py import MPI
 import os
 import numpy as np
 
@@ -33,54 +32,35 @@ root_cell = openmc.Cell(fill=pin_univ, region=bound_box)
 geometry = openmc.Geometry([root_cell])
 
 settings = openmc.Settings()
-settings.particles = 1000
-settings.inactive = 10
-settings.batches = 50
+# simple case
+#settings.particles = 1000
+#settings.inactive = 10
+#settings.batches = 50
+#chain_file = '../openmc/tests/chain_simple.xml'
+#PROCS=2
+#THREADS=4
+#_case='simple'
 
-#settings.particles = 100000
-#settings.inactive = 25
-#settings.batches = 100
-#settings.verbosity = 1
+# full case
+settings.particles = 100000
+settings.inactive = 25
+settings.batches = 125
 settings.output = {'tallies': False}
-#settings.photon_transport = True
-
-#tally = openmc.Tally()
-#fuel_filter = openmc.UniverseFilter(geometry.root_universe)
-#tally.filters.append(fuel_filter)
-#tally.scores = ['flux', 'heating']
-#tallies = openmc.Tallies([tally])
-
-
 #os.system('wget -q -O chain_endbf71_pwr.xml https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml')
-#chain_file = 'chain_endbf71_pwr.xml'
-chain_file = '../openmc/tests/chain_simple.xml'
+chain_file = 'chain_endbf71_pwr.xml'
+PROCS=4
+THREADS=8
+_case='full'
+
 chain = Chain.from_xml(chain_file)
 reactions = chain.reactions
 
 groups = EnergyGroups((0,20e6))
 reaction_domain=materials[0]
-#tallies = openmc.Tallies()
-#xs = {}
-#for rx in reactions:
-#     if rx == 'fission':
-#         xs[rx] = FissionXS(domain=reaction_domain,
-#                            energy_groups=groups, by_nuclide=True)
-#     else:
-#         xs[rx] = ArbitraryXS(rx, domain=reaction_domain,
-#                              energy_groups=groups, by_nuclide=True)
-#     tallies += xs[rx].tallies.values()
 
 model = openmc.Model(geometry, materials, settings)
-#model.export_to_xml()
 
-
-#threads = 18 # half of a Xeon E5-2695v4
-#run_kwargs = {'mpi_args': ['mpiexec', '-n', '4']}
-run_kwargs = {}
-#intracomm = MPI.COMM_WORLD
-#lib_kwargs = {'intracomm': intracomm}
-lib_kwargs = {}
-micro_xs = MicroXS.from_model(model, materials[0], chain_file, init_lib=True,lib_kwargs=lib_kwargs,run_kwargs = run_kwargs)
-#micro_xs.to_csv('micro_xs_full.csv')
-micro_xs.to_csv('micro_xs_simple.csv')
+run_kwargs = {'mpi_args': ['srun', '-N', PROCS, '-n', THREADS, '--cpu-bind=socket']}
+micro_xs = MicroXS.from_model(model, materials[0], chain_file, run_kwargs = run_kwargs)
+micro_xs.to_csv(f'micro_xs_{_case}.csv')
 
