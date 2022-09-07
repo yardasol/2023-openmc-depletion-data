@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #SBATCH --nodes=2
-#SBATCH --time=01:00:00
+#SBATCH --time=06:00:00
 #SBATCH --partition=bdwall
 #SBATCH --account=openmcvalidation
-#SBATCH --job-name=independent-depletion-test
+#SBATCH --job-name=1-predictor-minutes
 #SBATCH --mail-user=oyardas@anl.gov
 #SBATCH --mail-type=BEGIN,END,FAIL
 
@@ -25,4 +25,4 @@ NUM_RANKS=$((SLURM_JOB_NUM_NODES * 2))
 srun -N $SLURM_JOB_NUM_NODES \
      -n $NUM_RANKS\
       --cpu-bind=socket \
-      python -u run_case.py
+      python -u run_case.py -c1 -i predictor -m full -t minutes
