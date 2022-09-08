@@ -1,8 +1,8 @@
+import argparse
+import os
 from copy import deepcopy
 from pathlib import Path
-from os import rename, remove
-import argparse
-#
+
 import numpy as np
 
 from openmc.deplete import CoupledOperator, IndependentOperator
@@ -14,18 +14,26 @@ import openmc
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', choices=[1, 2, 3],
+    parser.add_argument('-c',
+                        choices=[1, 2, 3],
                         type=int,
-                        default=1)
-    parser.add_argument('-i', choices=['predictor', 'cecm'],
+                        default=1,
+                        help='depletion case. See README for defintions')
+    parser.add_argument('-i',
+                        choices=['predictor', 'cecm'],
                         type=str,
-                        default='predictor')
-    parser.add_argument('-m', choices=['simple', 'full'],
+                        default='predictor',
+                        help='integrator class to use')
+    parser.add_argument('-m',
+                        choices=['simple', 'full'],
                         type=str,
-                        default='simple')
-    parser.add_argument('-t', choices=['minutes',' days', 'hours', 'months'],
+                        default='simple',
+                        help='depletion chain complexity')
+    parser.add_argument('-t',
+                        choices=['minutes',' days', 'hours', 'months'],
                         type=str,
-                        default='days')
+                        default='days',
+                        help='timestep scale')
     parser.add_argument('-N',
                         type=int,
                         default=2,
@@ -33,7 +41,8 @@ def parse_arguments():
                         distributed memory runs')
     parser.add_argument('-n',
                         type=int,
-                        default=4)
+                        default=4,
+                        help='number of MPI ranks to use')
 
     args = parser.parse_args()
     return int(args.c), str(args.i), str(args.m), str(args.t), int(args.N), int(args.n)
@@ -51,14 +60,17 @@ timedata = {'minutes': (10 * [360], 's'),
 integrators = {'predictor': PredictorIntegrator,
                'cecm': CECMIntegrator}
 
-depletion_cases = {'simple': '../../openmc/tests/chain_simple.xml'),
+depletion_cases = {'simple': '../../openmc/tests/chain_simple.xml',
                    'full': '../chain_endbf71_pwr.xml'}
 
-timesteps, units = timedata[timecase]:
+timesteps, units = timedata[timecase]
 Integrator = integrators[integratorcase]
 chain_file = depletion_cases[depcase]
 
-model = openmc.Model.from_xml()
+model = openmc.Model.from_xml(geometry='../geometry.xml',
+                              materials='../materials.xml',
+                              settings=f'../settings-{depcase}.xml')
+
 original_materials = deepcopy(model.materials)
 #operator_kwargs = {'normalization_mode': 'source-rate'}
 #integrator_kwargs = {'source_rates': 1164719970082145.0}
@@ -67,9 +79,11 @@ operator_kwargs = {'normalization_mode': 'fission-q'}
 integrator_kwargs = {'power': 174} # W/cm
 
 runtime_dir = f'{_case}_{depcase}_{integratorcase}_{timecase}'
-if not os.path.exists(runtime_dir):
-    os.mkdir(runtime_dir)
-os.chdir(runtime_dir)
+#if comm.rank == 0:
+#    if not os.path.exists(runtime_dir):
+#        os.mkdir(runtime_dir)
+#comm.barrier()
+#os.chdir(runtime_dir)
 
 if _case == 'case1':
     operator_kwargs['fission_yield_mode'] = 'constant'
@@ -83,10 +97,11 @@ elif _case == 'case2' or _case == 'case3':
     Operator = IndependentOperator
     operator_args = (materials, micro_xs, chain_file)
 
-cwd = Path(__file__).parents[0]
+cwd = Path().cwd().resolve()
 
 if _case == 'case3':
     materials = original_materials
+    materials.export_to_xml()
     micro_xs = MicroXS.from_csv(f'../micro_xs_{depcase}.csv')
     integrator_kwargs['timestep_units'] = units
     # get i+1th value
@@ -104,12 +119,13 @@ if _case == 'case3':
         integrator.integrate()
         results = Results(f'depletion_results.h5')
         materials = results.export_to_materials(-1)
-        rename(cwd / 'depletion_results.h5', cwd/ '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
+        if comm.rank == 0:
+            os.rename(cwd / 'depletion_results.h5', cwd/ '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
         comm.barrier()
 
         model.materials = materials
         print("generating new microxs")
-        run_kwargs = {'mpi_args': ['srun', f'-N{N}', '-n{n}', '--cpu-bind=socket']}
+        run_kwargs = {'mpi_args': ['srun', f'-N{N}', f'-n{n}', '--cpu-bind=socket']}
         micro_xs = MicroXS.from_model(model,
                                       model.materials[0],
                                       chain_file,
@@ -122,9 +138,8 @@ else:
     integrator.integrate()
     # move file based on metadata
     if comm.rank == 0:
-        cwd = Path(__file__).parents[0]
-        rename(cwd / 'depletion_results.h5', cwd / '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}.h5' )
+        os.rename(cwd / 'depletion_results.h5', cwd / '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}.h5' )
     comm.barrier()
     #if _case == 'case1':
     #    for i, t in enumerate(timesteps):
-    #        rename(cwd / f'openmc_simulation_n{i}.h5', cwd / _case / integrator_case / f'({depcase}_simulation_n{i}_{timecase}.h5')
+    #        os.rename(cwd / f'openmc_simulation_n{i}.h5', cwd / _case / integrator_case / f'({depcase}_simulation_n{i}_{timecase}.h5')
