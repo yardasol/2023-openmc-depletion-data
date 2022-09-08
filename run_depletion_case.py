@@ -30,7 +30,7 @@ def parse_arguments():
                         default='simple',
                         help='depletion chain complexity')
     parser.add_argument('-t',
-                        choices=['minutes',' days', 'hours', 'months'],
+                        choices=['minutes', 'days', 'hours', 'months'],
                         type=str,
                         default='days',
                         help='timestep scale')
