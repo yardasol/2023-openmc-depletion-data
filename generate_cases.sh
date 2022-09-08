@@ -24,7 +24,7 @@ do
 
         if [[ $case -eq 3 ]]
         then
-          echo "srun -u python ../run_depletion_case.py -c$case -i $integrator -m $mode -t $scale -N \$SLURM_JOB_NUM_NODES -n \$NUM_RANKS" >> $FILENAME
+          echo "python ../run_depletion_case.py -c$case -i $integrator -m $mode -t $scale -N \$SLURM_JOB_NUM_NODES -n \$NUM_RANKS" >> $FILENAME
         else
           echo "srun -N \$SLURM_JOB_NUM_NODES \\" >> $FILENAME
           echo "     -n \$NUM_RANKS \\" >> $FILENAME

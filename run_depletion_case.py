@@ -119,9 +119,7 @@ if _case == 'case3':
         integrator.integrate()
         results = Results(f'depletion_results.h5')
         materials = results.export_to_materials(-1)
-        if comm.rank == 0:
-            os.rename(cwd / 'depletion_results.h5', cwd/ '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
-        comm.barrier()
+        os.rename(cwd / 'depletion_results.h5', cwd/ '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
 
         model.materials = materials
         print("generating new microxs")
