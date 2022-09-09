@@ -117,6 +117,7 @@ if _case == 'case3':
                                 **integrator_kwargs)
 
         integrator.integrate()
+        print('moving depletion results')
         results = Results(f'depletion_results.h5')
         materials = results.export_to_materials(-1)
         os.rename(cwd / 'depletion_results.h5', cwd/ '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
@@ -128,6 +129,8 @@ if _case == 'case3':
                                       model.materials[0],
                                       chain_file,
                                       run_kwargs=run_kwargs)
+        
+        materials = results.export_to_materials(-1, nuc_with_data=list(operator.chain.nuclide_dict.keys()))
         #micro_xs.to_csv(f'micro_xs_{depcase}_{i}.csv')
 else:
     operator = Operator(*operator_args, **operator_kwargs)
