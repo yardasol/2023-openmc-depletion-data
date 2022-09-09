@@ -121,17 +121,17 @@ if _case == 'case3':
         results = Results(f'depletion_results.h5')
         materials = results.export_to_materials(-1)
         os.rename(cwd / 'depletion_results.h5', cwd/ '..' / _case / integratorcase / f'{depcase}_depletion_results_{timecase}_{i}.h5' )
-
-        model.materials = materials
-        print("generating new microxs")
-        run_kwargs = {'mpi_args': ['srun', f'-N{N}', f'-n{n}', '--cpu-bind=socket']}
-        micro_xs = MicroXS.from_model(model,
-                                      model.materials[0],
-                                      chain_file,
-                                      run_kwargs=run_kwargs)
+        if i < len(timesteps) - 1:
+            model.materials = materials
+            print("generating new microxs")
+            run_kwargs = {'mpi_args': ['srun', f'-N{N}', f'-n{n}', '--cpu-bind=socket']}
+            micro_xs = MicroXS.from_model(model,
+                                          model.materials[0],
+                                          chain_file,
+                                          run_kwargs=run_kwargs)
         
-        materials = results.export_to_materials(-1, nuc_with_data=list(operator.chain.nuclide_dict.keys()))
-        #micro_xs.to_csv(f'micro_xs_{depcase}_{i}.csv')
+            materials = results.export_to_materials(-1, nuc_with_data=list(operator.chain.nuclide_dict.keys()))
+            #micro_xs.to_csv(f'micro_xs_{depcase}_{i}.csv')
 else:
     operator = Operator(*operator_args, **operator_kwargs)
     integrator_kwargs['timestep_units'] = units
