@@ -1,0 +1,11 @@
+Comparisons
+- Actinides : done
+- fission products : done
+- Constant xs to updating xs : done
+
+- predictor vs cecm : done
+- fissionq normalization w/ source rate normaltion : done
+
+- Runtime : done
+
+- Decreasing accuracy of constant xs over time : done
